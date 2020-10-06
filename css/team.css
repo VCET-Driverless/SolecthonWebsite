@@ -1,0 +1,23 @@
+h1{
+    color: #ff0000;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+
+ #members img{
+     height: 70%;
+     border-radius: 50%;
+ }
+
+ 
+ 
+
+ 
