@@ -1,0 +1,63 @@
+.containerTop {
+position: relative;
+text-align: center;
+font-size: 100%;
+color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#angelAuto img{
+    width: 90%;
+   
+}
+
+
+#bassain img{
+    width: 80%;
+    height: 80%;
+}
+#panam{
+    padding-top: 7%;
+}
+
+#jijau img{
+    width: 70%;
+    height: 70%;
+
+}
+
+#juice img{
+    width: 75%;
+    height: 75%;
+    padding-top: 10%;
+}
+
+#associate img{
+    width: 90%;
+    
+}
+
+#sp2019{
+    background-image: url("..images/spo");
+}
+
+@media (min-width:300px){
+    .containerTop img{
+        height: 400px;
+    }
+   
+    #sp2018{
+        
+    }
+}
+@media (min-width:768px){
+    .containerTop img{
+        height: 200px;
+    }
+   
+}
+

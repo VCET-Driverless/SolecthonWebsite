@@ -226,7 +226,14 @@ i {
 
 }
 
-
+/* .containerTop {
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+ 
+  background-attachment: fixed;
+  } */
 
 
 /*css for numscroller*/
@@ -327,8 +334,8 @@ html {
 	font-size: 1em;
 }
 body {
-	background-color: green;
-	padding: 25px;
+	/* background-color: green; */
+	/* padding: 25px; */
 	text-align: center;
 }
 
@@ -455,10 +462,10 @@ body {
 	  line-height: 1.6rem;
 	  width: 1.6rem;
   }
-  body {
+  /* body {
 
 	  padding: 10px;
-  }
+  } */
   
 
 }
@@ -510,14 +517,14 @@ footer {
 /* Footer end */
 
 
-.row-full{
+/* .row-full{
   width: 100vw;
   position: relative;
   margin-left: -50vw;
   height: auto;
   /* margin-top: 100px; */
   left: 50%;
-}
+} */
 
 
 
@@ -559,7 +566,6 @@ footer {
         font-size: 150%;
     }
  }
-
 
 
 

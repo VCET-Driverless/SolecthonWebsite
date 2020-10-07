@@ -3,20 +3,21 @@ h1{
     text-align: center;
 }
 
-.row {
+.row1 {
     display: flex;
     flex-wrap: wrap;
  }
  
- .row > div[class*='col-'] {
+ .row1 > div[class*='col-'] {
    display: flex;
  }
 
  #members img{
-     height: 70%;
+     height: 62%;
      border-radius: 50%;
  }
 
+ 
  
  
 
