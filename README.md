@@ -1,3 +1,3 @@
 # SolecthonWebsite
 
-This is website of a INDIAN Solar Electric Car Team.
+This is website of a Solar Electric Car Team.
