@@ -17,18 +17,18 @@ h1{
      /* border-radius: 50%; 
  } */
 
- .containerTop {
-    position: relative;
-    text-align: center;
-    font-size: 100%;
-    color: white;
+.containerTop {
+position: relative;
+text-align: center;
+font-size: 100%;
+color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        }
  /* Team Members cards */
  p,a,h1,h2,h3,h4 {
 	margin: 0;

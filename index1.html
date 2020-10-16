@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <title>VCET SOLECTHON </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -14,65 +14,23 @@
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <!-- favicon -->
     <link rel="icon" href="images/main-logo.jfif">
-  </head>
+
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+</head>
   <body>
       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
   
-
+    
     
 
 
-    <!--Navbar-->
-    <!-- <script>
-    // ---------Responsive-navbar-active-animation-----------
-function test(){
-  var tabsNewAnim = $('#navbarSupportedContent');
-  var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
-  var activeItemNewAnim = tabsNewAnim.find('.active');
-  var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
-  var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
-  var itemPosNewAnimTop = activeItemNewAnim.position();
-  var itemPosNewAnimLeft = activeItemNewAnim.position();
-  $(".hori-selector").css({
-    "top":itemPosNewAnimTop.top + "px", 
-    "left":itemPosNewAnimLeft.left + "px",
-    "height": activeWidthNewAnimHeight + "px",
-    "width": activeWidthNewAnimWidth + "px"
-  });
-  $("#navbarSupportedContent").on("click","li",function(e){
-    $('#navbarSupportedContent ul li').removeClass("active");
-    $(this).addClass('active');
-    var activeWidthNewAnimHeight = $(this).innerHeight();
-    var activeWidthNewAnimWidth = $(this).innerWidth();
-    var itemPosNewAnimTop = $(this).position();
-    var itemPosNewAnimLeft = $(this).position();
-    $(".hori-selector").css({
-      "top":itemPosNewAnimTop.top + "px", 
-      "left":itemPosNewAnimLeft.left + "px",
-      "height": activeWidthNewAnimHeight + "px",
-      "width": activeWidthNewAnimWidth + "px"
-    });
-  });
-}
-$(document).ready(function(){
-  setTimeout(function(){ test(); });
-});
-$(window).on('resize', function(){
-  setTimeout(function(){ test(); }, 500);
-});
-$(".navbar-toggler").click(function(){
-  setTimeout(function(){ test(); });
-});
-
-</script> -->
+ 
+ 
   
     <!--numScroller 1-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 
     <script>
       $(function () {
@@ -125,10 +83,10 @@ $(".navbar-toggler").click(function(){
 
 
 
-    <!-- NAVBAR -->
+    <!-- NAVBAR start-->
     
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-mainbg">
+    <!-- <header>
+      <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top">
         <img src="images/main-logo.jfif" width="40" height="40">
         <a class="navbar-brand navbar-logo" href="#">VCET SOLECTHON</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -138,7 +96,7 @@ $(".navbar-toggler").click(function(){
             <ul class="navbar-nav ml-auto">
                 <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">HOME</a>
+                    <a class="nav-link text-center" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="sponsors.html">SPONSORS</a>
@@ -163,8 +121,43 @@ $(".navbar-toggler").click(function(){
       </nav>
       <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
 <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="js/navbar.js"></script>
-    </header>
+    </header> -->
+
     
+    <nav class="navbar navbar-expand-lg navbar-mainbg">
+      <a class="navbar-brand navbar-logo" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script  src="js/navbar.js"></script>
+    <!--NAVBAR end  -->
     <br>
     <br>
     
@@ -172,7 +165,7 @@ $(".navbar-toggler").click(function(){
    
     
     
-    <!-- carousel-->
+    <!-- carousel start-->
     <section class="conatainer-fluid">
       <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -209,6 +202,7 @@ $(".navbar-toggler").click(function(){
       </div>
 
     </section>
+    <!-- carousel end -->
     <br>
     <br>
 
@@ -235,9 +229,10 @@ $(".navbar-toggler").click(function(){
               <br>
               <br>
                VCET SOLECTHON, official solar electric car team of Vidyavardhini's College Of Engineering & Technology,
-               is an entirely student-run, non-profit organization fueled by its member's passion for 
-              environmentally sustainable technology.All team memebers get unique opportunity to
-              gain valuable hands-on engineering and business experience while raising community awareness of clean energy vehicles.
+               is an entirely student-run organization fueled by its member's passion for 
+              environmentally sustainable technology.Our team brings together students from a different of engineering branches 
+              and disciplines to work together towards a common goal: 
+              build the best solar vehicle possible.
             </p>
         </div>
 
@@ -245,7 +240,7 @@ $(".navbar-toggler").click(function(){
     </section>
 
     
-    <!-- team heads cards -->
+    <!-- team heads cards start-->
   <section id=teamheads>
     <div class="container">
       <div class="card-deck">
@@ -286,17 +281,18 @@ $(".navbar-toggler").click(function(){
   </section> 
     <br>
      
+     <!-- team heads cards end -->
     
-    <!--A step towards sustainability-->
-  
+    
+   
 
-   <!-- PARALLOX-->
+   <!-- PARALLaX start-->
    <section>
     <div class="container-fluid parallax">
       <h2>A STEP TOWARDS SUSTAINABILITY</h2>
     </div>
    </section>
-
+<!-- Parallax end -->
    <!-- <div class="containerTop">
     <img src="images/running-car2.jpg"  style="width:100%; height: 500px;">
     <div class="centered"><h1>A STEP TOWARDS SUSTAINABILITY</h1></div>
@@ -305,7 +301,7 @@ $(".navbar-toggler").click(function(){
 
    <br>
    <br>
-   <!-- cards -->
+   <!-- cards start-->
    <section class="container" id="cards">
     <div class="card-deck card text-center border-0">
       <div class="card text-white bg-info card border-warning mb-3">
@@ -335,12 +331,12 @@ $(".navbar-toggler").click(function(){
     </div>
 
    </section>
-
+<!-- cards end -->
    <br>
    <br>
 
-
-   <!-- Num Scroller -->
+   
+   <!-- Num Scroller start -->
    <div class="container-fluid">
     <div class=" personality">
       <div class="personality-overlay">
@@ -381,6 +377,7 @@ $(".navbar-toggler").click(function(){
       </div>
     </div>
   </div>
+
   <br>
   <br>
   <br>
@@ -392,6 +389,8 @@ $(".navbar-toggler").click(function(){
   <br>
   <br>
   <br>
+<!-- NUMSCROLLER END -->
+
 
 <!-- FOOTER -->
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -462,6 +461,10 @@ $(".navbar-toggler").click(function(){
 </footer>
 
 
-   
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

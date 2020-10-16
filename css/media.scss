@@ -1,0 +1,105 @@
+%afterBedore_properties {
+  content: "";
+  position: absolute;
+  transition: 0.5s;
+}
+$shadow-color: rgba(0, 0, 0, 0.5);
+$social-media-colors: (
+  "linkedin": #007bb5,
+  
+  "instagram": #c32aa3,
+  // "twitter": #1da1f2,
+    "youtube": #ff0000,
+  "facebook": #1877f2,
+);
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+
+  background-color: #cccccc;
+}
+ul {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0 40px;
+  $i: 0;
+  @each $social-media, $color in $social-media-colors {
+    $i: $i + 1;
+    &:nth-child(#{$i}) a {
+      background-color: $color;
+    }
+    &:nth-child(#{$i}) a:before {
+      background-color: darken($color, 5%);
+    }
+    &:nth-child(#{$i}) a:after {
+      background-color: lighten($color, 4%);
+    }
+  }
+
+  &:hover .fab {
+    color: #fff;
+  }
+}
+
+a {
+  position: relative;
+  display: block;
+
+  width: 80px;
+  height: 80px;
+
+  text-align: center;
+  box-shadow: -20px 20px 10px $shadow-color;
+
+  transform: perspective(1000px) rotate(0deg) skew(0deg) translate(0, 0);
+  //   rotate -30 , skew 25
+  transition: 0.5s;
+
+  &:before {
+    @extend %afterBedore_properties;
+
+    top: 10px;
+    left: -20px;
+
+    height: 100%;
+    width: 20px;
+
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  &:after {
+    @extend %afterBedore_properties;
+
+    bottom: -20px;
+    left: -10px;
+
+    height: 20px;
+    width: 100%;
+
+    transform: rotate(0deg) skewX(-45deg);
+  }
+
+  &:hover {
+    transform: perspective(1000px) rotate(0deg) skew(0deg)
+      //   rotate -30 , skew 25
+      translate(20px, -20px);
+    box-shadow: -50px 50px 50px $shadow-color;
+  }
+}
+
+.fab {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+
+  transition: 0.5s;
+}
