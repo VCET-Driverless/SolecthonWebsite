@@ -103,3 +103,149 @@ a {
 
   transition: 0.5s;
 }
+
+
+
+
+/**
+ * Grid styles
+ */
+ .video-grid.front-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+
+ul.video-list {
+  display: flexbox;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li.video {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+	width: 50%;
+	width: -webkit-calc(100% / 2);
+	width: calc(100% / 2);
+  border: solid 0.2em transparent;
+  
+  & a {
+    outline: none;
+  }
+      
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: background-color .15s;
+  }
+  
+  & figure {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    & img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      opacity: 0;
+      transform: scale(0.5);
+      transition: all .20s;
+    }
+
+    & figcaption {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding: 1rem;
+      transform: translateY(0);
+      opacity: 1;
+      transition: all .20s;
+    }
+  }
+  
+  &:hover {
+    & figure {
+      & img {
+        opacity: 1;
+        transform: scale(1);
+      }
+      
+      & figcaption {
+        opacity: 0;
+        transform: translateY(50%);
+      }
+    }
+  }
+  
+  &:hover:before {
+    background-color: rgba(0,0,0,0.3);
+  }
+}
+
+@media screen and (max-width: 800px) {
+	li.video {
+		width: 50%;
+		width: -webkit-calc(100% / 2);
+		width: calc(100% / 2);
+	}
+}
+
+@media screen and (max-width: 640px) {
+	li.video {
+		width: 100%;
+	}
+}
+
+/**
+ * Pen styles
+ */
+html { box-sizing: border-box; height: 100%; overflow-y: scroll; font-size: 62.5%; }
+*, *:before, *:after { box-sizing: inherit; }
+body {
+	background: #fff;
+	color: #444;
+	font-family: 'Open Sans', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.2;
+}
+
+header {
+  width: 100%;
+  padding: 2em;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+  
+  & h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #666;
+  }
+}
+
+main {
+  padding: 2rem 0;
+}
+
+article {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
