@@ -46,15 +46,15 @@
 }
 
 #socialIcons li:nth-child(2) a {
-  background-color: #c32aa3;
+  background-color: #e631be;
 }
 
 #socialIcons li:nth-child(2) a:before {
-  background-color: #ae2591;
+  background-color: #db39b8;
 }
 
 #socialIcons li:nth-child(2) a:after {
-  background-color: #d22fb0;
+  background-color: #dd3fbb;
 }
 
 #socialIcons li:nth-child(3) a {
