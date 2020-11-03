@@ -1,0 +1,122 @@
+.containerTop {
+position: relative;
+text-align: center;
+font-size: 100%;
+color: white;
+}
+.containerBelow {
+    position: relative;
+    text-align: center;
+    font-size: 100%;
+    color: white;
+    }
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+/* why sponsor us */
+
+
+.live {
+    overflow: hidden;
+}
+.live > li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 2em;
+    margin: 0 0 0.5em 10px;
+    transition: 0.12s;
+}
+.live > li::before {
+    position: absolute;
+    content: '\2022';
+    font-family: Arial;
+    color: #fff;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0.5;
+    line-height: 0.75;
+    transition: 0.5s;
+}
+.live > li:hover {
+    color: #fff;
+}
+.live > li:hover::before {
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 0 0 4px;
+    transition: 0.1s;
+}
+
+
+/* @font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v7/Zd2E9abXLFGSr9G3YK2MsFzqCfRpIA3W6ypxnPISCPA.woff) format('woff');
+} */
+.live html {
+    height: 100%;
+}
+.live body {
+    display: flex;
+    justify-content: stretch;
+    height: 100%;
+    font: 1.33em 'Roboto Condensed', arial;
+    color: white;
+    background-image: radial-gradient(circle, #3c3b52 0%, #252233 80%);
+}
+
+.whySponsor ul {
+    background: rgba(64, 212, 64, 0.651);
+    /* color: rgba(255, 255, 255, .5); */
+    border-radius: 5px;
+    padding: 1.5em;
+    margin: 1vw;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+
+@media (min-width: 576px) { 
+   
+    #upi{
+        margin-top: 20%;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+   
+    #upi{
+        margin-top: 50%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+
+    
+    #upi{
+        margin-top: 50%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+   
+    #upi{
+        margin-top: 50%;
+    }
+ }

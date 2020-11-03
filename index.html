@@ -14,6 +14,12 @@
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <!-- favicon -->
     <link rel="icon" href="images/main-logo.jfif">
+
+    
+
+	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+	
+	
   </head>
   <body>
       
@@ -127,8 +133,8 @@ $(".navbar-toggler").click(function(){
 
     <!-- NAVBAR -->
     
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-mainbg">
+    <!-- <header>
+      <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top">
         <img src="images/main-logo.jfif" width="40" height="40">
         <a class="navbar-brand navbar-logo" href="#">VCET SOLECTHON</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,7 +162,7 @@ $(".navbar-toggler").click(function(){
                     <a class="nav-link" href="media.html">MEDIA</a>
                 </li>
               <li class="nav-item">
-                    <a class="nav-link" href="donate-us.html">SUPPORT US</a>
+                    <a class="nav-link" href="support-us.html">SUPPORT US</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact-us.html">CONTACT US</a>
@@ -165,65 +171,95 @@ $(".navbar-toggler").click(function(){
         </div>
       </nav>
       <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
-<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="js/navbar.js"></script>
-    </header>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'>
+</script><script  src="js/navbar.js"></script>
+    </header> -->
     
-    <br>
-    <br>
-    
+<header class="header">
+      <nav class="navbar fixed-top">
+        <!-- <img src="images/main-logo.jfif" width="40" height="40"> -->
+          <h4 class="logo">VCET SOLECTHON</h4>
+          <ul class="nav-links">
+              
+            <li >
+                <a  href="index.html">HOME</a>
+            </li>
+            <li >
+                <a  href="sponsors.html">SPONSORS</a>
+            </li>
+            <li >
+                <a  href="team.html">TEAM</a>
+            </li>
+            <li >
+                <a  href="cars.html">CARS</a>
+            </li>
+            <li >
+                <a  href="about-us.html">ABOUT US</a>
+            </li>
+            <li >
+                <a  href="media.html">MEDIA</a>
+            </li>
+          <li >
+                <a  href="support-us.html">SUPPORT US</a>
+            </li>
+            <li >
+              <a  href="contact-us.html">CONTACT US</a>
+          </li>
+          </ul>
+          <div class="hamburger-menu float-right">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </div>
+      </nav>
+      <script src="js/navbar.js"></script>
+ </header>
+ 
+ <!-- carousel slider  -->
+ <div id="gallery" class="container-fluid" style="width:100%;display:none;">
+	
+  <img alt="Preview Image 1"
+     src="images/carousel/3.0.jpg"
+     data-image="images/carousel/3.0.jpg"
+     data-description="Preview Image 1 Description">
   
-   
+  <img alt="Preview Image 2"
+     src="images/carousel/2.1.jfif"
+     data-image="images/carousel/2.1.jfif"
+     data-description="Preview Image 2 Description">
+     
+  <img alt="Preview Image 3"
+     src="images/carousel/1.0.jpeg"
+     data-image="images/carousel/1.0.jpeg"
+     data-description="Preview Image 3 Description">
+
+</div>
+<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
+<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
+<script type='text/javascript' src='unitegallery/themes/slider/ug-theme-slider.js'></script>
+<script type="text/javascript">
+
+  jQuery(document).ready(function(){
+
+      // jQuery("#gallery").unitegallery();
+      jQuery("#gallery").unitegallery({
+			gallery_theme: "slider",
+
+			// gallery options
+			gallery_width:1920,							//gallery width		
+					gallery_height:1000,							//gallery height
+	
+					gallery_min_width: 320,						//gallery minimal width when resizing
+					gallery_min_height: 300,					//gallery minimal height when resizing
+
+			
+					
+		});
+  });
+  
+</script>
     
-    
-    <!-- carousel-->
-    <section class="conatainer-fluid">
-      <div id="demo" class="carousel slide" data-ride="carousel">
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/carousel/3.0.jpg" alt=" "  width="100%" height="100%">
-          </div>
-          <div class="carousel-item">
-            <img src="images/carousel/2.1.jfif" alt=" " width="100%" height="80%" >
-          </div>
-          <div class="carousel-item">
-            <img src="images/carousel/1.0.jpeg" alt=" " width="100%" height="80%">
-            
-
-            
-          </div>
-        </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-
-    </section>
-    <br>
-    <br>
-
-
-
-
-
-
-   
-    
-    
-    
     <!--some lines about team-->
     <section class="container" id=about-team >
       <div class="row">
