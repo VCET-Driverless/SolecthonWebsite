@@ -13,11 +13,11 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
-#contCards a{
+.contCards a{
     text-decoration: none;
     color: white;
 }
-#contCards a:hover{
+.contCards a:hover{
     
     color: black;
 }
@@ -108,4 +108,7 @@ transform: translate(-50%, -50%);
       pointer-events: none;
     }
   }
-  
+  body{
+    padding: 0%;
+    margin: 0%;
+  }
