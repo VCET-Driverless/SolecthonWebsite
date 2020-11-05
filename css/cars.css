@@ -123,16 +123,30 @@ header p {
   padding: 0 20px;
 }
 
-.timeline-card a {
+.timeline-card a {            
   margin-left: 20px;
 }
 
-.timeline-item .timeline-img-header {
-  -webkit-gradient :(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4))), center center no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), center center no-repeat;
+#timeline-img-header30 {
+			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("../images/cars/3.0-main.jpg") center center no-repeat;
+			background-size: cover;
+}
+#timeline-img-header22 {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("../images/cars/2.2-main.jpg") center center no-repeat;
   background-size: cover;
 }
-
+#timeline-img-header21 {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("../images/cars/2.1-main.jpg") center center no-repeat;
+  background-size: cover;
+}
+#timeline-img-header20 {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("../images/cars/2.0-main.jpg") center center no-repeat;
+  background-size: cover;
+}
+#timeline-img-header10 {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("../images/cars/1.0-main.jpg") center center no-repeat;
+  background-size: cover;
+}
 .timeline-img-header {
   height: 200px;
   position: relative;

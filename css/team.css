@@ -29,6 +29,10 @@ color: white;
     left: 50%;
     transform: translate(-50%, -50%);
     }
+
+
+    
+
  /* Team Members cards */
  p,a,h1,h2,h3,h4 {
 	margin: 0;
@@ -127,5 +131,35 @@ color: white;
 }
  
 
-
+@media (min-width: 320px) { 
+   
+        .centered h1{
+           font-size: 100%;
+        }
+     }
+    
+    
+    @media (min-width: 768px) { 
+       
+        .centered h1{
+            font-size: 250%;
+         }
+     } 
+    
+    
+     @media (min-width: 992px) { 
+    
+        
+        .centered h1{
+            font-size: 300%;
+         }
+     }
+    
+    
+    @media (min-width: 1200px) { 
+       
+        .centered h1{
+            font-size: 350%;
+         }
+     }
  
