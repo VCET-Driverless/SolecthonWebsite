@@ -72,7 +72,9 @@ transform: translate(-50%, -50%);
     color: white;
     background-image: radial-gradient(circle, #3c3b52 0%, #252233 80%);
 }
-
+.whySponsor{
+    padding: 2% 7%;
+}
 .whySponsor ul {
     background: rgba(64, 212, 64, 0.651);
     /* color: rgba(255, 255, 255, .5); */

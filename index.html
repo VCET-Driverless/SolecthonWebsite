@@ -1,40 +1,49 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>VCET SOLECTHON </title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="fonts/font-awesome.min.css">
-    <!-- favicon -->
-    <link rel="icon" href="images/main-logo.jfif">
+<head>
+  <title>VCET SOLECTHON </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
-	
-	
-  </head>
-  <body>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-
-    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="images/main-logo.jfif">
 
 
-    <!--Navbar-->
-    <!-- <script>
+
+  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
+
+
+</head>
+
+<body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+  <!--Navbar-->
+  <!-- <script>
     // ---------Responsive-navbar-active-animation-----------
 function test(){
   var tabsNewAnim = $('#navbarSupportedContent');
@@ -76,64 +85,64 @@ $(".navbar-toggler").click(function(){
 });
 
 </script> -->
-  
-    <!--numScroller 1-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-    <script>
-      $(function () {
-        var fx = function fx() {
-          var dfd = $(".stat-number").map(function (i, el) {
-              var data = parseInt(this.dataset.n, 10);
-              var props = {
-                "from": {
-                    "count": 0
-                },
-                "to": {
-                    "count": data
-                }
-              };
-            return $(props.from).animate(props.to, {
-                duration: 1000 * 1,
-                step: function (now, fx) {
-                    $(el).text(Math.ceil(now));
-                },
-                complete: function() {
-                   if (el.dataset.sym !== undefined) {
-                  el.textContent = el.textContent.concat(el.dataset.sym)
-                   }
-                }
-            }).promise();
-        }).toArray();
-            // return jQuery promise when all animations complete
-            return $.when.apply($, dfd);
-        };
-        
-        var reset = function reset() {
-          console.log($(this).scrollTop());
-            // do stuff when window `.scrollTop()` > 75
-            if ($(this).scrollTop() > 50) {
-              // turn off scroll event so `fx` not called
-              // during ongoing animation
-              $(this).off("scroll");
-                // when all animations complete
-                fx()
+  <!--numScroller 1-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      var fx = function fx() {
+        var dfd = $(".stat-number").map(function (i, el) {
+          var data = parseInt(this.dataset.n, 10);
+          var props = {
+            "from": {
+              "count": 0
+            },
+            "to": {
+              "count": data
             }
-        };
-        // if `fx` should only be called once ,
-        // change `.on()` to `.one()` ,
-        // remove `.then()` callback following `fx()`
-        // within `reset`
-        $(window).on("scroll", reset);
+          };
+          return $(props.from).animate(props.to, {
+            duration: 1000 * 1,
+            step: function (now, fx) {
+              $(el).text(Math.ceil(now));
+            },
+            complete: function () {
+              if (el.dataset.sym !== undefined) {
+                el.textContent = el.textContent.concat(el.dataset.sym)
+              }
+            }
+          }).promise();
+        }).toArray();
+        // return jQuery promise when all animations complete
+        return $.when.apply($, dfd);
+      };
+
+      var reset = function reset() {
+        console.log($(this).scrollTop());
+        // do stuff when window `.scrollTop()` > 75
+        if ($(this).scrollTop() > 50) {
+          // turn off scroll event so `fx` not called
+          // during ongoing animation
+          $(this).off("scroll");
+          // when all animations complete
+          fx()
+        }
+      };
+      // if `fx` should only be called once ,
+      // change `.on()` to `.one()` ,
+      // remove `.then()` callback following `fx()`
+      // within `reset`
+      $(window).on("scroll", reset);
     });
-    </script>
+  </script>
 
 
 
 
-    <!-- NAVBAR -->
-    
-    <!-- <header>
+  <!-- NAVBAR -->
+
+  <!-- <header>
       <nav class="navbar navbar-expand-lg navbar-mainbg fixed-top">
         <img src="images/main-logo.jfif" width="40" height="40">
         <a class="navbar-brand navbar-logo" href="#">VCET SOLECTHON</a>
@@ -174,126 +183,124 @@ $(".navbar-toggler").click(function(){
 <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'>
 </script><script  src="js/navbar.js"></script>
     </header> -->
-    
-<header class="header">
-      <nav class="navbar fixed-top">
-        <!-- <img src="images/main-logo.jfif" width="40" height="40"> -->
-          <h4 class="logo">VCET SOLECTHON</h4>
-          <ul class="nav-links">
-              
-            <li class="active">
-                <a  href="index.html">HOME</a>
-            </li>
-            <li >
-                <a  href="sponsors.html">SPONSORS</a>
-            </li>
-            <li >
-                <a  href="team.html">TEAM</a>
-            </li>
-            <li >
-                <a  href="cars.html">CARS</a>
-            </li>
-            <li >
-                <a  href="about-us.html">ABOUT US</a>
-            </li>
-            <li >
-                <a  href="media.html">MEDIA</a>
-            </li>
-          <li >
-                <a  href="support-us.html">SUPPORT US</a>
-            </li>
-            <li >
-              <a  href="contact-us.html">CONTACT US</a>
-          </li>
-          </ul>
-          <div class="hamburger-menu float-right">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-          </div>
-      </nav>
-      <script src="js/navbar.js"></script>
- </header>
- 
- <!-- carousel slider  -->
- <div id="gallery" class="container-fluid" style="width:100%;display:none;">
-	
-  <img alt="Preview Image 1"
-     src="images/carousel/3.0.jpg"
-     data-image="images/carousel/3.0.jpg"
-     data-description="Preview Image 1 Description">
-  
-  <img alt="Preview Image 2"
-     src="images/carousel/2.1.jfif"
-     data-image="images/carousel/2.1.jfif"
-     data-description="Preview Image 2 Description">
-     
-  <img alt="Preview Image 3"
-     src="images/carousel/1.0.jpeg"
-     data-image="images/carousel/1.0.jpeg"
-     data-description="Preview Image 3 Description">
 
-</div>
-<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
-<script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>	
-<script type='text/javascript' src='unitegallery/themes/slider/ug-theme-slider.js'></script>
-<script type="text/javascript">
+  <header class="header">
+    <nav class="navbar fixed-top">
+      <!-- <img src="images/main-logo.jfif" width="40" height="40"> -->
+      <h4 class="logo">VCET SOLECTHON</h4>
+      <ul class="nav-links">
 
-  jQuery(document).ready(function(){
+        <li class="active">
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="sponsors.html">SPONSORS</a>
+        </li>
+        <li>
+          <a href="team.html">TEAM</a>
+        </li>
+        <li>
+          <a href="cars.html">CARS</a>
+        </li>
+        <li>
+          <a href="about-us.html">ABOUT US</a>
+        </li>
+        <li>
+          <a href="media.html">MEDIA</a>
+        </li>
+        <li>
+          <a href="support-us.html">SUPPORT US</a>
+        </li>
+        <li>
+          <a href="contact-us.html">CONTACT US</a>
+        </li>
+      </ul>
+      <div class="hamburger-menu float-right">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </nav>
+    <script src="js/navbar.js"></script>
+  </header>
+
+  <!-- carousel slider  -->
+  <div id="gallery" class="container-fluid" style="width:100%;display:none;">
+
+    <img alt="Preview Image 1" src="images/carousel/3.0.jpeg" data-image="images/carousel/3.0.jpeg"
+      data-description="Preview Image 1 Description">
+
+    <img alt="Preview Image 2" src="images/carousel/2.1.jfif" data-image="images/carousel/2.1.jfif"
+      data-description="Preview Image 2 Description">
+
+    <img alt="Preview Image 3" src="images/carousel/1.0.jpeg" data-image="images/carousel/1.0.jpeg"
+      data-description="Preview Image 3 Description">
+
+    <!-- <img alt="Preview Image 1" src="images/carousel/3.0-2.jpeg" data-image="images/carousel/3.0-2.jpeg"
+      data-description="Preview Image 1 Description"> -->
+
+  </div>
+  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+  <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+  <script type='text/javascript' src='unitegallery/themes/slider/ug-theme-slider.js'></script>
+  <script type="text/javascript">
+
+    jQuery(document).ready(function () {
 
       // jQuery("#gallery").unitegallery();
       jQuery("#gallery").unitegallery({
-			gallery_theme: "slider",
+        gallery_theme: "slider",
 
-			// gallery options
-			gallery_width:1920,							//gallery width		
-					gallery_height:1000,							//gallery height
-	
-					gallery_min_width: 320,						//gallery minimal width when resizing
-					gallery_min_height: 300,					//gallery minimal height when resizing
+        // gallery options
+        gallery_width: 1920,							//gallery width		
+        gallery_height: 1000,							//gallery height
 
-			
-					
-		});
-  });
-  
-</script>
-    
+        gallery_min_width: 320,						//gallery minimal width when resizing
+        gallery_min_height: 300,					//gallery minimal height when resizing
 
-    <!--some lines about team-->
-    <section class="container" id=about-team >
-      <div class="row">
 
-        
-        <div class="col-md-6">
-          <img src="images/main-logo.jfif" alt="logo">
-        </div>
 
-        <div class="col-md-6">
-            <p>
-              <br>
-              <br>
-               VCET SOLECTHON, official solar electric car team of Vidyavardhini's College Of Engineering & Technology,
-               is an entirely student-run, non-profit organization fueled by its member's passion for 
-              environmentally sustainable technology.All team memebers get unique opportunity to
-              gain valuable hands-on engineering and business experience while raising community awareness of clean energy vehicles.
-            </p>
-        </div>
+      });
+    });
 
+  </script>
+
+
+  <!--some lines about team-->
+  <section class="container" id=about-team>
+    <div class="row">
+
+
+      <div class="col-md-6">
+        <img src="images/main-logo.jfif" alt="logo">
       </div>
-    </section>
 
-    
-    <!-- team heads cards -->
+      <div class="col-md-6">
+        <p>
+          <br>
+          <br>
+          VCET SOLECTHON, official solar electric car team of Vidyavardhini's College Of Engineering & Technology,
+          is an entirely student-run, non-profit organization fueled by its member's passion for
+          environmentally sustainable technology.All team memebers get unique opportunity to
+          gain valuable hands-on engineering and business experience while raising community awareness of clean energy
+          vehicles.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- team heads cards -->
   <section id=teamheads>
     <div class="container">
       <div class="card-deck">
         <div class="card border-0 text-center">
-          <img class="card-img-top" class="rounded-circle" src="images/members/mitesh.jpg" alt="" >
+          <img class="card-img-top" class="rounded-circle" src="images/members/mitesh.jpg" alt="">
           <div class="card-body">
             <h5 class="card-title">Mitesh Sawant</h5>
             <p class="card-text">Captain</p>
-            
+
           </div>
         </div>
         <div class="card border-0 text-center">
@@ -301,7 +308,7 @@ $(".navbar-toggler").click(function(){
           <div class="card-body">
             <h5 class="card-title">Sidhhant Kule</h5>
             <p class="card-text">Vice Captain</p>
-            
+
           </div>
         </div>
         <div class="card border-0 text-center">
@@ -309,7 +316,7 @@ $(".navbar-toggler").click(function(){
           <div class="card-body">
             <h5 class="card-title">Shivam Dubey</h5>
             <p class="card-text">Finanace Head</p>
-            
+
           </div>
         </div>
         <div class="card border-0 text-center">
@@ -317,35 +324,35 @@ $(".navbar-toggler").click(function(){
           <div class="card-body">
             <h5 class="card-title"> Karan Luharpanchal</h5>
             <p class="card-text">Sponsorship Head</p>
-            
+
           </div>
         </div>
       </div>
     </div>
-  </section> 
-    <br>
-     
-    
-    <!--A step towards sustainability-->
-  
+  </section>
+  <br>
 
-   <!-- PARALLOX-->
-   <section>
+
+  <!--A step towards sustainability-->
+
+
+  <!-- PARALLOX-->
+  <section>
     <div class="container-fluid parallax">
       <h2>A STEP TOWARDS SUSTAINABILITY</h2>
     </div>
-   </section>
+  </section>
 
-   <!-- <div class="containerTop">
+  <!-- <div class="containerTop">
     <img src="images/running-car2.jpg"  style="width:100%; height: 500px;">
     <div class="centered"><h1>A STEP TOWARDS SUSTAINABILITY</h1></div>
   </div> -->
 
 
-   <br>
-   <br>
-   <!-- cards -->
-   <section class="container" id="cards">
+  <br>
+  <br>
+  <!-- cards -->
+  <section class="container" id="cards">
     <div class="card-deck card text-center border-0">
       <div class="card text-white bg-info card border-warning mb-3">
         <img class="card-img-top img-fluid" src="images/cards/team.jfif" alt="">
@@ -364,7 +371,11 @@ $(".navbar-toggler").click(function(){
         <a href="cars.html" class="btn btn-danger ">Take a Closer Look!</a>
       </div>
       <div class="card card text-white bg-info card border-warning  mb-3">
-        <img class="card-img-top img-fluid" src="images/cards/sponsors.jpg" alt="" height="">
+        <img class="card-img-top img-fluid" src="images/cards/sponsors3.png" alt="" style="
+        width: max-content;
+        margin: auto;
+        width: 64%;
+    ">
         <div class="card-body">
           <h5 class="card-title">OUR SPONSORS</h5>
           <p class="card-text">Our sponsors make everything we do possible</p>
@@ -373,134 +384,139 @@ $(".navbar-toggler").click(function(){
       </div>
     </div>
 
-   </section>
+  </section>
 
-   <br>
-   <br>
+  <br>
+  <br>
 
 
-   <!-- Num Scroller -->
-   <div class="container-fluid">
+  <!-- Num Scroller -->
+  <div class="container-fluid">
     <div class=" personality">
       <div class="personality-overlay">
         <div class="statsbar">
-            <div class="stat-one">
-                
-                <img src="images/infinitySym.png" id="infinitySym">
-                <br id="infinitySymbol">
-                <hr class="style-three">
-                <div class="stat-title">PASSION</div>
-            </div>
-            <div class="stat-two">
-                <div class="stat-number" data-n="41">0</div>
-                <br>
-                <br>
-                <br>
-                <hr class="style-three">
-                <div class="stat-title">STUDENTS</div>
-            </div>
-            <div class="stat-three">
-                <div class="stat-number" data-n="5">0</div>
-                <br>
-                <br>
-                <br>
-                <hr class="style-three">
-                <div class="stat-title">CARS</div>
-            </div>
-            <div class="stat-four">
-                <div class="stat-number" data-n="14" >0</div>
-                <br>
-                <br>
-                <br>
-                <hr class="style-three">
-                <div class="stat-title">SPONSORS</div>
+          <div class="stat-one">
+
+            <img src="images/infinitySym.png" id="infinitySym">
+            <br id="infinitySymbol">
+            <hr class="style-three">
+            <div class="stat-title">PASSION</div>
+          </div>
+          <div class="stat-two">
+            <div class="stat-number" data-n="41">0</div>
+            <br>
+            <br>
+            <br>
+            <hr class="style-three">
+            <div class="stat-title">STUDENTS</div>
+          </div>
+          <div class="stat-three">
+            <div class="stat-number" data-n="5">0</div>
+            <br>
+            <br>
+            <br>
+            <hr class="style-three">
+            <div class="stat-title">CARS</div>
+          </div>
+          <div class="stat-four">
+            <div class="stat-number" data-n="14">0</div>
+            <br>
+            <br>
+            <br>
+            <hr class="style-three">
+            <div class="stat-title">SPONSORS</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- FOOTER -->
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+  <footer class="mainfooter container-fluid" role="contentinfo">
+    <div class="footer-middle">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 ">
+            <!--Column1-->
+            <div class="footer-pad">
+              <!-- h4>VCET SOLECTHON</h4 -->
+              <ul class="list-unstyled">
+                <li><a href="#"></a></li>
+                <li><a href="team.html">TEAM</a></li>
+                <li><a href="sponsors.html">SPONSORS</a></li>
+                <li><a href="cars.html">CARS</a></li>
+                <li><a href="media.html">MEDIA</a></li>
+
+              </ul>
             </div>
           </div>
-                    
+
+          <div class="col-md-3 pt-1">
+            <!--Column1-->
+            <div class="footer-pad">
+              <a href="http://www.angelmahindra.com/"><img src="images/title-sponsor.jpeg" width="200" height="100"></a>
+
+            </div>
+          </div>
+          <div class="col-md-3 pt-2">
+            <!--Column1-->
+            <div class="footer-pad">
+              <a href="https://vcet.edu.in/"><img src="images/clg-logo.jpg" width="150" height="100"></a>
+
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h4>Follow Us</h4>
+            <ul class="list-unstyled list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/solecthon.vcet/" class="icon-button facebook"><i
+                    class="fab fa-facebook-f"></i><span></span></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCrFFK_yseTegwXFXc2AHaaw/featured"
+                  class="icon-button youtube"><i class="fab fa-youtube"></i><span></span></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/solecthon.vcet/?hl=en" class="icon-button instagram"><i
+                    class="fab fa-instagram"></i><span></span></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company/vcet-solecthon/" class="icon-button linkedin"><i
+                    class="fab fa-linkedin"></i><span></span></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - VCET SOLECTHON. All rights reserved.</p>
+          </div>
+        </div>
+
+
       </div>
     </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-<!-- FOOTER -->
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </footer>
 
 
-<footer class="mainfooter container-fluid" role="contentinfo">
-  <div class="footer-middle">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 ">
-        <!--Column1-->
-        <div class="footer-pad">
-          <!-- h4>VCET SOLECTHON</h4 -->
-          <ul class="list-unstyled">
-            <li><a href="#"></a></li>
-            <li><a href="team.html">TEAM</a></li>
-            <li><a href="sponsors.html">SPONSORS</a></li>
-            <li><a href="cars.html">CARS</a></li>
-            <li><a href="media.html">MEDIA</a></li>
-            
-          </ul>
-        </div>
-      </div>
-      
-      <div class="col-md-3 pt-1">
-        <!--Column1-->
-        <div class="footer-pad">
-          <a href="http://www.angelmahindra.com/"><img src="images/title-sponsor.jpeg" width="200" height="100"></a>
-          
-        </div>
-      </div>
-      <div class="col-md-3 pt-2">
-        <!--Column1-->
-        <div class="footer-pad">
-          <a href="https://vcet.edu.in/"><img src="images/clg-logo.jpg" width="150" height="100"></a>
-          
-          
-        </div>
-      </div>
-    	<div class="col-md-3">
-    		<h4>Follow Us</h4>
-        <ul class="list-unstyled list-inline text-center">
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/solecthon.vcet/" class="icon-button facebook"><i class="fab fa-facebook-f"></i><span></span></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com/channel/UCrFFK_yseTegwXFXc2AHaaw/featured" class="icon-button youtube"><i class="fab fa-youtube"></i><span></span></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com/solecthon.vcet/?hl=en" class="icon-button instagram"><i class="fab fa-instagram"></i><span></span></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/company/vcet-solecthon/" class="icon-button linkedin"><i class="fab fa-linkedin"></i><span></span></a>
-          </li>
-          
-        </ul>				
-		</div>
-    </div>
-	<div class="row">
-		<div class="col-md-12 copy">
-			<p class="text-center">&copy; Copyright 2020 - VCET SOLECTHON.  All rights reserved.</p>
-		</div>
-	</div>
 
-
-  </div>
-  </div>
-</footer>
-
-
-   
 </body>
+
 </html>
