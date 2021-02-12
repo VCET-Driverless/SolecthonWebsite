@@ -25,9 +25,9 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 30px;
+        font-size: 27px;
 font-style: normal;
-margin-left: 10px;
+margin-left: 3px;
 }
 
 .flaticon-team-leader:before { content: "\f100"; }

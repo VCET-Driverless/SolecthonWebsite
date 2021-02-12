@@ -160,6 +160,9 @@ header p {
   left: 20px;
 }
 
+.list-group{
+  font-size: 35px;
+}
 blockquote {
   margin-top: 30px;
   color: #757575;
@@ -362,4 +365,11 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
   }
-/*# sourceMappingURL=cars.css.map */
+
+  
+ @media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor{
+    width: 110%;
+  }
+}

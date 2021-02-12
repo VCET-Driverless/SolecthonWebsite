@@ -112,3 +112,11 @@ transform: translate(-50%, -50%);
     padding: 0%;
     margin: 0%;
   }
+
+  
+ @media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor{
+    width: 110%;
+  }
+}

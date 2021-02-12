@@ -12,12 +12,17 @@ color: white;
     }
 .centered {
 position: absolute;
-top: 50%;
+top: 82%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
 
-
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
 /* why sponsor us */
 
 
@@ -122,3 +127,12 @@ h1{
         margin-top: 50%;
     }
  }
+
+ 
+ @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .titleSponsor{
+      width: 110%;
+    }
+  }
+  

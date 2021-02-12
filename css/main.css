@@ -294,7 +294,7 @@ nav .active {
 
 .card-deck {
     margin: 0 -15px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   
   .card-deck .card {
@@ -699,6 +699,13 @@ footer {
     }
  }
 
+
+ @media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor{
+    width: 110%;
+  }
+}
 
 
 

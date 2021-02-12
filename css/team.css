@@ -87,8 +87,32 @@ color: white;
 .section-team .single-person .person-image img {
     width: 100%;
     border-radius: 50%;
+    /* height: 180px; */
 }
 
+.oldMember .section-team .single-person .person-image img {
+    width: 100%;
+    border-radius: 50%;
+    /* height: 200px; */
+}
+@media (min-width : 360px){
+    .oldMember .section-team .single-person .person-image img {
+     
+        height: 200px;
+    }
+}
+@media (min-width : 576px){
+    .oldMember .section-team .single-person .person-image img {
+     
+        height: 240px;
+    }
+}
+@media (min-width : 1200px){
+    .oldMember .section-team .single-person .person-image img {
+     
+        height: 170px;
+    }
+}
 .section-team .single-person .person-image .icon {
 	position: absolute;
     bottom: 0;
@@ -130,7 +154,9 @@ color: white;
 	color: #fff;
 }
  
-
+/* .section-team > .container >.row > .col-sm-6 col-lg-4 col-xl-3 >.single-person>.person-image > img{
+    height: 240px;
+} */
 @media (min-width: 320px) { 
    
         .centered h1{
@@ -163,3 +189,10 @@ color: white;
          }
      }
  
+     @media only screen and (device-width: 768px) {
+        /* For general iPad layouts */
+        .titleSponsor{
+          width: 110%;
+        }
+      }
+      

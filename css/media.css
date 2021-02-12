@@ -278,5 +278,61 @@
 }
 
 
+.driftVideo{
+  text-align: center;
+  margin: 0 auto; 
 
-/*# sourceMappingURL=media.css.map */
+  display: block;
+}
+
+@media (min-width: 300px) { 
+  
+  .driftVideo {
+    width: 300px;
+    height: 500px;
+  }
+}
+@media (min-width: 576px) { 
+ 
+  .driftVideo {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+
+@media (min-width: 768px) { 
+ 
+  .driftVideo {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+
+@media (min-width: 992px) { 
+
+  
+  .driftVideo {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .driftVideo {
+    width: 500px;
+    height: 500px;
+}
+
+}
+
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor{
+    width: 110%;
+  }
+}
+
