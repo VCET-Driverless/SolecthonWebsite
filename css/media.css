@@ -131,7 +131,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-/*# sourceMappingURL=media.css.map */
+
 
 /**
  * Grid styles
@@ -278,34 +278,33 @@
 }
 
 
-.driftVideo{
-  text-align: center;
-  margin: 0 auto; 
+.ourVideos{
+  display: inline-block;
 
-  display: block;
 }
 
 @media (min-width: 300px) { 
   
-  .driftVideo {
+  .ourVideos {
     width: 300px;
-    height: 500px;
+    height: 210px;
   }
 }
 @media (min-width: 576px) { 
  
-  .driftVideo {
+  .ourVideos {
     width: 300px;
-    height: 500px;
+    height: 210px;
   }
 }
 
 
 @media (min-width: 768px) { 
  
-  .driftVideo {
+  .ourVideos {
     width: 500px;
-    height: 500px;
+    height: 210px;
+    margin-left: 6%;
   }
 }
 
@@ -313,17 +312,19 @@
 @media (min-width: 992px) { 
 
   
-  .driftVideo {
+  .ourVideos {
     width: 500px;
-    height: 500px;
+    height: 210px;
+    margin-left: 6%;
   }
 }
 
 
 @media (min-width: 1200px) { 
-  .driftVideo {
+  .ourVideos {
     width: 500px;
-    height: 500px;
+    height: 360px;
+    margin-left: 4%;
 }
 
 }

@@ -189,13 +189,10 @@ $(".navbar-toggler").click(function(){
       <!-- <img src="images/main-logo.jfif" width="40" height="40"> -->
       <h4 class="logo">VCET SOLECTHON</h4>
       <ul class="nav-links">
-
         <li class="active">
           <a href="index.html">HOME</a>
         </li>
-        <li>
-          <a href="sponsors.html">SPONSORS</a>
-        </li>
+
         <li>
           <a href="team.html">TEAM</a>
         </li>
@@ -203,17 +200,25 @@ $(".navbar-toggler").click(function(){
           <a href="cars.html">CARS</a>
         </li>
         <li>
-          <a href="about-us.html">ABOUT US</a>
+          <a href="sponsors.html">SPONSORS</a>
+        </li>
+        <li>
+          <a href="driverless.html">DRIVERLESS</a>
         </li>
         <li>
           <a href="media.html">MEDIA</a>
         </li>
+        <li>
+          <a href="about-us.html">ABOUT US</a>
+        </li>
+
         <li>
           <a href="support-us.html">SUPPORT US</a>
         </li>
         <li>
           <a href="contact-us.html">CONTACT US</a>
         </li>
+
       </ul>
       <div class="hamburger-menu float-right">
         <div class="bar1"></div>
@@ -227,19 +232,20 @@ $(".navbar-toggler").click(function(){
   <!-- carousel slider  -->
   <div id="gallery" class="container-fluid" style="width:100%;display:none;">
 
-    <img alt="Preview Image 1" src="images/carousel/3.0.jpeg" data-image="images/carousel/3.0.jpeg"
-      data-description="Preview Image 1 Description">
+    <img alt="" src="images/carousel/carWithTrophies.jpg" data-image="images/carousel/carWithTrophies.jpg"
+      data-description=" Description">
 
-    <img alt="Preview Image 2" src="images/carousel/2.1.jfif" data-image="images/carousel/2.1.jfif"
-      data-description="Preview Image 2 Description">
+    <img alt="" src="images/carousel/3.0.jpeg" data-image="images/carousel/3.0.jpeg"
+      data-description=" Description">
 
-    <img alt="Preview Image 1" src="images/cars/3.0/support-us.jpeg" data-image="images/cars/3.0/support-us.jpeg"
-      data-description="Preview Image 1 Description">
+    <img alt="" src="images/carousel/2.1.jfif" data-image="images/carousel/2.1.jfif"
+      data-description=" Description">
 
-    <img alt="Preview Image 3" src="images/carousel/1.0.jpeg" data-image="images/carousel/1.0.jpeg"
-      data-description="Preview Image 3 Description">
+    <img alt="" src="images/cars/3.0/support-us.jpeg" data-image="images/cars/3.0/support-us.jpeg"
+      data-description=" Description">
 
-
+    <img alt="" src="images/carousel/1.0.jpeg" data-image="images/carousel/1.0.jpeg"
+      data-description=" Description">
 
   </div>
   <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
@@ -248,19 +254,19 @@ $(".navbar-toggler").click(function(){
   <script type="text/javascript">
 
     jQuery(document).ready(function () {
-
+      // var api = jQuery("#gallery").unitegallery().resetZoom();
       // jQuery("#gallery").unitegallery();
       jQuery("#gallery").unitegallery({
         gallery_theme: "slider",
-
+        // slider_scale_mode: "fill",
+        // reset_zoom : 1;
         // gallery options
         gallery_width: 1920,							//gallery width		
         gallery_height: 1000,							//gallery height
 
         gallery_min_width: 320,						//gallery minimal width when resizing
         gallery_min_height: 300,					//gallery minimal height when resizing
-
-        
+  slider_control_zoom:false
 
       });
     });
@@ -406,7 +412,7 @@ $(".navbar-toggler").click(function(){
             <div class="stat-title">PASSION</div>
           </div>
           <div class="stat-two">
-            <div class="stat-number" data-n="41">0</div>
+            <div class="stat-number" data-n="52">0</div>
             <br>
             <br>
             <br>
@@ -422,7 +428,7 @@ $(".navbar-toggler").click(function(){
             <div class="stat-title">CARS</div>
           </div>
           <div class="stat-four">
-            <div class="stat-number" data-n="14">0</div>
+            <div class="stat-number" data-n="31">0</div>
             <br>
             <br>
             <br>

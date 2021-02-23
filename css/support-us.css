@@ -60,12 +60,7 @@ transform: translate(-50%, -50%);
 }
 
 
-/* @font-face {
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v7/Zd2E9abXLFGSr9G3YK2MsFzqCfRpIA3W6ypxnPISCPA.woff) format('woff');
-} */
+
 .live html {
     height: 100%;
 }
@@ -82,7 +77,6 @@ transform: translate(-50%, -50%);
 }
 .whySponsor ul {
     background: rgba(64, 212, 64, 0.651);
-    /* color: rgba(255, 255, 255, .5); */
     border-radius: 5px;
     padding: 1.5em;
     margin: 1vw;

@@ -12,11 +12,6 @@ h1{
    display: flex;
  }
 
- /* #members img{
-     height: 62%;
-     /* border-radius: 50%; 
- } */
-
 .containerTop {
 position: relative;
 text-align: center;
@@ -87,18 +82,18 @@ color: white;
 .section-team .single-person .person-image img {
     width: 100%;
     border-radius: 50%;
-    /* height: 180px; */
+    
 }
 
 .oldMember .section-team .single-person .person-image img {
     width: 100%;
     border-radius: 50%;
-    /* height: 200px; */
+    
 }
 @media (min-width : 360px){
     .oldMember .section-team .single-person .person-image img {
      
-        height: 200px;
+        height: 235px;
     }
 }
 @media (min-width : 576px){
@@ -139,7 +134,7 @@ color: white;
 	margin-bottom: 10px;
 	font-size: 20px;
     font-weight: 700;
-    /* text-align: center; */
+   
 }
 
 
@@ -154,9 +149,6 @@ color: white;
 	color: #fff;
 }
  
-/* .section-team > .container >.row > .col-sm-6 col-lg-4 col-xl-3 >.single-person>.person-image > img{
-    height: 240px;
-} */
 @media (min-width: 320px) { 
    
         .centered h1{
