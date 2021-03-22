@@ -95,6 +95,7 @@ h1{
     #upi{
         margin-top: 20%;
     }
+  
  }
 
 
@@ -103,6 +104,7 @@ h1{
     #upi{
         margin-top: 50%;
     }
+   
  }
 
 
@@ -112,6 +114,7 @@ h1{
     #upi{
         margin-top: 50%;
     }
+    
  }
 
 
@@ -120,7 +123,10 @@ h1{
     #upi{
         margin-top: 50%;
     }
+   
  }
+
+
 
  
  @media only screen and (device-width: 768px) {
@@ -129,4 +135,9 @@ h1{
       width: 110%;
     }
   }
-  
+  #brochurePdf{
+    width:100%;
+    margin: 0 auto;
+     display: block;
+  }
+ 
