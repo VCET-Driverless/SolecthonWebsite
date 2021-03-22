@@ -52,10 +52,6 @@
     
 }
 
-#sp2019{
-    background-image: url("..images/spo");
-}
-
 @media (min-width:300px){
     .containerTop img{
         height: 400px;
