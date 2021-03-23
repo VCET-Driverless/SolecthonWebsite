@@ -18848,8 +18848,8 @@ function UGYoutubeAPI(){
 	 */
 	this.getVideoImages = function(videoID){
 		var obj = {};
-		obj.preview = "https://i.ytimg.com/vi/"+videoID+"/sddefault.jpg";
-		obj.thumb = "https://i.ytimg.com/vi/"+videoID+"/default.jpg";
+		obj.preview = "https://i.ytimg.com/vi/"+videoID+"/sddefault.png";
+		obj.thumb = "https://i.ytimg.com/vi/"+videoID+"/default.png";
 		return(obj);
 	}
 	
