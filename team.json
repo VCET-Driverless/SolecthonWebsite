@@ -8,16 +8,9 @@
             "icon": "flaticon-advisor"
         },
         {
-            "name": "Rithwik Vedpathak",
-            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rithwik.png",
-            "speciality": "Captain & Driver",
-            "subsystem": null,
-            "icon": "flaticon-team-leader"
-        },
-        {
             "name": "Mitesh Sawant",
             "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/mitesh.png",
-            "speciality": "Ex-Captain & Driver",
+            "speciality": "Captain & Driver",
             "subsystem": null,
             "icon": "flaticon-team-leader"
         },
