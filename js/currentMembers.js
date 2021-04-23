@@ -13,7 +13,7 @@ iDiv.id = 'currentMembers';
 iDiv.className = 'row';
 
 var iDiv2 = document.createElement('div');
-iDiv2.id = 'currentMembers';
+iDiv2.id = 'oldMembers';
 iDiv2.className = 'row';
 
 var currentMemberDiv = document.getElementsByClassName('container')[0];
