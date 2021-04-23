@@ -23,7 +23,6 @@ oldMemberDiv.appendChild(iDiv2);
 
 var divs = [iDiv, iDiv2]
 var json_objs = [json_obj.currentMembers, json_obj.oldMembers]
-//iDiv.innerHTML = "I'm the first div";
 
 //var count = 10
 for(var j = 0; j < divs.length; j++) {
