@@ -5,8 +5,8 @@ function Get(yourUrl){
     return Httpreq.responseText;          
 }
 
-var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sharvin18/mern_excercise_tracker/main/package.json"));
-console.log("this is the author name: "+json_obj.name);
+//var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sharvin18/mern_excercise_tracker/main/package.json"));
+//console.log("this is the author name: "+json_obj.name);
 
 var iDiv = document.createElement('div');
 iDiv.id = 'currentMembers';

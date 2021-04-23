@@ -1,0 +1,363 @@
+{
+    "currentMembers": [
+        {
+            "name": "Dipak Choudhari",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/Dipak Choudhari.png",
+            "speciality": "Faculty Advisor",
+            "subsystem": null,
+            "icon": "flaticon-advisor"
+        },
+        {
+            "name": "Mitesh Sawant",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/mitesh.png",
+            "speciality": "Captain & Driver",
+            "subsystem": null,
+            "icon": "flaticon-team-leader"
+        },
+        {
+            "name": "Sidhhant Kule",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/siddhant.png",
+            "speciality": "Vice Captain, Bodyworks Head",
+            "subsystem": null,
+            "icon": "flaticon-team-leader"
+        },
+        {
+            "name": "Shivam Dubey",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/dubey.png",
+            "speciality": "Finance,Chassis Head",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Karan Luharpanchal",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/karan.png",
+            "speciality": "Sponsorship,Steering Head",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Mala Gupta",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/mala.png",
+            "speciality": "Suspension Head",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Yuktha Angadi",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/yuktha.png",
+            "speciality": "Power Transmission Head",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Suman Biswas",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/suman.png",
+            "speciality": "Brakes Head",
+            "subsystem": null,
+            "icon": "flaticon-brake"
+        },
+        {
+            "name": "Prasad Nijai",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/prasad.png",
+            "speciality": "Autonomous Head",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Manasi Satapute",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/manasi.png",
+            "speciality": "Member Steering",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Snehashish Karmakar",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/snehashish.png",
+            "speciality": "Member Steering",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Yash Sarfare",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/sarfare.png",
+            "speciality": "Member Steering",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Prachi Ratna",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/prachi.png",
+            "speciality": "Member Brakes",
+            "subsystem": null,
+            "icon": "flaticon-brake"
+        },
+        {
+            "name": "Manisha Kushawaha",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/manisha.png",
+            "speciality": "Member Brakes",
+            "subsystem": null,
+            "icon": "flaticon-brake"
+        },
+        {
+            "name": "Ashish Borse ",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/ashish.png",
+            "speciality": "Member Suspension",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Jemit Shah(Talati)",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/jemit.png",
+            "speciality": "Member Suspension",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Shivam Bhadane",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/shivam.png",
+            "speciality": "Member Suspension",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Namita Mohanty",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/namita.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Aditya Patil",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/aditya.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Rahul Bera",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rahulB.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Rahul Kamble",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rahulK.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Akash Patil",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/akash.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Archit Naik",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/archit.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Atul Mishra",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/atul.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Pritish Mair",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/pritish.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Rithwik Vedpathak",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rithwik.png",
+            "speciality": "Member Autonomous & Driver",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Sanket Suhagiya",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/sanket.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Vandan Sawant",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/vandan.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Viresh Fegade",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/viresh.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Vidit Sheth",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/vidit.png",
+            "speciality": "Member Autonomous",
+            "subsystem": null,
+            "icon": "flaticon-autonomous-car"
+        },
+        {
+            "name": "Shree Shah",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/shree.png",
+            "speciality": "Member Bodyworks",
+            "subsystem": null,
+            "icon": "flaticon-car-of-hatchback-model"
+        },
+        {
+            "name": "Ankit Patil",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/Ankit-Patil.png",
+            "speciality": "Member Sponsorship,Bodyworks",
+            "subsystem": null,
+            "icon": "flaticon-solution"
+        },
+        {
+            "name": "Sanskruti Talagaonkar",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/sanskruti.png",
+            "speciality": "Non Technical",
+            "subsystem": null,
+            "icon": "flaticon-edit"
+        }
+    ],
+    "oldMembers": [
+        {
+            "name": "Prof.Swapnil Mane",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/mane sir.png",
+            "speciality": "Faculty Advisor",
+            "subsystem": null,
+            "icon": "flaticon-advisor"
+        },
+        {
+            "name": "Aditya Jadhav",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/aditya.png",
+            "speciality": "Member Suspension",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Akshay Gorad",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/AkshayGorad.png",
+            "speciality": "Member Chassis",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Amit Bhagat",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/amit bhagat.png",
+            "speciality": "Head Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Harshal Joshi",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/HarshalJoshi.png",
+            "speciality": "Sponsorship Head",
+            "subsystem": null,
+            "icon": "flaticon-solution"
+        },
+        {
+            "name": "Kavish Vaidya",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/kavishVaidya.png",
+            "speciality": "Suspension Head",
+            "subsystem": null,
+            "icon": "flaticon-suspension"
+        },
+        {
+            "name": "Mahendra Solanki",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/mahendra_solanki.png",
+            "speciality": "CHassis,Finance Head",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Navneet Prajapati",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/Navneet.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Omkar Devrukhkar",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/omkar_devrukhkar.png",
+            "speciality": "Member chassis",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Pranav Zamre",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/pranav_zamre.png",
+            "speciality": "Member Power Transmission",
+            "subsystem": null,
+            "icon": "flaticon-car-battery"
+        },
+        {
+            "name": "Sanket Kadam",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/sanketKadam.png",
+            "speciality": "steering Head",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Sanskruti Raut",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/sanskrutiRaut.png",
+            "speciality": "Member chassis",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Siddhesh Raut",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/siddhesh Raut.png",
+            "speciality": "Vice Captain, Steering Head",
+            "subsystem": null,
+            "icon": "flaticon-steering-wheel"
+        },
+        {
+            "name": "Tanmay Churi",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/tanmayChuri_brakes.png",
+            "speciality": "Member Brakes",
+            "subsystem": null,
+            "icon": "flaticon-brake"
+        },
+        {
+            "name": "Tejas Petkar",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/tejas_petkar_bodyworks head.png",
+            "speciality": "Bodyworks Head",
+            "subsystem": null,
+            "icon": "flaticon-car-of-hatchback-model"
+        },
+        {
+            "name": "Chinmay Naik",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/chinmay naik.png",
+            "speciality": "Member Brakes",
+            "subsystem": null,
+            "icon": "flaticon-brake"
+        },
+        {
+            "name": "Vaishnavi Kesarkar",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/vaishnavi kesarkar.png",
+            "speciality": "Members chassis",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        },
+        {
+            "name": "Binny Rao",
+            "image": "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/oldMemebers/binni rao.png",
+            "speciality": "Member",
+            "subsystem": null,
+            "icon": "flaticon-chassis"
+        }
+    ]
+}
