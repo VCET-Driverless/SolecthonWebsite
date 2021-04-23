@@ -24,13 +24,13 @@ for j, section in enumerate(sectionTeam):
         
         d = {
             "name":name,
-            "image":image,
+            "image":image,#.split('/')[-1],
             "speciality":speciality,
             "subsystem":None,
             "icon":icon
         }
 
-        print(d["speciality"])
+        print(d["image"].split('/')[-1])
         if(j == 0):
             dd["currentMembers"].append(d)
         else:
