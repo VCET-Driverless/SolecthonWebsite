@@ -1,5 +1,5 @@
 function Get(yourUrl){
-    var Httpreq = new XMLHttpRequest(); // a new request
+    var Httpreq = new XMLHttpRequest();
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
     return Httpreq.responseText;          
@@ -18,7 +18,7 @@ iDiv2.className = 'row';
 
 var currentMemberDiv = document.getElementsByClassName('container')[0];
 currentMemberDiv.appendChild(iDiv);
-var oldMemberDiv = document.getElementsByClassName('container')[1];
+var oldMemberDiv = document.gegittElementsByClassName('container')[1];
 oldMemberDiv.appendChild(iDiv2);
 
 var divs = [iDiv, iDiv2]
