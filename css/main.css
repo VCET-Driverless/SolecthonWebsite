@@ -79,6 +79,10 @@ input:checked + .slider:before {
   background: linear-gradient(119.54deg,#000046 0%,#1CB5E0 100%);
 }
 
+.niceGradient {
+	background: linear-gradient(119.54deg,#000046 0%,#1CB5E0 100%);
+}
+
 .header .navbar {
   padding: 0 2rem;
   display: flex;
