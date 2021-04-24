@@ -6,7 +6,7 @@ function Get(yourUrl){
 }
 
 var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/team.json"));
-console.log("this is the author name: "+json_obj.currentMembers);
+//console.log("this is the author name: "+json_obj.currentMembers);
 
 var iDiv = document.createElement('div');
 iDiv.id = 'currentMembers';
