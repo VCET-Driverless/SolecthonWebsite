@@ -1,4 +1,4 @@
-var tmp = window.localStorage.getItem("dm");
+var tmp = localStorage.getItem("dm");
 	
 if(tmp == "night"){
 	document.body.classList.add("dark-mode");
@@ -10,15 +10,15 @@ else{
 
 
 function darker() {	
-	var tmp = window.localStorage.getItem("dm");
+	var tmp = localStorage.getItem("dm");
 	
 	if(tmp == "day"){
-		window.localStorage.setItem("dm", "night");
+		localStorage.setItem("dm", "night");
 		document.body.classList.add("dark-mode");
 	}
 	
 	else{
-		window.localStorage.setItem("dm", "day");
+		localStorage.setItem("dm", "day");
 		document.body.classList.remove("dark-mode");
 	}
 
