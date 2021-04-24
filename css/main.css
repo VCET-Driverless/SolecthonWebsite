@@ -13,7 +13,7 @@ body {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #181a1b !important;
   color: white;
   transition: 0.7s;
 }
@@ -610,6 +610,7 @@ footer a:hover {
 } */
 
 #scrollToTopBtn {
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
