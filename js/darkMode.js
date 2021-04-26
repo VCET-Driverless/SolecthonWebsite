@@ -23,17 +23,17 @@ $(document).ready(function(){
 
 if(tmp == null) {
 	localStorage.setItem("dm", "day");
-	document.getElementById("darkModeBtn").innerHTML = nightEmo;
+	$("#darkModeBtn").html(nightEmo);
 }
 
 if(tmp == "night"){
-	document.getElementById("darkModeBtn").innerHTML = dayEmo;
+	$("#darkModeBtn").html(dayEmo);
 	for(var i = 0; i < elementsList.length; i++) {
 		$(elementsList[i][0]).addClass(elementsList[i][1]);
 	}
 }
 else{
-	document.getElementById("darkModeBtn").innerHTML = nightEmo;
+	$("#darkModeBtn").html(nightEmo);
 }
 
 
@@ -58,7 +58,7 @@ function keyCheck(event) {
 
 function setMode(elementsList, storageValue, emoji) {
 	localStorage.setItem("dm", storageValue);
-	document.getElementById("darkModeBtn").innerHTML = emoji;
+	$("#darkModeBtn").html(emoji);
 	for(var i = 0; i < elementsList.length; i++) {
 		if(storageValue == night) {
 			$(elementsList[i][0]).addClass(elementsList[i][1]);
