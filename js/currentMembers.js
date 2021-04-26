@@ -2,11 +2,21 @@ function Get(yourUrl){
     var Httpreq = new XMLHttpRequest();
     Httpreq.open("GET",yourUrl,false);
     Httpreq.send(null);
+	// download(Httpreq.responseText, 'json.txt', 'text/plain');
     return Httpreq.responseText;          
 }
 
+
 var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/team.json"));
 //console.log("this is the author name: "+json_obj.currentMembers);
+
+function download(content, fileName, contentType) {
+    var a = document.createElement("a");
+    var file = new Blob([content], {type: contentType});
+    a.href = URL.createObjectURL(file);
+    a.download = fileName;
+    a.click();
+}
 
 var iDiv = document.createElement('div');
 iDiv.id = 'currentMembers';
@@ -40,6 +50,7 @@ for(var j = 0; j < divs.length; j++) {
 		
 		var imgTag = document.createElement('img');
 		imgTag.src = json_objs[j][i].image;
+		imgTag.loading="lazy";
 		imageDiv.appendChild(imgTag);
 		
 		var icon = document.createElement('span');

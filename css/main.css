@@ -9,14 +9,27 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .dark-mode {
   background-color: #181a1b !important;
   color: white;
-  transition: 0.7s;
+  transition: 0.5s;
 }
+
+.dark-mode-card {
+  background-color: #1b1d1e !important;
+  color: white;
+  transition: 0.5s;
+}
+
+.dark-mode-text-box {
+  background-color: #232323 !important;
+  color: white;
+  transition: 0.5s;
+}
+
 .switch {
   position: relative;
   display: inline-block;
