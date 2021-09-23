@@ -63,7 +63,7 @@ const  fillData = async() => {
 
       let spec = document.createElement("span");
       spec.className = "speciality";
-      spec.innerHTML = json_objs[j][i].speciality;
+      spec.innerHTML = json_objs[j][i].role;
       personInfo.append(spec);
     }
   }
