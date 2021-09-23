@@ -76,8 +76,7 @@ input:checked + .slider:before {
 
 .header {
   min-height: 10vh;
-  background: linear-gradient(
-    119.54deg,#000046 0%,#1CB5E0 100%);
+  background: #052e88;
 }
 
 .header .navbar {
@@ -149,8 +148,7 @@ input:checked + .slider:before {
 }
 
 .header .navbar.sticky {
-  background: linear-gradient(
-    119.54deg,#000046 0%,#1CB5E0 100%);
+  background: #012574;
   transition: 0.3s ease all;
 }
 
