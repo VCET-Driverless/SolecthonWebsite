@@ -6,7 +6,7 @@ function Get(yourUrl){
 }
 
 
-var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/data.json"));
+var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/viru2001/SolecthonWebsite/main/data.json"));
 //console.log("this is the author name: "+json_obj.currentMembers);
 
 
