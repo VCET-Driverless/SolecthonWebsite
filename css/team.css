@@ -91,7 +91,7 @@ color: white;
     
 }
 
-.oldMember .section-team .single-person .person-image img {
+/* .oldMember .section-team .single-person .person-image img {
     width: 100%;
     border-radius: 50%;
     
@@ -113,7 +113,7 @@ color: white;
      
         height: 170px;
     }
-}
+} */
 .section-team .single-person .person-image .icon {
 	position: absolute;
     bottom: 0;
