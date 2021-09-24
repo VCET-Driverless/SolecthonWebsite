@@ -67,4 +67,11 @@ function setMode(elementsList, storageValue, emoji) {
 			$(elementsList[i][0]).removeClass(elementsList[i][1]);
 		}
 	}
+	if(storageValue == night) {
+		$(".single-person").css("background-color" , "#181a1b");
+	}
+	else{
+		$(".single-person").css("background-color" , "#f6f9ff");
+	}
+	
 }
