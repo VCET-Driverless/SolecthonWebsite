@@ -167,7 +167,6 @@
     jQuery(document).ready(function () {
 		var url = "https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/carousel.json";
 		var json_obj = JSON.parse(Get(url));
-		console.log(json_obj.images);
 		var gallery = document.getElementById("gallery");
 		for(var i = 0; i < json_obj.images.length; i++) {
 			var imgTag = document.createElement('img');

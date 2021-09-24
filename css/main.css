@@ -98,7 +98,10 @@ input:checked + .slider:before {
 /* .niceGradient {
 	background: linear-gradient(119.54deg,#000046 0%,#1CB5E0 100%);
 } */
-
+.header {
+  min-height: 10vh;
+  background: #012574;
+}
 .header .navbar {
   padding: 0 2rem;
   display: flex;
