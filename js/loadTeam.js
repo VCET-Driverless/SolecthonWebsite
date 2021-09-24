@@ -1,14 +1,14 @@
-
 var json_obj;
 
+const fillData = async () => {
+  await fetch(
+    "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data.json"
+  )
+    .then((res) => res.json())
+    .then((json) => {
+      json_obj = json;
+    });
 
-const  fillData = async() => {
-  await fetch('https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data.json')
-  .then(res => res.json())
-  .then(json => {
-    json_obj = json;
-  });
-  
   let iDiv = document.createElement("div");
   iDiv.id = "currentMembers";
   iDiv.className = "row";
@@ -66,6 +66,18 @@ const  fillData = async() => {
       spec.innerHTML = json_objs[j][i].role;
       personInfo.append(spec);
     }
+  }
+  let tmp = localStorage.getItem("dm");
+
+  if (tmp == null) {
+    localStorage.setItem("dm", "day");
+    $("#darkModeBtn").html(nightEmo);
+  }
+
+  if (tmp == "night") {
+    setMode(elementsList, night, dayEmo);
+  } else {
+    $("#darkModeBtn").html(nightEmo);
   }
 };
 
