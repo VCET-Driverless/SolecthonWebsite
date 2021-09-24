@@ -268,9 +268,12 @@ nav .active {
 
 #teamheads img {
   border-radius: 50%;
-  height: 60%;
+  height: 70%;
+  width: 70%;
 }
-
+.heads{
+  align-items: center;
+}
 /* parallax */
 
 #running-car img {
@@ -294,6 +297,8 @@ nav .active {
   width: 100%;
   color: #000000;
 }
+
+/*num scroller end */
 
 .personality-overlay {
   width: 100%;
