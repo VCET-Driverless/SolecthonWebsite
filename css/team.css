@@ -17,12 +17,18 @@ position: relative;
 text-align: center;
 font-size: 100%;
 color: white;
+} 
+.header1{
+    min-height: 10vh;
+    background: linear-gradient(
+        119.54deg,#000046 0%,#1CB5E0 100%);
 }
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
     }
 
 
