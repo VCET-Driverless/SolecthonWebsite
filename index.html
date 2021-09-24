@@ -15,7 +15,9 @@
   <!-- font awesome -->
   <link rel="stylesheet" href="fonts/font-awesome.min.css">
   <!-- favicon -->
+
   <link rel="icon" href="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg">
+
 
 
 
@@ -136,12 +138,6 @@
         <li>
           <a href="contact-us.html">CONTACT US</a>
         </li>
-        <!-- <li>
-          <label class="switch">
-            <input type="checkbox" id="darkModeToggleButton" name="darkModeToggleButton" >
-            <span class="slider round"></span>
-          </label>
-        </li> -->
 
       </ul>
 
@@ -156,37 +152,30 @@
 
   <!-- carousel slider  -->
   <div id="gallery" class="container-fluid" style="width:100%;display:none;">
-    <img alt=""
-      src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/carWithTrophies.png"
-      data-image="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/carWithTrophies.png"
-      data-description=" Description">
-
-    <img alt="" src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/3.0.png"
-      data-image="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/3.0.png"
-      data-description=" Description">
-
-    <img alt="" src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/2.1.png"
-      data-image="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/2.1.png"
-      data-description=" Description">
-
-    <img alt="" src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cars/3.0/support-us.png"
-      data-image="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cars/3.0/support-us.png"
-      data-description=" Description">
-
-    <img alt="" src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/1.0.png"
-      data-image="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/carousel/1.0.png"
-      data-description=" Description">
-
   </div>
   <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
   <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
   <script type='text/javascript' src='unitegallery/themes/slider/ug-theme-slider.js'></script>
   <script type="text/javascript">
-
+	function Get(yourUrl){
+		var Httpreq = new XMLHttpRequest();
+		Httpreq.open("GET",yourUrl,false);
+		Httpreq.send(null);
+		// download(Httpreq.responseText, 'json.txt', 'text/plain');
+		return Httpreq.responseText;          
+	}
     jQuery(document).ready(function () {
-      // console.log(darkModeToggle);
-      // localStorage.setItem("darkMode", false);
-      // var api = jQuery("#gallery").unitegallery().resetZoom();
+		var url = "https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/carousel.json";
+		var json_obj = JSON.parse(Get(url));
+		console.log(json_obj.images);
+		var gallery = document.getElementById("gallery");
+		for(var i = 0; i < json_obj.images.length; i++) {
+			var imgTag = document.createElement('img');
+			imgTag.src = json_obj.images[i];
+			imgTag.loading="lazy";
+			gallery.appendChild(imgTag);
+		}
+	  // var api = jQuery("#gallery").unitegallery().resetZoom();
       // jQuery("#gallery").unitegallery();
       jQuery("#gallery").unitegallery({
         gallery_theme: "slider",
@@ -213,7 +202,9 @@
 
 
       <div class="col-md-6">
+
         <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" alt="logo">
+
       </div>
 
       <div class="col-md-6">
@@ -341,7 +332,9 @@
         <div class="statsbar">
           <div class="stat-one">
 
+
             <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/infinity.svg"
+
               id="infinitySym">
             <br id="infinitySymbol">
             <hr class="style-three">
@@ -453,6 +446,8 @@
           </div>
           <button id= "scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
           <script src="js/scrollToTop.js"></script>
+		  <button id="darkModeBtn">🌑</button>
+		  <script src="js/darkMode.js"></script>
 
         </div>
         <div class="row">

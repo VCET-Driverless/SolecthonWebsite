@@ -62,7 +62,7 @@ transform: translate(-50%, -50%);
     transition: 0.3s ease background-color;
   }
   button[type="submit"]:hover {
-    background-color: rgb(214, 226, 236);
+    background-color: #9fd08f !important;
   }
   #status {
     width: 90%;
