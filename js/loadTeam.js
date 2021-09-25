@@ -10,12 +10,12 @@ const fillData = async () => {
     });
 
   let teamsKeys = Object.keys(json_obj);
-  console.log(teamsKeys);
+  // console.log(teamsKeys);
 
   let teams = document.querySelector("#teams");
 
   teamsKeys.map((x) => {
-    console.log(x);
+    // console.log(x);
 
     let heading = document.createElement("h1");
     heading.innerText = x;
@@ -52,7 +52,7 @@ const fillData = async () => {
    
 
     for (let i = 0; i < json_obj[x].length; i++) {
-      console.log(json_obj[x][i]);
+      // console.log(json_obj[x][i]);
       let innerDiv = document.createElement("div");
       innerDiv.className = "col-sm-6 col-lg-4 col-xl-3";
       newDiv.appendChild(innerDiv);
