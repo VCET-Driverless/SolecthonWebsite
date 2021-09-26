@@ -18,10 +18,13 @@ body {
   transition: 0.5s;
 }
 
-.dark-mode-card {
+.dark-mode-card,.dark-mode-contact-card {
   background-color: #1b1d1e !important;
   color: white;
   transition: 0.5s;
+}
+.dark-mode-contact-card{
+  box-shadow: none !important;
 }
 
 .dark-mode-text-box {
