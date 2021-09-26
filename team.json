@@ -383,12 +383,6 @@
             "icon": "flaticon-chassis"
         },
         {
-            "name": "Mahendra Solanki",
-            "image": "mahendra.png",
-            "role": "Member Chassis",
-            "icon": "flaticon-chassis"
-        },
-        {
             "name": "Manasi Satapute",
             "image": "manasi.png",
             "role": "Member Steering",
@@ -568,7 +562,7 @@
             "name": "Mahendra Solanki",
             "image": "mahendra_solanki.png",
             "role": "Finance Head, Chassis Member",
-            "icon": "flaticon-finance"
+            "icon": "flaticon-solution"
         },
         {
             "name": "Harshal Joshi",
@@ -704,7 +698,7 @@
             "name": "Mahendra Solanki",
             "image": "mahendra_solanki.png",
             "role": "Finance Head, Chassis Member",
-            "icon": "flaticon-finance"
+            "icon": "flaticon-solution"
         },
         {
             "name": "Harshal Joshi",
