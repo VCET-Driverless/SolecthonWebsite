@@ -27,7 +27,7 @@ $(function () {
         };
         
         var reset = function reset() {
-          console.log($(this).scrollTop());
+          // console.log($(this).scrollTop());
             // do stuff when window `.scrollTop()` > 75
             if ($(this).scrollTop() > 50) {
               // turn off scroll event so `fx` not called

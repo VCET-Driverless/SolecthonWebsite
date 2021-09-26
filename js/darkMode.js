@@ -1,67 +1,68 @@
-// // darkModeToggle = false
+var tmp = localStorage.getItem("dm");
+var dayEmo = '<i class="fa fa-sun-o" aria-hidden="true"></i>';
+var nightEmo = '<i class="fa fa-moon-o" aria-hidden="true"></i>';
+var day = "day";
+var night = "night";
+var elementsList = [
+  ["body", "dark-mode"],
+  [".card", "dark-mode-card"],
+  [".single-person", "dark-mode-card"],
+  [".card-deck", "dark-mode-card"], 
+  [".timeline-card", "dark-mode-card"],
+  [".formContainer", "dark-mode-card"],
+  [".contact-card","dark-mode-contact-card"],
+  ["input", "dark-mode-text-box"],
+  ["textarea", "dark-mode-text-box"],
+  ["button[type='submit']", "dark-mode-text-box"],
+];
 
+$(document).ready(function () {
+  $("#darkModeBtn").click(function () {
+    darker();
+  });
+});
+// setTimeout( ()=>{
+if (tmp == null) {
+  localStorage.setItem("dm", "day");
+  $("#darkModeBtn").html(nightEmo);
+}
 
-// var checkbox = document.querySelector("input[name=darkModeToggleButton]");
+if (tmp == "night") {
+  // $("#darkModeBtn").html(dayEmo);
+  setMode(elementsList, night, dayEmo);
+  // for(var i = 0; i < elementsList.length; i++) {
+  // 	$(elementsList[i][0]).addClass(elementsList[i][1]);
+  // }
+} else {
+  $("#darkModeBtn").html(nightEmo);
+}
+// },1000);
 
-// checkbox.addEventListener('change', function () {
-//     // console.log(darkModeToggle);
-//     localStorage.setItem('darkMode',this.checked);
-//     if (this.checked) {
-//         // darkModeToggle = true
-//         // localStorage.setItem("darkMode",true)
-//         document.body.classList.add("dark-mode");
+function darker() {
+  var tmp = localStorage.getItem("dm");
 
-//     } else {
-//         // console.log("Checkbox is not checked..");
-//         // darkModeToggle = false
-//         // localStorage.setItem("darkMode",false)
-        
-//     document.body.classList.remove("dark-mode");
+  if (tmp == "day") {
+    setMode(elementsList, night, dayEmo);
+  } else {
+    setMode(elementsList, day, nightEmo);
+  }
+}
 
-//     }
-//     // darkMode();
+function keyCheck(event) {
+  var x = event.which || event.keyCode;
+  if (x == 100) {
+    darker();
+  }
+}
 
-// });
-
-// jQuery(document).ready(function () {
-
-//     // if(localStorage.getItem("darkMode")){
-//     //     document.getElementById("darkModeToggleButton").checked = true;
-//     // }
-//     // else{
-//     //     document.getElementById("darkModeToggleButton").checked = false;
-
-//     // }
-//     // localStorage.setItem('darkModeToggleButton') = document.getElementById("darkModeToggleButton").checked
-//     console.log(localStorage.getItem('darkMode'));
-//     myVal = localStorage.getItem('darkMode')
-//     document.getElementById("darkModeToggleButton").checked = myVal;
-
-//     if (document.getElementById("darkModeToggleButton").checked == true){
-//         alert("checked")
-//         document.body.classList.add("dark-mode");
-
-//     }
-//     else{
-//         document.body.classList.remove("dark-mode");
-
-//     }
-
-
-
-
-//     // console.log(localStorage.getItem('darkMode'));
-//     if(localStorage.getItem('darkMode') == true) {
-//         // console.log(localStorage.getItem('darkMode'));
-//         document.body.classList.add("dark-mode");
-//    }
-//    else{
-//     document.body.classList.remove("dark-mode");
-
-//    }
-
-   
-
-// });
-
-
+function setMode(elementsList, storageValue, emoji) {
+  localStorage.setItem("dm", storageValue);
+  $("#darkModeBtn").html(emoji);
+  for (var i = 0; i < elementsList.length; i++) {
+    if (storageValue == night) {
+      $(elementsList[i][0]).addClass(elementsList[i][1]);
+    } else {
+      $(elementsList[i][0]).removeClass(elementsList[i][1]);
+    }
+  }
+}
