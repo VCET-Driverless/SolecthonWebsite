@@ -559,6 +559,12 @@
             "icon": "flaticon-solution"
         },
         {
+            "name":"Sahil Raut",
+            "image":"default.png",
+            "role":"Brakes Head",
+            "icon":"flaticon-brake"
+        },
+        {
             "name": "Harshal Joshi",
             "image": "HarshalJoshi.png",
             "role": "Sponsorship Head, Suspension Member",
@@ -695,6 +701,12 @@
             "icon": "flaticon-solution"
         },
         {
+            "name":"Sahil Raut",
+            "image":"default.png",
+            "role":"Brakes Head",
+            "icon":"flaticon-brake"
+        },
+        {
             "name": "Harshal Joshi",
             "image": "HarshalJoshi.png",
             "role": "Sponsorship Head, Suspension Member",
@@ -749,16 +761,34 @@
             "icon": "flaticon-brake"
         },
         {
+            "name": "Gokul Kunchunmthu",
+            "image": "default.png",
+            "role": "Member Brakes",
+            "icon": "flaticon-brake"
+        },
+        {
             "name": "Navneet Prajapati",
             "image": "Navneet.png",
-            "role": "Member Power Transmission ",
+            "role": "Member Power Transmission",
             "icon": "flaticon-car-battery"
         },
         {
             "name": "Pranav Zamre",
             "image": "pranav_zamre.png",
-            "role": "Member Power Transmission ",
+            "role": "Member Power Transmission",
             "icon": "flaticon-car-battery"
-        }   
+        },
+        {
+            "name":"Pritesh Chavan",
+            "image":"default.png",
+            "role":"Member Power Transmission",
+            "icon":"flaticon-car-battery"
+        },
+        {
+            "name":"Suraj Rana",
+            "image":"default.png",
+            "role":"Member Power Transmission",
+            "icon":"flaticon-car-battery"
+        },   
     ]
 }
