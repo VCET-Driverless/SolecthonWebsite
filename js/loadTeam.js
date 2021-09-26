@@ -66,8 +66,8 @@ const fillData = async () => {
       personDiv.appendChild(imageDiv);
 
       let imgTag = document.createElement("img");
-      // imgTag.src = "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/"+ json_obj[x][i].image;
-      imgTag.src = "images/members/"+ json_obj[x][i].image;
+      imgTag.src = "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/"+ json_obj[x][i].image;
+      // imgTag.src = "images/members/"+ json_obj[x][i].image;
       
       imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
