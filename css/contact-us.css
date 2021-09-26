@@ -113,7 +113,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: rgb(246, 249, 255);
+  background-color: rgb(222 231 249);
 }
 .member-contacts {
   display: grid;
