@@ -366,19 +366,19 @@
         },
         {
             "name": "Kaushal Bhatia",
-            "image": "kaushal.png",
+            "image": "default.png",
             "role": "Business plan head",
             "icon": "flaticon-"
         },
         {
             "name": "Rahul Ray",
-            "image": "rahul.png",
+            "image": "default.png",
             "role": "Member Chassis",
             "icon": "flaticon-chassis"
         },
         {
             "name": "Rishikesh Gosavi",
-            "image": "rishikesh.png",
+            "image": "default.png",
             "role": "Member Chassis",
             "icon": "flaticon-chassis"
         },
@@ -462,13 +462,13 @@
         },
         {
             "name": "Swapna Khade",
-            "image": "swapna.png",
+            "image": "default.png",
             "role": "Member Power Transmission",
             "icon": "flaticon-car-battery"
         },
         {
             "name": "Trupti Meher",
-            "image": "trupti.png",
+            "image": "default.png",
             "role": "Member Power Transmission",
             "icon": "flaticon-car-battery"
         },
@@ -554,14 +554,14 @@
         },
         {
             "name": "Mitesh Sawant",
-            "image": "Mitesh Sawant.png",
+            "image": "mitesh.png",
             "role": "Captain & Driver",
             "icon": "flaticon-team-leader"
         },
         {
             "name": "Siddhesh Raut",
             "image": "siddhesh Raut.png",
-            "role": "Vice-Captain, Steering Member",
+            "role": "Vice-Captain, Steering Head",
             "icon": "flaticon-team-leader"
         },
         {
@@ -632,7 +632,7 @@
         },
         {
             "name": "Kaushal Bhatia",
-            "image": "kaushal.png",
+            "image": "default.png",
             "role": "Member chassis",
             "icon": "flaticon-chassis"
         },
@@ -668,7 +668,7 @@
         },
         {
             "name": "Aditya Jadhav",
-            "image": "aditya.png",
+            "image": "aditya_jadhav.png",
             "role": "Member Suspension",
             "icon": "flaticon-suspension"
         },
@@ -690,7 +690,7 @@
         },
         {
             "name": "Mitesh Sawant",
-            "image": "Mitesh Sawant.png",
+            "image": "mitesh.png",
             "role": "Captain & Driver",
             "icon": "flaticon-team-leader"
         },
