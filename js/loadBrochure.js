@@ -1,5 +1,5 @@
 const brochurePdf = document.querySelector("#brochurePdf");
-
+const brochureDownloadLink = document.querySelector("#brochureDownloadLink");
 var pdfLink;
 
 const setPdfLink = async () => {
@@ -11,5 +11,6 @@ const setPdfLink = async () => {
       pdfLink = json["brochure"];
     });
     brochurePdf.src = pdfLink;
+    brochureDownloadLink.href = pdfLink;
 }
 setPdfLink();
