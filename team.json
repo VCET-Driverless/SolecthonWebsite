@@ -208,6 +208,12 @@
             "icon": "flaticon-autonomous-car"
           },
           {
+            "name": "Vidit Sheth",
+            "image": "vidit.png",
+            "role": "Member Autonomous",
+            "icon": "flaticon-autonomous-car"
+          },
+          {
             "name": "Sharvin Dedhia",
             "image": "Sharvin Dedhia.png",
             "role": "Member Autonomous",
@@ -268,7 +274,7 @@
             "role": "Member Sponsorship",
             "icon": "flaticon-solution"
           },
-       {
+          {
             "name": "Aman Mishra",
             "image": "Aman Mishra.png",
             "role": "Member Sponsorship",
@@ -279,9 +285,7 @@
             "image": "Prathamesh More.png",
             "role": "Member Sponsorship, Non-technical",
             "icon": "flaticon-solution"
-          },
-         
-         
+          },   
           {
             "name": "Soham Murudkar",
             "image": "Soham Murudkar.png",
