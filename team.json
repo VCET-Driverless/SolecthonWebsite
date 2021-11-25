@@ -74,12 +74,6 @@
             "icon": "flaticon-chassis"
           },
           {
-            "name": "Udesh Kushte",
-            "image": "Udesh Kushte.png",
-            "role": "Member Chassis and Bodyworks",
-            "icon": "flaticon-chassis"
-          },
-          {
             "name": "Viren Barole",
             "image": "Viren Barole.png",
             "role": "Member Chassis and Bodyworks",
@@ -176,13 +170,6 @@
             "role": "Member Power Transmission",
             "icon": "flaticon-car-battery"
           },
-         
-          {
-            "name": "Saurabh Chavan",
-            "image": "Saurabh Chavan.png",
-            "role": "Member Power Transmission",
-            "icon": "flaticon-car-battery"
-          },
           {
             "name": "Prasad Nijai",
             "image": "prasad.png",
@@ -219,6 +206,12 @@
             "role": "Member Autonomous",
             "icon": "flaticon-autonomous-car"
           },
+          {
+            "name": "Vidit Sheth",
+            "image": "vidit.png",
+            "role": "Member Autonomous",
+            "icon": "flaticon-autonomous-car"
+        },
           {
             "name": "Aayushi Ghag",
             "image": "Aayushi Ghag.png",
