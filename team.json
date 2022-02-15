@@ -7,15 +7,15 @@
       "icon": "flaticon-advisor"
     },
     {
-      "name": "Rithwik Vedpathak",
-      "image": "rithwik.png",
-      "role": "Captain, Finance Head and Driver",
+      "name": "Manisha Kushwaha",
+      "image": "manisha.png",
+      "role": "Captain, Brakes Head and Member PR",
       "icon": "flaticon-team-leader"
     },
     {
-      "name": "Sanket Suhagiya",
-      "image": "sanket.png",
-      "role": "Vice Captain,Autonomous head",
+      "name": "Aditya Patil",
+      "image": "aditya.png",
+      "role": "Vice Captain, Power Transmission Head and Driver",
       "icon": "flaticon-team-leader"
     },
 
@@ -31,24 +31,26 @@
       "role": "Chassis and Bodyworks Head",
       "icon": "flaticon-chassis"
     },
-    {
-      "name": "Manisha Kushwaha",
-      "image": "manisha.png",
-      "role": "Brakes Head,Member PR",
-      "icon": "flaticon-brake"
-    },
+
     {
       "name": "Snehashish Karmakar",
       "image": "snehashish.png",
-      "role": "Steering head",
+      "role": "Steering Head",
       "icon": "flaticon-steering-wheel"
     },
     {
-      "name": "Aditya Patil",
-      "image": "aditya.png",
-      "role": "Power Transmission Head",
-      "icon": "flaticon-car-battery"
+      "name": "Shivam Bhadane",
+      "image": "shivam.png",
+      "role": "Suspension Head",
+      "icon": "flaticon-suspension"
     },
+    {
+      "name": "Sharvin Dedhia",
+      "image": "Sharvin Dedhia.png",
+      "role": "Autonomous Head",
+      "icon": "flaticon-autonomous-car"
+    },
+
     {
       "name": "Manohar Devadiga",
       "image": "Manohar Devadiga.png",
@@ -115,35 +117,24 @@
       "role": "Member Steering",
       "icon": "flaticon-steering-wheel"
     },
-    {
-      "name": "Shivam Bhadane",
-      "image": "shivam.png",
-      "role": "Member Suspension",
-      "icon": "flaticon-suspension"
-    },
+
     {
       "name": "Hrishikesh Waghmare",
       "image": "Hrishikesh Waghmare.png",
       "role": "Member Suspension",
       "icon": "flaticon-suspension"
     },
-    {
-      "name": "Sahil Patil",
-      "image": "Sahil Patil.png",
-      "role": "Member Suspension",
-      "icon": "flaticon-suspension"
-    },
 
-    {
-      "name": "Shubham Irakar",
-      "image": "Shubham Irakar.png",
-      "role": "Member Suspension",
-      "icon": "flaticon-suspension"
-    },
     {
       "name": "Rahul Bera",
       "image": "rahulB.png",
       "role": "Member Power transmission",
+      "icon": "flaticon-car-battery"
+    },
+    {
+      "name": "Rahul Kamble",
+      "image": "rahulK.png",
+      "role": "Member Power Transmission",
       "icon": "flaticon-car-battery"
     },
     {
@@ -164,36 +155,27 @@
       "role": "Member Power Transmission",
       "icon": "flaticon-car-battery"
     },
+
     {
-      "name": "Prasad Nijai",
-      "image": "prasad.png",
-      "role": "Member Autonomous",
+      "name": "Rithwik Vedpathak",
+      "image": "rithwik.png",
+      "role": "Member Autonomous and Driver",
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Viresh Fegade",
-      "image": "viresh.png",
+      "name": "Sanket Suhagiya",
+      "image": "sanket.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Abhishek Bhingle",
-      "image": "Abhishek Bhingle.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+
     {
       "name": "Ajay Chodankar",
       "image": "Ajay Chodankar.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Sharvin Dedhia",
-      "image": "Sharvin Dedhia.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+
     {
       "name": "Pritish Sanjay Mair",
       "image": "pritish.png",
@@ -212,18 +194,7 @@
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Aayushi Ghag",
-      "image": "Aayushi Ghag.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Jay Wanjari",
-      "image": "Jay Wanjari.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+
     {
       "name": "Chaitanya Patil",
       "image": "Chaitanya Patil.png",
