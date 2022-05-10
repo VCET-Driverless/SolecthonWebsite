@@ -4,7 +4,7 @@ var pdfLink;
 
 const setPdfLink = async () => {
   await fetch(
-    "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/brochure.json"
+    "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data/brochure.json"
   )
     .then((res) => res.json())
     .then((json) => {

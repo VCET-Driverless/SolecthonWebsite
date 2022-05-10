@@ -1,457 +1,495 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>VCET SOLECTHON</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>VCET SOLECTHON </title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/main.css" type="text/css" />
 
-  <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css" />
+    <!-- favicon -->
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- font awesome -->
-  <link rel="stylesheet" href="fonts/font-awesome.min.css">
-  <!-- favicon -->
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg"
+    />
 
-  <link rel="icon" href="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg">
+    <link
+      rel="stylesheet"
+      href="unitegallery/css/unite-gallery.css"
+      type="text/css"
+    />
+  </head>
 
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
+    <!--numScroller 1-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+    <script>
+      $(function () {
+        var fx = function fx() {
+          var dfd = $(".stat-number")
+            .map(function (i, el) {
+              var data = parseInt(this.dataset.n, 10);
+              var props = {
+                from: {
+                  count: 0,
+                },
+                to: {
+                  count: data,
+                },
+              };
+              return $(props.from)
+                .animate(props.to, {
+                  duration: 1000 * 1,
+                  step: function (now, fx) {
+                    $(el).text(Math.ceil(now));
+                  },
+                  complete: function () {
+                    if (el.dataset.sym !== undefined) {
+                      el.textContent = el.textContent.concat(el.dataset.sym);
+                    }
+                  },
+                })
+                .promise();
+            })
+            .toArray();
+          // return jQuery promise when all animations complete
+          return $.when.apply($, dfd);
+        };
 
-  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
-
-
-</head>
-
-<body>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-  <!--numScroller 1-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-  <script>
-    $(function () {
-      var fx = function fx() {
-        var dfd = $(".stat-number").map(function (i, el) {
-          var data = parseInt(this.dataset.n, 10);
-          var props = {
-            "from": {
-              "count": 0
-            },
-            "to": {
-              "count": data
-            }
-          };
-          return $(props.from).animate(props.to, {
-            duration: 1000 * 1,
-            step: function (now, fx) {
-              $(el).text(Math.ceil(now));
-            },
-            complete: function () {
-              if (el.dataset.sym !== undefined) {
-                el.textContent = el.textContent.concat(el.dataset.sym)
-              }
-            }
-          }).promise();
-        }).toArray();
-        // return jQuery promise when all animations complete
-        return $.when.apply($, dfd);
-      };
-
-      var reset = function reset() {
-        // console.log($(this).scrollTop());
-        // do stuff when window `.scrollTop()` > 75
-        if ($(this).scrollTop() > 50) {
-          // turn off scroll event so `fx` not called
-          // during ongoing animation
-          $(this).off("scroll");
-          // when all animations complete
-          fx()
-        }
-      };
-      // if `fx` should only be called once ,
-      // change `.on()` to `.one()` ,
-      // remove `.then()` callback following `fx()`
-      // within `reset`
-      $(window).on("scroll", reset);
-    });
-  </script>
-
-
-
-
-  <!-- NAVBAR -->
-
-
-
-  <header class="header">
-    <nav class="navbar fixed-top">
-      <!-- <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" width="40" height="40"> -->
-      <h4 class="logo">VCET SOLECTHON</h4>
-      <ul class="nav-links">
-        <li class="active">
-          <a href="index.html">HOME</a>
-        </li>
-
-        <li>
-          <a href="team.html">TEAM</a>
-        </li>
-        <li>
-          <a href="cars.html">CARS</a>
-        </li>
-        <li>
-          <a href="sponsors.html">SPONSORS</a>
-        </li>
-        <li>
-          <a href="driverless.html">DRIVERLESS</a>
-        </li>
-        <li>
-          <a href="media.html">MEDIA</a>
-        </li>
-        <li>
-          <a href="about-us.html">ABOUT US</a>
-        </li>
-
-        <li>
-          <a href="support-us.html">SUPPORT US</a>
-        </li>
-        <li>
-          <a href="contact-us.html">CONTACT US</a>
-        </li>
-
-      </ul>
-
-      <div class="hamburger-menu float-right">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-    </nav>
-    <script src="js/navbar.js"></script>
-  </header>
-
-  <!-- carousel slider  -->
-  <div id="gallery" class="container-fluid" style="width:100%;display:none;">
-  </div>
-  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
-  <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
-  <script type='text/javascript' src='unitegallery/themes/slider/ug-theme-slider.js'></script>
-  <script type="text/javascript">
-	function Get(yourUrl){
-		var Httpreq = new XMLHttpRequest();
-		Httpreq.open("GET",yourUrl,false);
-		Httpreq.send(null);
-		// download(Httpreq.responseText, 'json.txt', 'text/plain');
-		return Httpreq.responseText;          
-	}
-    jQuery(document).ready(function () {
-		var url = "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/carousel.json";
-		var json_obj = JSON.parse(Get(url));
-		var gallery = document.getElementById("gallery");
-		for(var i = 0; i < json_obj.images.length; i++) {
-			var imgTag = document.createElement('img');
-			imgTag.src = json_obj.images[i];
-			imgTag.loading="lazy";
-			gallery.appendChild(imgTag);
-		}
-	  // var api = jQuery("#gallery").unitegallery().resetZoom();
-      // jQuery("#gallery").unitegallery();
-      jQuery("#gallery").unitegallery({
-        gallery_theme: "slider",
-        // slider_scale_mode: "fill",
-        // reset_zoom : 1;
-        // gallery options
-        gallery_width: 1920,							//gallery width		
-        gallery_height: 1000,							//gallery height
-
-        gallery_min_width: 320,						//gallery minimal width when resizing
-        gallery_min_height: 300,					//gallery minimal height when resizing
-        slider_control_zoom: false
-
+        var reset = function reset() {
+          // console.log($(this).scrollTop());
+          // do stuff when window `.scrollTop()` > 75
+          if ($(this).scrollTop() > 50) {
+            // turn off scroll event so `fx` not called
+            // during ongoing animation
+            $(this).off("scroll");
+            // when all animations complete
+            fx();
+          }
+        };
+        // if `fx` should only be called once ,
+        // change `.on()` to `.one()` ,
+        // remove `.then()` callback following `fx()`
+        // within `reset`
+        $(window).on("scroll", reset);
       });
-    });
+    </script>
 
-  </script>
+    <!-- NAVBAR -->
 
-  <br>
-  <br>
-  <!--some lines about team-->
-  <section class="container" id=about-team>
-    <div class="row">
+    <header class="header">
+      <nav class="navbar fixed-top">
+        <!-- <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" width="40" height="40"> -->
+        <h4 class="logo">VCET SOLECTHON</h4>
+        <ul class="nav-links">
+          <li class="active">
+            <a href="index.html">HOME</a>
+          </li>
 
+          <li>
+            <a href="./pages/team.html">TEAM</a>
+          </li>
+          <li>
+            <a href="./pages/cars.html">CARS</a>
+          </li>
+          <li>
+            <a href="./pages/sponsors.html">SPONSORS</a>
+          </li>
+          <li>
+            <a href="./pages/driverless.html">DRIVERLESS</a>
+          </li>
+          <li>
+            <a href="./pages/media.html">MEDIA</a>
+          </li>
+          <li>
+            <a href="./pages/about-us.html">ABOUT US</a>
+          </li>
 
-      <div class="col-md-6">
+          <li>
+            <a href="./pages/support-us.html">SUPPORT US</a>
+          </li>
+          <li>
+            <a href="./pages/contact-us.html">CONTACT US</a>
+          </li>
+        </ul>
 
-        <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" alt="logo">
-
-      </div>
-
-      <div class="col-md-6">
-        <p>
-          <br>
-          <br>
-          VCET SOLECTHON, official solar electric car team of Vidyavardhini's College Of Engineering & Technology,
-          is an entirely student-run, non-profit organization fueled by its member's passion for
-          environmentally sustainable technology.All team memebers get unique opportunity to
-          gain valuable hands-on engineering and business experience while raising community awareness of clean energy
-          vehicles.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- team heads cards -->
-  <section id=teamheads>
-    <div class="container">
-      <div class="card-deck">
-        <div class="card heads border-0 text-center">
-          <img class="card-img-top" class="rounded-circle"
-            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rithwik.png" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Rithwik Vedpathak</h5>
-            <p class="card-text">Captain and Finanace Head</p>
-          </div>
+        <div class="hamburger-menu float-right">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
         </div>
-        <div class="card heads border-0 text-center">
-          <img class="card-img-top" class="rounded-circle"
-            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/sanket.png" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Sanket Suhagiya</h5>
-            <p class="card-text">Vice Captain</p>
+      </nav>
+      <script src="js/navbar.js"></script>
+    </header>
 
-          </div>
-        </div>
-        <div class="card heads border-0 text-center">
-          <img class="card-img-top" class="rounded-circle"
-            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/jemit.png" alt="">
-          <div class="card-body">
-            <h5 class="card-title">Jemit Shah(Talati)</h5>
-            <p class="card-text">Sponsorship Head</p>
+    <!-- carousel slider  -->
+    <div
+      id="gallery"
+      class="container-fluid"
+      style="width: 100%; display: none"
+    ></div>
+    <script
+      type="text/javascript"
+      src="unitegallery/js/jquery-11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="unitegallery/js/unitegallery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="unitegallery/themes/slider/ug-theme-slider.js"
+    ></script>
+    <script type="text/javascript">
+      function Get(yourUrl) {
+        var Httpreq = new XMLHttpRequest();
+        Httpreq.open("GET", yourUrl, false);
+        Httpreq.send(null);
+        // download(Httpreq.responseText, 'json.txt', 'text/plain');
+        return Httpreq.responseText;
+      }
+      jQuery(document).ready(function () {
+        var url =
+          "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data/carousel.json";
+        var json_obj = JSON.parse(Get(url));
+        var gallery = document.getElementById("gallery");
+        for (var i = 0; i < json_obj.images.length; i++) {
+          var imgTag = document.createElement("img");
+          imgTag.src = json_obj.images[i];
+          imgTag.loading = "lazy";
+          gallery.appendChild(imgTag);
+        }
+        // var api = jQuery("#gallery").unitegallery().resetZoom();
+        // jQuery("#gallery").unitegallery();
+        jQuery("#gallery").unitegallery({
+          gallery_theme: "slider",
+          // slider_scale_mode: "fill",
+          // reset_zoom : 1;
+          // gallery options
+          gallery_width: 1920, //gallery width
+          gallery_height: 1000, //gallery height
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <br>
+          gallery_min_width: 320, //gallery minimal width when resizing
+          gallery_min_height: 300, //gallery minimal height when resizing
+          slider_control_zoom: false,
+        });
+      });
+    </script>
 
-
-  <!--A step towards sustainability-->
-
-
-  <!-- PARALLOX-->
-  <section>
-    <div class="container-fluid parallax">
-      <h2>A STEP TOWARDS SUSTAINABILITY</h2>
-    </div>
-  </section>
-
-
-  <br>
-  <br>
-  <!-- cards -->
-  <section class="container" id="cards">
-    <div class="card-deck card text-center border-0">
-      <div class="card text-white bg-info card border-warning mb-3">
-        <img class="card-img-top img-fluid"
-          src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/team.png" alt="">
-        <div class="card-body">
-          <h5 class="card-title"> OUR TEAM</h5>
-          <p class="card-text">Our team is composed of amazing group of engineers,innovators and problem solvers</p>
-        </div>
-        <a href="team.html" class="btn btn-danger ">Meet Our Team</a>
-      </div>
-      <div class="card card text-white bg-info card border-warning  mb-3">
-        <img class="card-img-top img-fluid"
-          src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/cars.png" alt="">
-        <div class="card-body">
-          <h5 class="card-title">OUR CARS</h5>
-          <p class="card-text">Our team produced number of unique and impressive vehicles</p>
-        </div>
-        <a href="cars.html" class="btn btn-danger ">Take a Closer Look!</a>
-      </div>
-      <div class="card card text-white bg-info card border-warning  mb-3">
-        <img class="card-img-top img-fluid"
-          src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/sponsors3.png" alt=""
-          style="
-        width: max-content;
-        margin: auto;
-        width: 64%;
-    ">
-        <div class="card-body">
-          <h5 class="card-title">OUR SPONSORS</h5>
-          <p class="card-text">Our sponsors make everything we do possible</p>
-        </div>
-        <a href="sponsors.html" class="btn btn-danger ">Meet Our Sponsors</a>
-      </div>
-    </div>
-
-  </section>
-
-  <br>
-  <br>
-
-
-  <!-- Num Scroller -->
-  <div class="container-fluid">
-    <div class=" personality">
-      <div class="personality-overlay">
-        <div class="statsbar">
-          <div class="stat-one">
-
-
-            <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/infinity.svg"
-
-              id="infinitySym">
-            <br id="infinitySymbol">
-            <hr class="style-three">
-            <div class="stat-title">PASSION</div>
-          </div>
-          <div class="stat-two">
-            <div class="stat-number" data-n="98">0</div>
-            <br>
-            <br>
-            <br>
-            <hr class="style-three">
-            <div class="stat-title">STUDENTS</div>
-          </div>
-          <div class="stat-three">
-            <div class="stat-number" data-n="5">0</div>
-            <br>
-            <br>
-            <br>
-            <hr class="style-three">
-            <div class="stat-title">CARS</div>
-          </div>
-          <div class="stat-four">
-            <div class="stat-number" data-n="31">0</div>
-            <br>
-            <br>
-            <br>
-            <hr class="style-three">
-            <div class="stat-title">SPONSORS</div>
-          </div>
+    <br />
+    <br />
+    <!--some lines about team-->
+    <section class="container" id="about-team">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg"
+            alt="logo"
+          />
         </div>
 
+        <div class="col-md-6">
+          <p>
+            <br />
+            <br />
+            VCET SOLECTHON, official solar electric car team of Vidyavardhini's
+            College Of Engineering & Technology, is an entirely student-run,
+            non-profit organization fueled by its member's passion for
+            environmentally sustainable technology.All team memebers get unique
+            opportunity to gain valuable hands-on engineering and business
+            experience while raising community awareness of clean energy
+            vehicles.
+          </p>
+        </div>
       </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+    </section>
 
-  <!-- FOOTER -->
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-
-  <footer class="mainfooter container-fluid" role="contentinfo">
-    <div class="footer-middle">
+    <!-- team heads cards -->
+    <section id="teamheads">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3 ">
+        <div class="card-deck">
+          <div class="card heads border-0 text-center">
+            <img
+              class="card-img-top"
+              class="rounded-circle"
+              src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/rithwik.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Rithwik Vedpathak</h5>
+              <p class="card-text">Captain and Finanace Head</p>
+            </div>
+          </div>
+          <div class="card heads border-0 text-center">
+            <img
+              class="card-img-top"
+              class="rounded-circle"
+              src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/sanket.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sanket Suhagiya</h5>
+              <p class="card-text">Vice Captain</p>
+            </div>
+          </div>
+          <div class="card heads border-0 text-center">
+            <img
+              class="card-img-top"
+              class="rounded-circle"
+              src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/jemit.png"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jemit Shah(Talati)</h5>
+              <p class="card-text">Sponsorship Head</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
 
-            <div class="footer-pad">
-              <ul class="list-unstyled">
-                <li><a href="#"></a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="sponsors.html">SPONSORS</a></li>
-                <li><a href="cars.html">CARS</a></li>
-                <li><a href="media.html">MEDIA</a></li>
+    <!--A step towards sustainability-->
 
+    <!-- PARALLOX-->
+    <section>
+      <div class="container-fluid parallax">
+        <h2>A STEP TOWARDS SUSTAINABILITY</h2>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <!-- cards -->
+    <section class="container" id="cards">
+      <div class="card-deck card text-center border-0">
+        <div class="card text-white bg-info card border-warning mb-3">
+          <img
+            class="card-img-top img-fluid"
+            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/team.png"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">OUR TEAM</h5>
+            <p class="card-text">
+              Our team is composed of amazing group of engineers,innovators and
+              problem solvers
+            </p>
+          </div>
+          <a href="team.html" class="btn btn-danger">Meet Our Team</a>
+        </div>
+        <div class="card card text-white bg-info card border-warning mb-3">
+          <img
+            class="card-img-top img-fluid"
+            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/cars.png"
+            alt=""
+          />
+          <div class="card-body">
+            <h5 class="card-title">OUR CARS</h5>
+            <p class="card-text">
+              Our team produced number of unique and impressive vehicles
+            </p>
+          </div>
+          <a href="cars.html" class="btn btn-danger">Take a Closer Look!</a>
+        </div>
+        <div class="card card text-white bg-info card border-warning mb-3">
+          <img
+            class="card-img-top img-fluid"
+            src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/sponsors3.png"
+            alt=""
+            style="width: max-content; margin: auto; width: 64%"
+          />
+          <div class="card-body">
+            <h5 class="card-title">OUR SPONSORS</h5>
+            <p class="card-text">Our sponsors make everything we do possible</p>
+          </div>
+          <a href="sponsors.html" class="btn btn-danger">Meet Our Sponsors</a>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+
+    <!-- Num Scroller -->
+    <div class="container-fluid">
+      <div class="personality">
+        <div class="personality-overlay">
+          <div class="statsbar">
+            <div class="stat-one">
+              <img
+                src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/infinity.svg"
+                id="infinitySym"
+              />
+              <br id="infinitySymbol" />
+              <hr class="style-three" />
+              <div class="stat-title">PASSION</div>
+            </div>
+            <div class="stat-two">
+              <div class="stat-number" data-n="98">0</div>
+              <br />
+              <br />
+              <br />
+              <hr class="style-three" />
+              <div class="stat-title">STUDENTS</div>
+            </div>
+            <div class="stat-three">
+              <div class="stat-number" data-n="5">0</div>
+              <br />
+              <br />
+              <br />
+              <hr class="style-three" />
+              <div class="stat-title">CARS</div>
+            </div>
+            <div class="stat-four">
+              <div class="stat-number" data-n="31">0</div>
+              <br />
+              <br />
+              <br />
+              <hr class="style-three" />
+              <div class="stat-title">SPONSORS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- FOOTER -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <footer class="mainfooter container-fluid" role="contentinfo">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer-pad">
+                <ul class="list-unstyled">
+                  <li><a href="team.html">TEAM</a></li>
+                  <li><a href="sponsors.html">SPONSORS</a></li>
+                  <li><a href="cars.html">CARS</a></li>
+                  <li><a href="media.html">MEDIA</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 pt-1">
+              <div class="footer-pad">
+                <a href="http://www.angelmahindra.com/" target="_blank"
+                  ><img
+                    class="titleSponsor"
+                    src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/title-sponsor.png"
+                    width="200"
+                    height="100"
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-3 pt-2">
+              <div class="footer-pad">
+                <a href="https://vcet.edu.in/" target="_blank"
+                  ><img
+                    src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/clg-logo.png"
+                    width="100"
+                    height="100"
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h4>Follow Us</h4>
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.facebook.com/solecthon.vcet/"
+                    target="_blank"
+                    class="icon-button facebook"
+                    ><i class="fab fa-facebook-f"></i><span></span
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.youtube.com/channel/UCrFFK_yseTegwXFXc2AHaaw/featured"
+                    target="_blank"
+                    class="icon-button youtube"
+                    ><i class="fab fa-youtube"></i><span></span
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.instagram.com/solecthon.vcet/?hl=en"
+                    target="_blank"
+                    class="icon-button instagram"
+                    ><i class="fab fa-instagram"></i><span></span
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.linkedin.com/company/vcet-solecthon/"
+                    target="_blank"
+                    class="icon-button linkedin"
+                    ><i class="fab fa-linkedin"></i><span></span
+                  ></a>
+                </li>
               </ul>
             </div>
+            <button id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
+            <script src="js/scrollToTop.js"></script>
+            <button id="darkModeBtn">🌑</button>
+            <script src="js/darkMode.js"></script>
           </div>
-
-          <div class="col-md-3 pt-1">
-
-            <div class="footer-pad">
-              <a href="http://www.angelmahindra.com/" target="_blank"><img class="titleSponsor"
-                  src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/title-sponsor.png"
-                  width="200" height="100"></a>
-
+          <div class="row">
+            <div class="col-md-12 copy">
+              <p class="text-center">
+                &copy; Copyright 2020 - VCET SOLECTHON. All rights reserved.
+              </p>
             </div>
           </div>
-          <div class="col-md-3 pt-2">
-
-            <div class="footer-pad">
-              <a href="https://vcet.edu.in/" target="_blank"><img
-                  src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/clg-logo.png"
-                  width="100" height="100"></a>
-
-
-            </div>
-          </div>
-          <div class="col-md-3">
-            <h4>Follow Us</h4>
-            <ul class="list-unstyled list-inline text-center">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/solecthon.vcet/" target="_blank" class="icon-button facebook"><i
-                    class="fab fa-facebook-f"></i><span></span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.youtube.com/channel/UCrFFK_yseTegwXFXc2AHaaw/featured" target="_blank"
-                  class="icon-button youtube"><i class="fab fa-youtube"></i><span></span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/solecthon.vcet/?hl=en" target="_blank"
-                  class="icon-button instagram"><i class="fab fa-instagram"></i><span></span></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/company/vcet-solecthon/" target="_blank"
-                  class="icon-button linkedin"><i class="fab fa-linkedin"></i><span></span></a>
-              </li>
-
-            </ul>
-          </div>
-          <button id= "scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
-          <script src="js/scrollToTop.js"></script>
-		  <button id="darkModeBtn">🌑</button>
-		  <script src="js/darkMode.js"></script>
-
         </div>
-        <div class="row">
-          <div class="col-md-12 copy">
-            <p class="text-center">&copy; Copyright 2020 - VCET SOLECTHON. All rights reserved.</p>
-          </div>
-        </div>
-
-
       </div>
-    </div>
-  </footer>
+    </footer>
 
-
-  <!-- <script src="js/darkMode.js"></script> -->
-</body>
-
+    <!-- <script src="js/darkMode.js"></script> -->
+  </body>
 </html>
