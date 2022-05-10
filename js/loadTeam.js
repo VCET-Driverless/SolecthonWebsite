@@ -2,7 +2,7 @@ var json_obj;
 
 const fillData = async () => {
   await fetch(
-    "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/team.json"
+    "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data/team.json"
   )
     .then((res) => res.json())
     .then((json) => {
