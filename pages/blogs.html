@@ -8,11 +8,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <link rel="stylesheet" href="../css/main.css" type="text/css" />
-    <link rel="stylesheet" href="../css/team.css" type="text/css" />
-    <link rel="stylesheet" href="../font/flaticon.css" type="text/css" />
-
+    <link rel="stylesheet" href="../css/blogs.css" type="text/css" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -54,18 +51,18 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- NAVBAR -->
+    <!-- NAVBAR start-->
 
     <header class="header">
       <nav class="navbar fixed-top">
-        <!-- <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" width="40" height="40"> -->
+        <!-- <img src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/teamLogo.svg" width="30" height="30"> -->
         <h4 class="logo">VCET SOLECTHON</h4>
         <ul class="nav-links">
           <li>
             <a href="../index.html">HOME</a>
           </li>
 
-          <li class="active">
+          <li>
             <a href="team.html">TEAM</a>
           </li>
           <li>
@@ -90,15 +87,9 @@
           <li>
             <a href="contact-us.html">CONTACT US</a>
           </li>
-          <li>
+          <li class="active" class="active" class="active">
             <a href="blogs.html">BLOGS</a>
           </li>
-          <!-- <li>
-					<label class="switch">
-					  <input type="checkbox" id="darkModeToggleButton" name="darkModeToggleButton" >
-					  <span class="slider round"></span>
-					</label>
-				  </li> -->
         </ul>
         <div class="hamburger-menu float-right">
           <div class="bar1"></div>
@@ -108,43 +99,76 @@
       </nav>
       <script src="../js/navbar.js"></script>
     </header>
-    <div class="containerTop">
+    <!--NAVBAR end  -->
+
+    <!-- <div class="containerTop">
       <img
-        src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/cards/team.png"
+        src="https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/driverless-top.png"
         style="width: 100%"
       />
+      <div class="centered"></div>
+    </div> -->
+    <h1 class="text-center">READ OUR BLOGS</h1>
+    <div class="blogs-container">
+      <div id="blogs-grid">
+        <div class="blog-card">
+          <img
+            src="../images/blogs/blog11.jpeg"
+            alt="blog sceenshot"
+            class="blog-image img-responsive"
+          />
+          <h2 class="blog-title">SOLAR ELECTRIC CAR TEAM : THE BEGINNING</h2>
+          <p class="blog-description">
+            Who are we? What do we do? How it all started? What was the need?
+            What we aim for?
+          </p>
+          <p class="blog-description">
+            We are a group of passionate engineering students from
+            Vidyavardhini's College of Engineering & Technology. Here at VCET
+            SOLECTHON we design and manufacture Solar Powered Electric vehicles,
+            contributing to a sustainable and pollution free environment. ...
+          </p>
+
+          <a
+            class="btn-read-more blog-link"
+            href="https://solecthon.blogspot.com/2022/01/solar-electric-car-team-beginning.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Read Blog</a
+          >
+        </div>
+
+        <div class="blog-card">
+          <img
+            src="../images/blogs/blog2.jpg"
+            alt="blog sceenshot"
+            class="blog-image"
+          />
+          <h2 class="blog-title mt-3">BUILDING THE IMAGINED : 3 PHASES</h2>
+          <p class="blog-description">
+            Designing phase : Ever wondered how a bike that's supposed to carry
+            2 people still works perfectly fine when 3 people sit on it?
+          </p>
+          <p class="blog-description">
+            The designing of the vehicles hides the answer to it. Before
+            building a real life model, building virtual models is a must. These
+            virtual models help us understand and simulate real life scenarios.
+            Whether a component would sustain certain pressure, force and load,
+            or will it fail?
+          </p>
+
+          <a
+            class="btn-read-more blog-link"
+            href="https://solecthon.blogspot.com/2022/02/building-imagined-3-phases.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Read Blog</a
+          >
+        </div>
+      </div>
     </div>
-    <br />
-
-    <div id="teams"></div>
-    <!-- <div class="containerTop header1">
-		<div class="centered"> 
-
-			<h1>Current Team Members</h1>
-		</div>
-	</div>
-	<section class="section-team">
-		<div class="container">
-
-		</div>
-	</section> -->
-
-    <!--########################################################### Old Memebrs ######################################################### -->
-    <!-- 
-	<div class="containerTop header1">
-
-		<div class="centered">
-			<h1>Old Team Members</h1>
-		</div>
-	</div>
-
-	<div class="oldMember">
-		<section class="section-team">
-			<div class="container">
-				
-			</div>
-		</section>
-	</div> -->
 
     <!-- FOOTER -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -225,6 +249,7 @@
             <button id="scrollToTopBtn"><i class="fas fa-arrow-up"></i></button>
             <script src="../js/scrollToTop.js"></script>
             <button id="darkModeBtn">🌑</button>
+            <script src="../js/darkMode.js"></script>
           </div>
           <div class="row">
             <div class="col-md-12 copy">
@@ -236,8 +261,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="../js/loadTeam.js"></script>
-    <script src="../js/darkMode.js"></script>
   </body>
 </html>
