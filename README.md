@@ -1,3 +1,3 @@
 # SolecthonWebsite
 
-This is website of a Solar Electric Car Team.
+This is the website of Team VCET Solecthon. A Solar Electric Car team.
