@@ -6,8 +6,7 @@ function Get(yourUrl){
     return Httpreq.responseText;          
 }
 
-
-var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/sanket2000/SolecthonWebsite/main/team.json"));
+var json_obj = JSON.parse(Get("https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/data/team.json"));
 //console.log("this is the author name: "+json_obj.currentMembers);
 
 function download(content, fileName, contentType) {
