@@ -1,3 +1,4 @@
 # SolecthonWebsite
 
-This is the website of Team VCET Solecthon. A Solar Electric Car team.
+This is the official website of Team VCET Solecthon. 
+VCET Solecthon is a Solar Electric Car team.

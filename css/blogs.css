@@ -3,6 +3,11 @@
   margin: 1rem;
   font-size: 1.5rem;
 }
+
+.blog-header{
+  margin: 2.5rem;
+}
+
 .blog-card {
   box-shadow: 0 1px 25px rgba(146, 161, 176, 0.5);
   margin: 1rem;
