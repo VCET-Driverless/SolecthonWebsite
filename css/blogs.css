@@ -38,6 +38,10 @@
   color: #fff;
 }
 
+.author-description{
+  text-align: center;
+}
+
 @media (min-width: 1080px) {
   .blogs-container {
     margin: 0 10rem;
