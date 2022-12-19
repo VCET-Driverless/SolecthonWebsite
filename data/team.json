@@ -8,6 +8,147 @@
     },
     {
       "name": "Manisha Kushwaha",
+      "image": "manisha-kushwaha.png",
+      "role": "Captain, Member Brakes, PR",
+      "icon": "flaticon-team-leader"
+    },
+    {
+      "name": "Prashant Dubey",
+      "image": "prashant-dubey.png",
+      "role": "Vice Captain, Driver, Member Power Transmission Head",
+      "icon": "flaticon-team-leader"
+    },
+    {
+      "name": "Jemit Shah",
+      "image": "jemit-shah.png",
+      "role": "Finance Head, Member Suspension",
+      "icon": "flaticon-solution"
+    },
+    {
+      "name": "Tejas Wani",
+      "image": "tejas-wani.png",
+      "role": "Head Sponsorship, Member Autonomous & Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Ronak Patel",
+      "image": "ronak-patel.png",
+      "role": "Head Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Tisha Paul",
+      "image": "Tisha Paul.png",
+      "role": "Head Aerodynamics",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Isha Pise",
+      "image": "isha-pise.png",
+      "role": "Head Brakes",
+      "icon": "flaticon-brake"
+    },
+    {
+      "name": "Shivam Bhadane",
+      "image": "shivam-bhadane.png",
+      "role": "Head Suspension",
+      "icon": "flaticon-suspension"
+    },
+    {
+      "name": "Umesh Mourya",
+      "image": "umesh-mourya.png",
+      "role": "Head Steering",
+      "icon": "flaticon-steering-wheel"
+    },
+    {
+      "name": "Hirenkumar vyas",
+      "image": "hirenkumar-vyas.png",
+      "role": "Head Autonomous, Member Sponsorship & Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Shrushti Rane",
+      "image": "shrushti-rane.png",
+      "role": "Head Business Plan, Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Preet Mhatre",
+      "image": "preet-mhatre.png",
+      "role": "Head PR",
+      "icon": "flaticon-edit"
+    },
+    {
+      "name": "Viraj Gupta",
+      "image": "viraj-gupta.png",
+      "role": "Member Chassis and Aerodynamics",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Manohar Devadiga",
+      "image": "manohar-devadiga.png",
+      "role": "Member Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Nikunj Kalsariya",
+      "image": "nikunj-kalsariya.png",
+      "role": "Member Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Yash Sarfare",
+      "image": "yash-sarfare.png",
+      "role": "Member Steering",
+      "icon": "flaticon-steering-wheel"
+    },
+    {
+      "name": "Harikrishna Nariyanpilly",
+      "image": "harikrishna-nariyanpilly.png",
+      "role": "Member Brakes",
+      "icon": "flaticon-brake"
+    },
+    {
+      "name": "Suraj Patel",
+      "image": "suraj-patel.png",
+      "role": "Member Brakes",
+      "icon": "flaticon-brake"
+    },
+    {
+      "name": "Sharvin Dedhia",
+      "image": "sharvin-dedhia.png",
+      "role": "Member Autonomous, Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Pratham Ingawale",
+      "image": "pratham-ingawale.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Pritish Sanjay Mair",
+      "image": "pritish-mair.png",
+      "role": "Member Bplan, Autonomous, PR",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Sanskruti Talgaonkar",
+      "image": "sanskruti-talgaonkar.png",
+      "role": "Member Sponsorship, Bplan",
+      "icon": "flaticon-solution"
+    }
+    
+  ],
+  "Members of 3.1 & 5.0": [
+    {
+      "name": "Dipak Choudhari",
+      "image": "Dipak Choudhari.png",
+      "role": "Faculty Advisor",
+      "icon": "flaticon-advisor"
+    },
+    {
+      "name": "Manisha Kushwaha",
       "image": "manisha.png",
       "role": "Captain, Member Brakes, PR",
       "icon": "flaticon-team-leader"
@@ -171,16 +312,15 @@
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Atul Mishra",
-      "image": "atul.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-
-    {
       "name": "Chaitanya Patil",
       "image": "Chaitanya Patil.png",
       "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Hirenkumar vyas",
+      "image": "Hirenkumar Vyas.png",
+      "role": "Member Autonomous, Sponsorship, Bplan",
       "icon": "flaticon-autonomous-car"
     },
     {
@@ -193,13 +333,6 @@
       "name": "Pratham Ingawale",
       "image": "Pratham Ingawale.png",
       "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-
-    {
-      "name": "Hirenkumar vyas",
-      "image": "Hirenkumar Vyas.png",
-      "role": "Member Autonomous, Sponsorship, Bplan",
       "icon": "flaticon-autonomous-car"
     },
     {
