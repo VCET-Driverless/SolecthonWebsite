@@ -68,7 +68,7 @@ const fillData = async () => {
       let imgTag = document.createElement("img");
       imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/"+ json_obj[x][i].image;
       // imgTag.src = "images/members/"+ json_obj[x][i].image;
-      if(imgTag.src.exists()){
+      if(imgTag.exists()){
         console.log("image exists");
       }else{
         imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/anonymous.png";
