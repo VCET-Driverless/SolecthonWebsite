@@ -66,9 +66,14 @@ const fillData = async () => {
       personDiv.appendChild(imageDiv);
 
       let imgTag = document.createElement("img");
-      imgTag.src = "https://raw.githubusercontent.com/viru2001/SolecthonWebsite/master/images/members/"+ json_obj[x][i].image;
+      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/"+ json_obj[x][i].image;
       // imgTag.src = "images/members/"+ json_obj[x][i].image;
+      if(imgTag.src.exists()){
+        console.log("image exists");
+      }else{
+        imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/anonymous.png";
       
+      }
       imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
 

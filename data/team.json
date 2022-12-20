@@ -97,6 +97,18 @@
       "icon": "flaticon-chassis"
     },
     {
+      "name": "Aditya Shah",
+      "image": "aditya-shah.png",
+      "role": "Member Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Deep Patel",
+      "image": "deep-patel.png",
+      "role": "Member Steering",
+      "icon": "flaticon-steering-wheel"
+    },
+    {
       "name": "Yash Sarfare",
       "image": "yash-sarfare.png",
       "role": "Member Steering",
@@ -115,6 +127,12 @@
       "icon": "flaticon-brake"
     },
     {
+      "name": "Maitreya Hole",
+      "image": "maitreya-hole.png",
+      "role": "Member Brakes",
+      "icon": "flaticon-brake"
+    },
+    {
       "name": "Sharvin Dedhia",
       "image": "sharvin-dedhia.png",
       "role": "Member Autonomous, Bplan",
@@ -127,15 +145,69 @@
       "icon": "flaticon-autonomous-car"
     },
     {
+      "name": "Harsh Devmurari",
+      "image": "harsh-devmurari.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Yash Solanki",
+      "image": "yash-solanki.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Mittrav Shahi",
+      "image": "mittrav-shah.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Shubham Jangid",
+      "image": "shubham-jangid.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Nishant-bhandigarh",
+      "image": "nishant-bhandigarh.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
       "name": "Pritish Sanjay Mair",
       "image": "pritish-mair.png",
       "role": "Member Bplan, Autonomous, PR",
       "icon": "flaticon-autonomous-car"
     },
     {
+      "name": "Aditya Lawate",
+      "image": "aditya-lawate.png",
+      "role": "Member Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Anant",
+      "image": "anant.png",
+      "role": "Member Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Vrusharth Nirmal",
+      "image": "vrusharth-nirmal.png",
+      "role": "Member Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
       "name": "Sanskruti Talgaonkar",
       "image": "sanskruti-talgaonkar.png",
       "role": "Member Sponsorship, Bplan",
+      "icon": "flaticon-solution"
+    },
+    {
+      "name": "Vaishnavi Gaikwad",
+      "image": "vaishnavi-gaikwad.png",
+      "role": "Member PR",
       "icon": "flaticon-solution"
     }
     
