@@ -3,7 +3,7 @@ var json_obj;
 
 const fillData = async () => {
   await fetch(
-    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/data/team.json"
+    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   )
     .then((res) => res.json())
     .then((json) => {
@@ -68,7 +68,7 @@ const fillData = async () => {
 
       let imgTag = document.createElement("img");
       // imgTag.src = "../images/members/"+ json_obj[x][i].image;
-      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/"+ json_obj[x][i].image;
+      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/members/"+ json_obj[x][i].image;
      
       imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
