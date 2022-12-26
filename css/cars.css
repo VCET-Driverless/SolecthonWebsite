@@ -127,6 +127,10 @@ header p {
   margin-left: 20px;
 }
 
+#timeline-img-header31 {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.1-main.png") center center no-repeat;
+  background-size: cover;
+}
 #timeline-img-header30 {
 			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.0-main.png") center center no-repeat;
 			background-size: cover;
@@ -161,7 +165,7 @@ header p {
 }
 
 .list-group{
-  font-size: 35px;
+  font-size: 25px;
 }
 blockquote {
   margin-top: 30px;
