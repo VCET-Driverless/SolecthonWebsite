@@ -15,7 +15,7 @@
     {
       "name": "Prashant Dubey",
       "image": "prashant-dubey.png",
-      "role": "Vice Captain, Driver, Member Power Transmission Head",
+      "role": "Vice Captain, Driver, Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "Tisha Paul",
       "image": "tisha-paul.png",
-      "role": "Head Aerodynamics",
+      "role": "Head Aerodynamics, Member PR",
       "icon": "flaticon-chassis"
     },
     {
@@ -104,8 +104,14 @@
     },
     {
       "name": "Deep Patel",
-      "image": "deep-patel.png",
-      "role": "Member Steering",
+      "image": "default.png",
+      "role": "Member Suspension",
+      "icon": "flaticon-steering-wheel"
+    },
+    {
+      "name": "Satyasheel",
+      "image": "satyasheel.png",
+      "role": "Member Suspension",
       "icon": "flaticon-steering-wheel"
     },
     {
@@ -134,25 +140,25 @@
     },
     {
       "name": "Smeet Shah",
-      "image": "smeet-shah.png",
+      "image": "default.png",
       "role": "Member Brakes",
       "icon": "flaticon-brake"
     },
     {
       "name": "Aditya Patil",
-      "image": "aditya.png",
+      "image": "aditya-patil.png",
       "role": "Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
     {
       "name": "Sachin",
-      "image": "sachin.png",
+      "image": "default.png",
       "role": "Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
     {
       "name": "Rohit",
-      "image": "rohit.png",
+      "image": "default.png",
       "role": "Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
@@ -169,6 +175,12 @@
       "icon": "flaticon-autonomous-car"
     },
     {
+      "name": "Aman Sheikh",
+      "image": "aman-sheikh.png",
+      "role": "Member Autonomous",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
       "name": "Harsh Devmurari",
       "image": "harsh-devmurari.png",
       "role": "Member Autonomous",
@@ -181,14 +193,14 @@
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Mittrav Shahi",
-      "image": "mittrav-shah.png",
+      "name": "Mittrav Shah",
+      "image": "default.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
     {
       "name": "Shubham Jangid",
-      "image": "shubham-jangid.png",
+      "image": "default.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
@@ -212,13 +224,13 @@
     },
     {
       "name": "Anant",
-      "image": "anant.png",
+      "image": "default.png",
       "role": "Member Bplan",
       "icon": "flaticon-autonomous-car"
     },
     {
       "name": "Vrusharth Nirmal",
-      "image": "vrusharth-nirmal.png",
+      "image": "default.png",
       "role": "Member Bplan",
       "icon": "flaticon-autonomous-car"
     },
@@ -555,7 +567,7 @@
     },
     {
       "name": "Yash Sarfare",
-      "image": "sarfare.png",
+      "image": "yash-sarfare.png",
       "role": "Member Steering",
       "icon": "flaticon-steering-wheel"
     },
@@ -567,7 +579,7 @@
     },
     {
       "name": "Manisha Kushawaha",
-      "image": "manisha.png",
+      "image": "manisha-kushwaha.png",
       "role": "Member Brakes",
       "icon": "flaticon-brake"
     },
@@ -579,13 +591,13 @@
     },
     {
       "name": "Jemit Shah(Talati)",
-      "image": "jemit.png",
+      "image": "jemit-shah.png",
       "role": "Member Suspension",
       "icon": "flaticon-suspension"
     },
     {
       "name": "Shivam Bhadane",
-      "image": "shivam.png",
+      "image": "shivam-bhadane.png",
       "role": "Member Suspension",
       "icon": "flaticon-suspension"
     },
@@ -597,7 +609,7 @@
     },
     {
       "name": "Aditya Patil",
-      "image": "aditya.png",
+      "image": "aditya-patil.png",
       "role": "Member Power Transmission",
       "icon": "flaticon-car-battery"
     },
@@ -645,7 +657,7 @@
     },
     {
       "name": "Pritish Mair",
-      "image": "pritish.png",
+      "image": "pritish-mair.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
@@ -693,7 +705,7 @@
     },
     {
       "name": "Sanskruti Talagaonkar",
-      "image": "sanskruti.png",
+      "image": "sanskruti-talgaonkar.png",
       "role": "Non Technical",
       "icon": "flaticon-edit"
     }

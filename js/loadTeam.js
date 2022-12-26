@@ -3,7 +3,7 @@ var json_obj;
 
 const fillData = async () => {
   await fetch(
-    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/data/team.json"
+    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   )
     .then((res) => res.json())
     .then((json) => {
@@ -68,23 +68,7 @@ const fillData = async () => {
 
       let imgTag = document.createElement("img");
       // imgTag.src = "../images/members/"+ json_obj[x][i].image;
-      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/"+ json_obj[x][i].image;
-
-      // Check if image exists or not
-      if(x == "Current Team Members"){
-        var request;
-    
-        if(window.XMLHttpRequest)
-            request = new XMLHttpRequest();
-        else
-            request = new ActiveXObject("Microsoft.XMLHTTP");
-        request.open('GET', imgTag.src, false);
-        request.send(); // there will be a 'pause' here until the response to come.
-        // the object request will be actually modified
-        if (request.status === 404) {
-          imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/team-updates/images/members/anonymous.png";
-        }
-      }
+      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/members/"+ json_obj[x][i].image;
      
       imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
