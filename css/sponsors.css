@@ -18,10 +18,6 @@
     }
 
     .centered1 {
-        /* position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,3 +78,23 @@
   }
   
 
+gold{    
+    animation: effect 2s linear infinite;
+}
+@keyframes effect {
+    0%{
+        color: rgb(252, 219, 31);
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: rgb(226, 224, 107);
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: gold;
+    }
+}
