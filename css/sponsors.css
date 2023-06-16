@@ -100,51 +100,52 @@ gold {
     background-position: left;
 
 }
+
 .title-sponsor {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #f00;
     /* font-size: 24px; */
-    animation: title-animation 2s infinite alternate; /* Add animation properties */
-  }
-
-  @keyframes title-animation {
-    0% {
-      transform: scale(1); /* Initial scale of the text */
-    }
-    50% {
-      transform: scale(5); /* Scale the text to a larger size */
-    }
-    100% {
-      transform: scale(1); /* Return to the original scale */
-    }
-  }
-  /*
-  .title-sponsor {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 24px;
-  }
-
-  .title-sponsor .highlight {
     animation: title-animation 2s infinite alternate;
-  }
+    /* Add animation properties */
+}
 
-  @keyframes title-animation {
+@keyframes title-animation {
     0% {
-      color: #f00; /* Initial color */
-      transform: scale(1); /* Initial scale of the text */
+        transform: scale(1);
+        /* Initial scale of the text */
     }
-    50% {
-      color: #00f; /* Color change during animation */
-      transform: scale(1.2); /* Scale the text to a larger size */
-    }
-    100% {
-      color: #f00; /* Return to the initial color */
-      transform: scale(1); /* Return to the original scale */
-    }
-  }
 
-  */
+    50% {
+        transform: scale(5);
+        /* Scale the text to a larger size */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Return to the original scale */
+    }
+}
+
+.silver {
+    color: silver;
+}
+
+.silver:hover {
+    animation: colorchange infinite alternate-reverse;
+}
+
+@keyframes colorchange {
+    0% {
+        color: silver
+    }
+
+    50% {
+        color: grey
+    }
+
+    100% {
+        color: silver
+    }
+}
