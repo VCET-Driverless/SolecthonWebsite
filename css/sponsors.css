@@ -84,10 +84,7 @@
     }
 }
 
-
-/* gold{     */
 gold {
-    /* font-size: 5vw; */
     text-transform: uppercase;
     line-height: 1;
     text-align: center;
@@ -106,34 +103,15 @@ gold {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #f00;
-    /* font-size: 24px; */
-    animation: title-animation 2s infinite alternate;
-    /* Add animation properties */
 }
 
-@keyframes title-animation {
-    0% {
-        transform: scale(1);
-        /* Initial scale of the text */
-    }
-
-    50% {
-        transform: scale(5);
-        /* Scale the text to a larger size */
-    }
-
-    100% {
-        transform: scale(1);
-        /* Return to the original scale */
-    }
-}
 
 .silver {
     color: silver;
 }
 
-.silver:hover {
-    animation: colorchange infinite alternate-reverse;
+.silver {
+    animation: colorchange infinite 5s alternate-reverse;
 }
 
 @keyframes colorchange {
@@ -148,4 +126,8 @@ gold {
     100% {
         color: silver
     }
+}
+
+.platinum{
+    color: #a0a0a0;
 }
