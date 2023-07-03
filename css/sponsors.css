@@ -3,82 +3,131 @@
     text-align: center;
     font-size: 100%;
     color: white;
-    }
-    .header1{
-        min-height: 8vh;
-        background: linear-gradient(
-            119.54deg,#000046 0%,#1CB5E0 100%);
-    }
-    .centered {
+}
+
+.header1 {
+    min-height: 8vh;
+    background: linear-gradient(119.54deg, #000046 0%, #1CB5E0 100%);
+}
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     bottom: -48%;
-    }
-
-    .centered1 {
-        /* position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-#top-line{
-    font-size:250%;
 }
-#angelAuto img{
+
+.centered1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-line {
+    font-size: 250%;
+}
+
+#angelAuto img {
     width: 90%;
-   
+
 }
 
 
-#bassain img{
+#bassain img {
     width: 80%;
     height: 80%;
 }
-#panam{
+
+#panam {
     padding-top: 7%;
 }
 
-#jijau img{
+#jijau img {
     width: 70%;
     height: 70%;
 
 }
 
-#juice img{
+#juice img {
     width: 75%;
     height: 75%;
     padding-top: 10%;
 }
 
-#associate img{
+#associate img {
     width: 90%;
-    
+
 }
 
-@media (min-width:300px){
-    .containerTop img{
+@media (min-width:300px) {
+    .containerTop img {
         height: 400px;
     }
-  
+
 }
-@media (min-width:768px){
-    .containerTop img{
+
+@media (min-width:768px) {
+    .containerTop img {
         height: 200px;
     }
-   
+
 }
 
 
 @media only screen and (device-width: 768px) {
-    /* For general iPad layouts */
-    .titleSponsor{
-      width: 110%;
-    }
-  }
-  
 
+    /* For general iPad layouts */
+    .titleSponsor,
+    .title-sponsor {
+        width: 110%;
+    }
+}
+
+gold {
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(186, 148, 62, 1) 0%, rgba(236, 172, 32, 1) 20%, rgba(186, 148, 62, 1) 39%, rgba(249, 244, 180, 1) 50%, rgba(186, 148, 62, 1) 60%, rgba(236, 172, 32, 1) 80%, rgba(186, 148, 62, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 3s infinite;
+    background-size: 200%;
+    background-position: left;
+
+}
+
+.title-sponsor {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f00;
+}
+
+
+.silver {
+    color: silver;
+}
+
+.silver {
+    animation: colorchange infinite 5s alternate-reverse;
+}
+
+@keyframes colorchange {
+    0% {
+        color: silver
+    }
+
+    50% {
+        color: grey
+    }
+
+    100% {
+        color: silver
+    }
+}
+
+.platinum{
+    color: #a0a0a0;
+}
