@@ -1,5 +1,4 @@
 {
-
   "Current team members": [
     {
       "name": "Dipak Choudhari",
@@ -55,7 +54,6 @@
       "role": "Head Brakes",
       "icon": "flaticon-brake"
     },
-    
     {
       "name": "Paresh Patil",
       "image": "paresh-patil.png",
@@ -76,10 +74,10 @@
     },
     {
       "name": "Aditya Bhosale",
-      "image": "aditya-bhosale.png",
+      "image": "aditya-bhosale.jpg",
       "role": "Head PR",
       "icon": "flaticon-edit"
-    },   
+    },
     {
       "name": "Aditya Lawate",
       "image": "aditya-lawate.png",
@@ -249,7 +247,6 @@
       "icon": "flaticon-suspension"
     }
   ],
-
   "Member 3.2 and 6.0": [
     {
       "name": "Dipak Choudhari",
@@ -497,7 +494,6 @@
       "role": "Member PR",
       "icon": "flaticon-solution"
     }
-    
   ],
   "Members of 3.1": [
     {
@@ -614,7 +610,6 @@
       "role": "Member Steering",
       "icon": "flaticon-steering-wheel"
     },
-
     {
       "name": "Hrishikesh Waghmare",
       "image": "Hrishikesh Waghmare.png",
@@ -657,7 +652,6 @@
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-
     {
       "name": "Ajay Chodankar",
       "image": "Ajay Chodankar.png",
@@ -961,7 +955,6 @@
       "icon": "flaticon-edit"
     }
   ],
-
   "Members of 2.1 & 2.0": [
     {
       "name": "Prof.Swapnil Mane",
@@ -1077,7 +1070,6 @@
       "role": "Member Power Transmission",
       "icon": "flaticon-car-battery"
     },
-
     {
       "name": "Amit Bhagat",
       "image": "amit bhagat.png",
@@ -1096,7 +1088,6 @@
       "role": "Member Power Transmission",
       "icon": "flaticon-car-battery"
     },
-
     {
       "name": "Aditya Jadhav",
       "image": "aditya_jadhav.png",
