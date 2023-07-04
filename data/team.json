@@ -8,8 +8,8 @@
       "icon": "flaticon-advisor"
     },
     {
-      "name": "DEEP KUMAR",
-      "image": "deep-kumar.png",
+      "name": "Deepkumar Patel",
+      "image": "deepkumar-Patel.jpg",
       "role": "Captain, Suspension Head",
       "icon": "flaticon-team-leader"
     },
@@ -22,11 +22,11 @@
     {
       "name": "Prashant Dubey",
       "image": "prashant-dubey.png",
-      "role": "Vice Captain, Driver, Member Power Transmission",
+      "role": " Driver, Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
     {
-      "name": "Sachin",
+      "name": "Sachin Chaudhari",
       "image": "default.png",
       "role": "Head Power Transmission",
       "icon": "flaticon-team-leader"
@@ -34,7 +34,7 @@
     {
       "name": "Tejas Wani",
       "image": "tejas-wani.png",
-      "role": "Head Sponsorship, Member Autonomous & Bplan",
+      "role": "Head Sponsorship & Finance, Member Autonomous & Bplan",
       "icon": "flaticon-solution"
     },
     {
@@ -57,8 +57,8 @@
     },
     
     {
-      "name": "paresh ",
-      "image": "paresh-",
+      "name": "Paresh Patil",
+      "image": "paresh-patil.png",
       "role": "Head Steering",
       "icon": "flaticon-steering-wheel"
     },
@@ -83,7 +83,7 @@
     {
       "name": "Aditya Lawate",
       "image": "aditya-lawate.png",
-      "role": "Head logistic",
+      "role": "Logistics Manager, Member Bplan",
       "icon": "flaticon-edit"
     },
     {
@@ -136,14 +136,8 @@
     },
     {
       "name": "Nishant-bhandigare",
-      "image": "nishant-bhandigarh.png",
+      "image": "nishant-bhandigare.png",
       "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Aditya Lawate",
-      "image": "aditya-lawate.png",
-      "role": "Logistics Manager, Member Bplan",
       "icon": "flaticon-autonomous-car"
     },
     {
@@ -172,49 +166,49 @@
     },
     {
       "name": "Aishwarya Shinde",
-      "image": "aishwarya-shinde.png",
+      "image": "Aishwarya-Shinde.jpg",
       "role": "Member management",
       "icon": "flaticon-management"
     },
     {
       "name": "Akshat Parab",
-      "image": "akshat-parab.png",
+      "image": "Akshat-Parab.png",
       "role": "Member PT",
       "icon": "flaticon-pt"
     },
     {
       "name": "Sanika Raul",
-      "image": "sanika-raul.png",
+      "image": "Sanika-Raul.png",
       "role": "Member Autonomus , Bplan",
       "icon": "flaticon-solution"
     },
     {
       "name": "Chinmay Patil",
-      "image": "chinmay-patil.png",
+      "image": "Chinmay-Patil.png",
       "role": "Member Sponsorship , management ,  Bplan",
       "icon": "flaticon-solution"
     },
     {
       "name": "Azhar Khan",
-      "image": "azhar-khan.png",
+      "image": "azhar-khan.jpg",
       "role": "Member sponsorship and management",
       "icon": "flaticon-solution"
     },
     {
       "name": "Aditya Tawade",
-      "image": "aditya-tawade.png",
+      "image": "aditya-tawade.jpg",
       "role": "Member Suspension , Sponsorship , Bplan ",
       "icon": "flaticon-suspension"
     },
     {
       "name": "Shwet Tiwari",
-      "image": "shwer-tiwari.png",
+      "image": "shwet-tiwari.jpg",
       "role": "Member Autonomus , Steering",
       "icon": "flaticon-autonomous-car"
     },
     {
       "name": "Saurabh Vishwakarma",
-      "image": "saurabh.png",
+      "image": "saurabh-vishwakarma.jpg",
       "role": "Member Sponsorship",
       "icon": "flaticon-solution"
     },
@@ -226,25 +220,19 @@
     },
     {
       "name": "Siddhesh Mane",
-      "image": "sidhesh-mane.png",
+      "image": "anonymous.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
     {
       "name": "Adarsh Pandey",
-      "image": "adarsh-pandey.png",
+      "image": "adarsh-pandey.jpg",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Aditya Bhosale",
-      "image": "aditya-bhosale.png",
-      "role": "Member PR",
-      "icon": "flaticon-edit"
-    },
-    {
       "name": "Dashrath Patel",
-      "image": "dasrath-patel.png",
+      "image": "Dashrath-patel.png",
       "role": "Member Chassis and Bodyworks",
       "icon": "flaticon-chassis"
     },
@@ -260,8 +248,6 @@
       "role": "Member Suspension",
       "icon": "flaticon-suspension"
     }
-    
-
   ],
 
   "Member 3.2 and 6.0": [
