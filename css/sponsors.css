@@ -135,3 +135,8 @@ gold {
 .col-md-8>p {
     text-align: justify;
 }
+
+.pt-5 {
+    align-items: center;
+    margin: auto;
+}
