@@ -26,7 +26,7 @@ header p {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .timeline-item {
@@ -69,7 +69,7 @@ header p {
   border-radius: 4px;
   background: #f5f5f5;
   -webkit-box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 
 .timeline-content::after {
@@ -106,10 +106,12 @@ header p {
   display: inline-block;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
 }
 
-.timeline a:hover, .timeline a:active, .timeline a:focus {
+.timeline a:hover,
+.timeline a:active,
+.timeline a:focus {
   background: #32408f;
   color: #FFFFFF;
   text-decoration: none;
@@ -123,40 +125,46 @@ header p {
   padding: 0 20px;
 }
 
-.timeline-card a {            
+.timeline-card a {
   margin-left: 20px;
 }
 
 #timeline-img-header30 {
-			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.0-main.png") center center no-repeat;
-			background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.0-main.png") center center no-repeat;
+  background-size: cover;
 }
 
 #timeline-img-header31 {
-			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.1-main.jpg") center center no-repeat;
-			background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.1-main.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 #timeline-img-header60 {
-			background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/6.0-main.jpg") center center no-repeat;
-			background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/6.0-main.png") center center no-repeat;
+  background-size: cover;
+  
 }
+
 #timeline-img-header22 {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.2-main.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.2-main.png") center center no-repeat;
   background-size: cover;
 }
+
 #timeline-img-header21 {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.1-main.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.1-main.png") center center no-repeat;
   background-size: cover;
 }
+
 #timeline-img-header20 {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.0-main.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.0-main.png") center center no-repeat;
   background-size: cover;
 }
+
 #timeline-img-header10 {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/1.0-main.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/1.0-main.png") center center no-repeat;
   background-size: cover;
 }
+
 .timeline-img-header {
   height: 200px;
   position: relative;
@@ -170,9 +178,10 @@ header p {
   left: 20px;
 }
 
-.list-group{
+.list-group {
   font-size: 35px;
 }
+
 blockquote {
   margin-top: 30px;
   color: #757575;
@@ -194,17 +203,21 @@ blockquote {
   .timeline::before {
     left: 50px;
   }
+
   .timeline .timeline-img {
     left: 50px;
   }
+
   .timeline .timeline-content {
     max-width: 100%;
     width: auto;
     margin-left: 70px;
   }
+
   .timeline .timeline-item:nth-child(even) .timeline-content {
     float: none;
   }
+
   .timeline .timeline-item:nth-child(odd) .timeline-content::after {
     content: '';
     position: absolute;
@@ -248,11 +261,11 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   opacity: 0;
 }
 
@@ -272,11 +285,11 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 999;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -289,7 +302,7 @@ blockquote {
   width: 80%;
   height: auto;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   padding: 5%;
 }
 
@@ -359,27 +372,30 @@ blockquote {
   }
 }
 
-#mainCarPic{
+#mainCarPic {
   width: 100%;
   height: 100%;
 }
+
 .containerTop {
   position: relative;
   text-align: center;
   font-size: 100%;
   color: white;
-  }
-  .centered {
+}
+
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
+}
 
-  
- @media only screen and (device-width: 768px) {
+
+@media only screen and (device-width: 768px) {
+
   /* For general iPad layouts */
-  .titleSponsor{
+  .titleSponsor {
     width: 110%;
   }
 }
