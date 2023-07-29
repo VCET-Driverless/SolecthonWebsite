@@ -144,6 +144,11 @@ header p {
   background-size: cover;
   
 }
+#timeline-img-header32 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/3.2-main.png") center center no-repeat;
+  background-size: cover;
+  
+}
 
 #timeline-img-header22 {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4)), url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/2.2-main.png") center center no-repeat;
