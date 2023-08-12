@@ -128,6 +128,15 @@ gold {
     }
 }
 
-.platinum{
+.platinum {
     color: #a0a0a0;
+}
+
+.col-md-8>p {
+    text-align: justify;
+}
+
+.pt-5 {
+    align-items: center;
+    margin: auto;
 }
