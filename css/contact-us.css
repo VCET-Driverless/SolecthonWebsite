@@ -543,7 +543,7 @@ body {
   padding-bottom: 0px;
   padding-left: 30px;
   max-width: 1320px;
-  margin-top: 0px;
+  margin-top: -50px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -793,6 +793,7 @@ body {
 @media (max-width: 1024px) {
   .contact_us_6 .responsive-container-block.container {
     justify-content: center;
+    margin-top: -130px;
   }
 
   .contact_us_6 .map-box {
@@ -929,6 +930,7 @@ body {
   }
 
   .contact_us_6 .responsive-container-block.container {
+    margin-top: -200px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -971,14 +973,14 @@ body {
 
 @media (max-width: 500px) {
   .contact_us_6 .container-block.form-wrapper {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-right: 15px;
     padding-bottom: 50px;
     padding-left: 15px;
   }
 
   .contact_us_6 .container-block.form-wrapper {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
