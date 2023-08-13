@@ -133,28 +133,10 @@
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Anant",
-      "image": "default.png",
-      "role": "Member Bplan",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Vrusharth Nirmal",
-      "image": "default.png",
-      "role": "Member Bplan",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
       "name": "Shwet Tiwari",
       "image": "shwet-tiwari.jpg",
       "role": "Member Autonomus , Steering",
       "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Saurabh Vishwakarma",
-      "image": "saurabh-vishwakarma.jpg",
-      "role": "Member Sponsorship",
-      "icon": "flaticon-solution"
     },
     {
       "name": "Sumit Mali",
@@ -182,6 +164,27 @@
     },
 
 
+    {
+      "name": "Anant",
+      "image": "default.png",
+      "role": "Member Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Vrusharth Nirmal",
+      "image": "default.png",
+      "role": "Member Bplan",
+      "icon": "flaticon-autonomous-car"
+    },
+    
+    {
+      "name": "Saurabh Vishwakarma",
+      "image": "saurabh-vishwakarma.jpg",
+      "role": "Member Sponsorship",
+      "icon": "flaticon-solution"
+    },
+   
+   
 
    
     {
