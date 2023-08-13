@@ -14,7 +14,6 @@ navToggler.addEventListener("click", function () {
   this.classList.toggle("active");
 });
 
-function openTab()
-{
-  window.open("https://vcet.edu.in/VcetSolecthon","_blank")
+function openTab() {
+  window.open("../", "_top")
 }
