@@ -97,6 +97,12 @@
       "icon": "flaticon-chassis"
     },
     {
+      "name": "Dashrath Patel",
+      "image": "Dashrath-patel.png",
+      "role": "Member Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+    {
       "name": "Aditya Shah",
       "image": "aditya-shah.png",
       "role": "Member Autonomus , Chassis and Bodyworks",
@@ -168,11 +174,12 @@
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-
-
-
-
-
+    {
+      "name": "Sanika Raul",
+      "image": "Sanika-Raul.png",
+      "role": "Member Autonomus , Bplan",
+      "icon": "flaticon-solution"
+    },
 
 
 
@@ -183,42 +190,25 @@
       "role": "Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
-    
-    {
-      "name": "Sanskruti Talgaonkar",
-      "image": "sanskruti-talgaonkar.png",
-      "role": "Member Sponsorship, Bplan",
-      "icon": "flaticon-solution"
-    },
-    {
-      "name": "Vaishnavi Gaikwad",
-      "image": "vaishnavi-gaikwad.png",
-      "role": "Member PR",
-      "icon": "flaticon-solution"
-    },
-    {
-      "name": "Aishwarya Shinde",
-      "image": "Aishwarya-Shinde.jpg",
-      "role": "Member management",
-      "icon": "flaticon-management"
-    },
     {
       "name": "Akshat Parab",
       "image": "Akshat-Parab.png",
       "role": "Member PT",
       "icon": "flaticon-pt"
     },
+
     {
-      "name": "Sanika Raul",
-      "image": "Sanika-Raul.png",
-      "role": "Member Autonomus , Bplan",
-      "icon": "flaticon-solution"
+      "name": "Aishwarya Shinde",
+      "image": "Aishwarya-Shinde.jpg",
+      "role": "Member management",
+      "icon": "flaticon-management"
     },
+
     {
-      "name": "Chinmay Patil",
-      "image": "Chinmay-Patil.png",
-      "role": "Member Sponsorship , management ,  Bplan",
-      "icon": "flaticon-solution"
+      "name": "Harsh Chandaliya",
+      "image": "harsh-chandaliya.png",
+      "role": "Member Suspension",
+      "icon": "flaticon-suspension"
     },
     {
       "name": "Azhar Khan",
@@ -232,25 +222,36 @@
       "role": "Member Suspension , Sponsorship , Bplan ",
       "icon": "flaticon-suspension"
     },
-   
+
+    
     {
-      "name": "Dashrath Patel",
-      "image": "Dashrath-patel.png",
-      "role": "Member Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
+      "name": "Sanskruti Talgaonkar",
+      "image": "sanskruti-talgaonkar.png",
+      "role": "Member Sponsorship, Bplan",
+      "icon": "flaticon-solution"
     },
+    {
+      "name": "Chinmay Patil",
+      "image": "Chinmay-Patil.png",
+      "role": "Member Sponsorship , management ,  Bplan",
+      "icon": "flaticon-solution"
+    },
+
+
+    {
+      "name": "Vaishnavi Gaikwad",
+      "image": "vaishnavi-gaikwad.png",
+      "role": "Member PR",
+      "icon": "flaticon-solution"
+    },
+  
     {
       "name": "Hardik Sanap",
       "image": "hardik-sanap.png",
       "role": "Member Brakes",
       "icon": "flaticon-brake"
-    },
-    {
-      "name": "Harsh Chandaliya",
-      "image": "harsh-chandaliya.png",
-      "role": "Member Suspension",
-      "icon": "flaticon-suspension"
-    }
+    } 
+
   ],
   "Member 3.2 and 6.0": [
     {
