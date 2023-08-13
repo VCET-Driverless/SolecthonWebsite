@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1941002d30.js" crossorigin="anonymous"></script>
+  <!-- 
+    - primary meta tags
+  -->
+  <title>VCET SOLECTHON</title>
+  <meta name="title" content="Vcet Solecthon- Recruitment Page">
+  <meta name="description" content="This is a Recruitment page made by VCET Solecthon's Website Management Team">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../images/recruitment/solgo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - material icon font
+  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../css/recruitment.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../images/recruitment/hero-banner.png">
+  <link rel="preload" as="image" href="../images/recruitment/hero-bg.jpg">
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+
+
+
+  <header class="header" style="margin-top: 1%;">
+    <div class="container">
+
+      <a href="../index.html" class="logo">
+        <img src="../images/recruitment/solgo.png" width="128" height="63" alt="autofix home">
+      </a>
+
+      <nav class="navbar" id="homee" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../index.html" target="_blank" class="navbar-link">Home</a>
+          </li>
+
+
+
+          <li>
+            <a href="#subss" class="navbar-link">SUBSYSTEMS</a>
+          </li>
+
+          <li>
+            <a href="#rff" class="navbar-link">RECRUITMENT FORM</a>
+          </li>
+
+
+
+        </ul>
+      </nav>
+
+
+      <!-- <a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+      </a> -->
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+
+  <article>
+
+    <!-- 
+        - #HERO
+      -->
+
+    <section class="hero has-bg-image" aria-label="home" style="background-image: url('../images/recruitment/hero-bg.jpg')">
+      <div class="container">
+
+        <div class="hero-content">
+
+
+          <br>
+
+          <h1 class="h1 section-title"> WORLDS BEST SOLAR ELECTRIC AUTONOMOUS CAR MANUFACTURER </h1>
+
+
+
+          <p class="section-text">
+            A STEP TOWARDS STABILITY.
+          </p>
+
+          <a href="#subss" class="btn">
+            <span class="span">Our SUBSYSTEMS</span>
+
+            <span class="material-symbols-rounded">arrow_forward</span>
+          </a>
+
+        </div>
+
+        <figure class="hero-banner" style="--width: 1228; --height: 789;">
+          <img src="../images/recruitment/6.0-main-removebg-preview.png" style="padding-left: 20%;" width="1528" height="789"
+            alt="6.0 img" class="move-anim">
+        </figure>
+
+      </div>
+    </section>
+
+
+
+    <br>
+    <div class="puffer">
+
+      <div class="banner">
+        <center>
+          <button onclick="openTab()" class="cssbuttons-io-button"> VISIT OUR OFFICIAL WEBSITE
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor"
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+              </svg>
+            </div>
+          </button><br>
+        </center>
+        <div class="inhalt">
+          <p>Excited to join US ? Fill the form and let us know your field of interest<br />
+            <center>
+              <a href="https://form.jotform.com/232175824554459" target="_blank">
+                <button class="button">
+                  <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">FILL FORM</span>
+                  </span>
+                </button></a>
+
+
+            </center>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <style type="text/css">
+      .puffer {
+        padding-top: 0%;
+        background-color: #a79a89;
+      }
+
+      .banner {
+        background: #a79a89;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        z-index: 5;
+        padding: 20px 0px;
+      }
+
+      .banner p {
+        clear: both;
+        color: #fff;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+
+      .inhalt {
+        padding: 0px 5%;
+      }
+
+      #navigation_background {
+        top: 0px !important;
+      }
+
+      .nav_wrapper.sticky_nav {
+        top: 0px !important;
+      }
+
+      .cm-templates-navigation-container {
+        top: 0px !important;
+      }
+    </style>
+    <br>
+    <!-- 
+        - #SERVICE
+      -->
+
+    <section class="section service has-bg-image" aria-labelledby="service-label"
+      style="background-image: url('../images/recruitment/service-bg.jpg')">
+      <div class="container sub">
+
+        <p class="section-subtitle :light" id="subss">Our SUBSYSTEMS</p>
+
+        <h2 class="h2 section-title">HOW WE CREATE OUR CAR FROM SCRATCH</h2>
+
+        <ul class="service-list">
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/services-1.png" width="110" height="110" loading="lazy" alt="Engine Repair">
+              </figure>
+
+              <h3 class="h3 card-title">chassis & bodywork</h3>
+
+              <p class="card-text">
+                The skeleton and skin of the car that enriches it's looks!!
+              </p>
+
+
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/services-2.png" width="110" height="110" loading="lazy" alt="Brake Repair">
+              </figure>
+
+              <h3 class="h3 card-title">BrakeS & suspension</h3>
+
+              <p class="card-text">
+                Safer ride for you and others, using our own customised brake and suspension system
+              </p>
+
+
+
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/services-3.png" width="110" height="110" loading="lazy" alt="Tire Repair">
+              </figure>
+
+              <h3 class="h3 card-title">AUTONOMOUS</h3>
+
+              <p class="card-text">
+                Ever Imagined Tesla in cost of WagonR, That's what we make here
+              </p>
+
+
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/services-4.png" width="110" height="110" loading="lazy" alt="Battery Repair">
+              </figure>
+
+              <h3 class="h3 card-title">POWER TRANSMISSION</h3>
+
+              <p class="card-text">
+                The main secret to make car efficient is the power given in right amount to right car!
+              </p>
+
+
+
+            </div>
+          </li>
+
+          <li class="service-banner">
+            <img src="../images/recruitment/6.0-main-removebg-preview.png" width="646" height="380" loading="lazy"
+              alt="Red Car" class="move-anim">
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/services-6.png" width="110" height="110" loading="lazy" alt="Steering Repair">
+              </figure>
+
+              <h3 class="h3 card-title">Steering </h3>
+
+              <p class="card-text">
+                The smooth curves and the clean cuts on roads are done with efficient steering
+              </p>
+
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/business-plan.png" width="110" height="110" loading="lazy"
+                  alt="Steering Repair">
+              </figure>
+
+              <h3 class="h3 card-title">business plan </h3>
+
+              <p class="card-text">
+                What After Competitions? Business!! <br />Well! Thats what we do in this subsystem
+              </p>
+
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/public-relation.png" width="110" height="110" loading="lazy"
+                  alt="Steering Repair">
+              </figure>
+
+              <h3 class="h3 card-title">PR </h3>
+
+              <p class="card-text">
+                Beautiful cars needs a good public image and get famous among community.
+              </p>
+
+
+            </div>
+          </li>
+
+          <li>
+            <div class="service-card">
+
+              <figure class="card-icon">
+                <img src="../images/recruitment/management.png" width="110" height="110" loading="lazy" alt="Steering Repair">
+              </figure>
+
+              <h3 class="h3 card-title">Sponsorship </h3>
+
+              <p class="card-text">
+                All that drives a car are the funds accumulated!
+              </p>
+
+
+            </div>
+          </li>
+
+        </ul>
+
+
+
+    </section>
+
+
+
+
+
+    <!-- 
+        - #ABOUT
+      -->
+
+    <section class="section about has-before" aria-labelledby="about-label">
+      <div class="container">
+
+        <figure class="about-banner">
+          <img src="../images/recruitment/solgo.png" width="540" height="540" loading="lazy" alt="vehicle repire equipments"
+            class="w-100">
+        </figure>
+
+        <div class="about-content">
+
+          <p class="section-subtitle :dark">About Us</p>
+
+          <h2 class="h2 section-title">We’re Commited to Meet the quality</h2>
+
+          <p class="section-text">
+            Here at vcet solecthon we work hard to make our car perfect and different from the world!
+          </p>
+
+          <p class="section-text">
+            We never stop learning , new ideas implement everytime which makes us differenet from the herd.
+          </p>
+
+          <ul class="about-list">
+
+            <li class="about-item">
+              <p>
+                <strong class="display-1 strong">150+</strong> MEMBER
+              </p>
+            </li>
+
+            <li class="about-item">
+              <p>
+                <strong class="display-1 strong">8</strong> SUBSYSTEM
+              </p>
+            </li>
+
+            <li class="about-item">
+              <p>
+                <strong class="display-1 strong">6+</strong> Years Completed
+              </p>
+            </li>
+
+            <li class="about-item">
+              <p>
+                <strong class="display-1 strong">8+</strong> Projects completed
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <!-- 
+        - #WORK
+      -->
+
+    <section class="section work" aria-labelledby="work-label">
+      <div class="container">
+
+        <p class="section-subtitle :light" id="work-label">Our Work</p>
+
+        <h2 class="h2 section-title">Latest projects we have done</h2>
+
+        <ul class="has-scrollbar">
+
+          <li class="scrollbar-item">
+            <div class="work-card">
+
+              <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                <img src="../images/recruitment/6.0-main-removebg-preview.png" width="350" height="406" loading="lazy"
+                  alt="Engine Repair" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+                <p class="card-subtitle">VCET SOLECTHON</p>
+
+                <h3 class="h3 card-title">6.0</h3>
+
+
+              </div>
+
+            </div>
+          </li>
+
+          <li class="scrollbar-item">
+            <div class="work-card">
+
+              <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                <img src="../images/recruitment/3.2.jpeg" width="350" height="406" loading="lazy" alt="Car Tyre change"
+                  class="img-cover">
+              </figure>
+
+              <div class="card-content">
+                <p class="card-subtitle">VCET SOLECTHON</p>
+
+                <h3 class="h3 card-title">3.2</h3>
+
+
+              </div>
+
+            </div>
+          </li>
+
+
+          <li class="scrollbar-item">
+            <div class="work-card">
+
+              <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                <img src="../images/recruitment/3.1-main-removebg-preview.png" width="350" height="406" loading="lazy"
+                  alt="Car Tyre change" class="img-cover">
+              </figure>
+
+              <div class="card-content">
+                <p class="card-subtitle">VCET SOLECTHON</p>
+
+                <h3 class="h3 card-title">3.1</h3>
+
+
+              </div>
+
+            </div>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <section class="section work" aria-labelledby="work-label" style="margin-top: -10%;">
+      <div class="container">
+
+        <p class="section-subtitle :light" id="work-label">Events</p>
+
+        <h2 class="h2 section-title">Our Latest Achievements</h2>
+
+        <br>
+        <center>
+          <div>
+            <img src="../images/recruitment/ESVC.jpg" style="width: 70% ; border-radius: 3%;">
+            <div class="h2 section-title">#1 AT ESVC 3000 EVENT </div>
+          </div>
+        </center>
+
+        <br>
+        <center>
+          <div>
+            <img src="../images/recruitment/SEVC.jpg" style="width: 70%; border-radius: 3%;">
+            <div class="h2 section-title">#1 AT SEVC 2023 EVENT </div>
+          </div>
+        </center>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="box-container">
+          <div class="mode">
+
+          </div>
+
+
+
+        </div>
+    </section>
+
+
+
+  </article>
+  </main>
+
+
+  <div class="puffer" id="rff">
+    <div class="banner">
+      <div class="inhalt">
+        <p>Excited to join US ? Fill the form and let us know your field of interest<br />
+          <center>
+            <a href="https://form.jotform.com/232175824554459" target="_blank">
+              <button class="button">
+                <span class="button_lg">
+                  <span class="button_sl"></span>
+                  <span class="button_text">FILL FORM</span>
+                </span>
+              </button></a>
+          </center>
+        </p>
+      </div>
+    </div>
+  </div><br>
+
+  <center>
+
+
+    <button class="cssbuttons-io-button" onclick="openTab()"> VISIT OUR OFFICIAL WEBSITE
+      <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path fill="currentColor"
+            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+        </svg>
+      </div>
+    </button><br>
+  </center>
+
+  <style>
+    .cssbuttons-io-button {
+      background: #202444;
+      width: 60%;
+      color: white;
+      font-family: inherit;
+      padding: 0.35em;
+      padding-left: 1.2em;
+      font-size: 17px;
+      font-weight: 500;
+      border-radius: 0.9em;
+      border: none;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      box-shadow: inset 0 0 1.6em -0.6em #202444;
+      overflow: hidden;
+      position: relative;
+      height: 2.8em;
+      padding-right: 3.3em;
+    }
+
+    .cssbuttons-io-button .icon {
+      background: white;
+      margin-left: 1em;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.2em;
+      width: 2.2em;
+      border-radius: 0.7em;
+      box-shadow: 0.1em 0.1em 0.6em 0.2em #202444;
+      right: 0.3em;
+      transition: all 0.3s;
+    }
+
+    .cssbuttons-io-button:hover .icon {
+      width: calc(100% - 0.6em);
+    }
+
+    .cssbuttons-io-button .icon svg {
+      width: 1.1em;
+      transition: transform 0.3s;
+      color: #7b52b9;
+    }
+
+    .cssbuttons-io-button:hover .icon svg {
+      transform: translateX(0.1em);
+    }
+
+    .cssbuttons-io-button:active .icon {
+      transform: scale(0.95);
+    }
+  </style>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="../images/recruitment/solgo.png" width="128" height="63" alt="autofix home">
+          </a>
+
+          <p class="footer-text">
+
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/solecthon.vcet/" target="_blank" class="social-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/solecthon.vcet/?hl=en" target="_blank" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/company/vcet-solecthon/" target="_blank" class="social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Contact Info</p>
+          </li>
+          <li>
+            <p>TEAM NO.</p>
+            <a href="tel:+01234567890" class="footer-link">
+              <span class="material-symbols-rounded">Call Official Team Number :</span>
+
+              <span class="span">+91 77096 13664</span>
+            </a>
+          </li>
+          <li>
+            <p> Captain NO.</p>
+            <a href="tel:+01234567890" class="footer-link">
+              <span class="material-symbols-rounded">Call Captain :</span>
+
+              <span class="span">+91 93139 70644</span>
+            </a>
+          </li>
+          <li>
+            <p> Geneal Manager No.</p>
+            <a href="tel:+01234567890" class="footer-link">
+              <span class="material-symbols-rounded">Call Manager :</span>
+
+              <span class="span">+91 76203 66170</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="mailto:deep.212386101@vcet.edu.in" class="footer-link">
+              <span class="material-symbols-rounded">mail</span>
+
+              <span class="span">vcetsolecthon@vcet.edu.in</span>
+            </a>
+          </li>
+
+          <li>
+            <address class="footer-link address">
+              <span class="material-symbols-rounded">location_on</span>
+
+              <span class="span">SAE ROOM , GROUND FLOOR , VCET CAMPUS</span>
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <img src="../images/recruitment/footer-shape-3.png" width="637" height="173" loading="lazy" alt="Shape"
+        class="shape shape-3 move-anim">
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright"></p>
+
+        <img src="../images/recruitment/footer-shape-2.png" width="778" height="335" loading="lazy" alt="Shape"
+          class="shape shape-2">
+
+        <img src="../images/recruitment/6.0-main-removebg-preview.png" style="transform: rotate(90deg); margin-left: 5%;"
+          width="805" height="652" loading="lazy" alt="Red Car" class="shape shape-1 move-anim">
+
+      </div>
+    </div>
+
+    <script src="../js/recruitment.js"></script>
+  </footer>
+
+
+</body>
+
+</html>
