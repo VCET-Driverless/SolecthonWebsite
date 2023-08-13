@@ -50,7 +50,7 @@
     },
     {
       "name": "Paresh Patil",
-      "image": "paresh-patil.png",
+      "image": "default.png",
       "role": "Head Steering",
       "icon": "flaticon-steering-wheel"
     },
@@ -98,7 +98,7 @@
     },
     {
       "name": "Dashrath Patel",
-      "image": "Dashrath-patel.png",
+      "image": "default.png",
       "role": "Member Chassis and Bodyworks",
       "icon": "flaticon-chassis"
     },
@@ -140,7 +140,7 @@
     },
     {
       "name": "Sumit Mali",
-      "image": "sumit-mali.png",
+      "image": "default.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
@@ -195,7 +195,7 @@
     },
     {
       "name": "Akshat Parab",
-      "image": "Akshat-Parab.png",
+      "image": "default.png",
       "role": "Member PT",
       "icon": "flaticon-pt"
     },
@@ -209,7 +209,7 @@
 
     {
       "name": "Harsh Chandaliya",
-      "image": "harsh-chandaliya.png",
+      "image": "default.png",
       "role": "Member Suspension",
       "icon": "flaticon-suspension"
     },
@@ -250,8 +250,7 @@
   
     {
       "name": "Hardik Sanap",
-      "image": "hardik-sanap.png",
-      "role": "Member Brakes",
+      "image": "default.png",
       "icon": "flaticon-brake"
     } 
 
