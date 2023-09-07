@@ -26,7 +26,7 @@
     },
     {
       "name": "Sachin Chaudhari",
-      "image": "default.png",
+      "image": "Sachin-choudhary.jpg",
       "role": "Head Power Transmission",
       "icon": "flaticon-team-leader"
     },
@@ -50,7 +50,7 @@
     },
     {
       "name": "Paresh Patil",
-      "image": "default.png",
+      "image": "paresh-patil.jpg",
       "role": "Head Steering",
       "icon": "flaticon-steering-wheel"
     },
@@ -98,7 +98,7 @@
     },
     {
       "name": "Dashrath Patel",
-      "image": "default.png",
+      "image": "Dashrath - Patel.png",
       "role": "Member Chassis and Bodyworks",
       "icon": "flaticon-chassis"
     },
@@ -140,16 +140,11 @@
     },
     {
       "name": "Sumit Mali",
-      "image": "default.png",
+      "image": "sumit-mali.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Siddhesh Mane",
-      "image": "anonymous.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+    
     {
       "name": "Adarsh Pandey",
       "image": "adarsh-pandey.jpg",
@@ -166,16 +161,11 @@
 
     {
       "name": "Anant",
-      "image": "default.png",
+      "image": "Anant-Rai.jpg",
       "role": "Member Bplan",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Vrusharth Nirmal",
-      "image": "default.png",
-      "role": "Member Bplan",
-      "icon": "flaticon-autonomous-car"
-    },
+    
     
     {
       "name": "Saurabh Vishwakarma",
@@ -186,16 +176,10 @@
    
    
 
-   
-    {
-      "name": "Rohit",
-      "image": "default.png",
-      "role": "Member Power Transmission",
-      "icon": "flaticon-team-leader"
-    },
+  
     {
       "name": "Akshat Parab",
-      "image": "default.png",
+      "image": "akshat-parab.png",
       "role": "Member PT",
       "icon": "flaticon-pt"
     },
@@ -207,12 +191,7 @@
       "icon": "flaticon-management"
     },
 
-    {
-      "name": "Harsh Chandaliya",
-      "image": "default.png",
-      "role": "Member Suspension",
-      "icon": "flaticon-suspension"
-    },
+   
     {
       "name": "Azhar Khan",
       "image": "azhar-khan.jpg",
@@ -250,7 +229,7 @@
   
     {
       "name": "Hardik Sanap",
-      "image": "default.png",
+      "image": "Hardik-Sanap.png",
       "icon": "flaticon-brake"
     } 
 
@@ -360,7 +339,7 @@
     },
     {
       "name": "Deep Patel",
-      "image": "default.png",
+      "image": "deep-patel.jpg",
       "role": "Member Suspension",
       "icon": "flaticon-steering-wheel"
     },
@@ -408,16 +387,11 @@
     },
     {
       "name": "Sachin",
-      "image": "default.png",
+      "image": "Sachin-choudhary.jpg",
       "role": "Member Power Transmission",
       "icon": "flaticon-team-leader"
     },
-    {
-      "name": "Rohit",
-      "image": "default.png",
-      "role": "Member Power Transmission",
-      "icon": "flaticon-team-leader"
-    },
+    
     {
       "name": "Sharvin Dedhia",
       "image": "sharvin-dedhia.png",
@@ -448,21 +422,11 @@
       "role": "General Manager , Member Autonomous,Sponsorship and management",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Mittrav Shah",
-      "image": "default.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Shubham Jangid",
-      "image": "default.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+    
+   
     {
       "name": "Nishant-bhandigarh",
-      "image": "nishant-bhandigarh.png",
+      "image": "nishant-bhandigare.png",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
@@ -480,16 +444,11 @@
     },
     {
       "name": "Anant",
-      "image": "default.png",
+      "image": "Anant-Rai.jpg",
       "role": "Member Bplan",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Vrusharth Nirmal",
-      "image": "default.png",
-      "role": "Member Bplan",
-      "icon": "flaticon-autonomous-car"
-    },
+    
     {
       "name": "Sanskruti Talgaonkar",
       "image": "sanskruti-talgaonkar.png",
