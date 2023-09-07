@@ -562,6 +562,11 @@ footer a:hover {
   padding: 0;
 }
 
+@media screen and (max-width: 800px) {
+  .slinks{
+    font-size: 80px;
+  }
+}
 /* Footer end */
 
 
