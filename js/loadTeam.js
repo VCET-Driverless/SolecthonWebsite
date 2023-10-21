@@ -1,6 +1,5 @@
 var json_obj;
 
-
 const fillData = async () => {
   await fetch(
     "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
@@ -30,10 +29,6 @@ const fillData = async () => {
     mainDiv.appendChild(centerDiv);
     teams.appendChild(mainDiv);
 
-
-
-    
-
     let teamSection = document.createElement("section");
     teamSection.className = "section-team";
     teams.appendChild(teamSection);
@@ -47,10 +42,6 @@ const fillData = async () => {
     newDiv.className = "row";
 
     sectionDiv.appendChild(newDiv);
-    
-    
-
-   
 
     for (let i = 0; i < json_obj[x].length; i++) {
       // console.log(json_obj[x][i]);
@@ -68,8 +59,10 @@ const fillData = async () => {
 
       let imgTag = document.createElement("img");
       // imgTag.src = "../images/members/"+ json_obj[x][i].image;
-      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/members/"+ json_obj[x][i].image;
-     
+      imgTag.src =
+        "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/members/" +
+        json_obj[x][i].image;
+
       imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
 
@@ -99,7 +92,6 @@ const fillData = async () => {
     }
   });
 
-  
   let tmp = localStorage.getItem("dm");
 
   if (tmp == null) {
@@ -114,6 +106,40 @@ const fillData = async () => {
   }
 };
 
+const fetchTableData = async () => {
+  const response = await fetch(
+    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/oldteam.json"
+  );
+  const data = await response.json();
+  return data;
+};
+
+const createTable = (data) => {
+  let tableSection = document.createElement("section");
+  tableSection.className = "section-table";
+  document.getElementById("teams").appendChild(tableSection);
+
+  let tableDiv = document.createElement("div");
+  tableDiv.className = "container";
+  tableSection.appendChild(tableDiv);
+
+  let table = document.createElement("table");
+  table.className = "custom-table";
+  table.style.width = "70%";
+  table.style.margin = "auto";
+  tableDiv.appendChild(table);
+
+  let tableHeader = document.createElement("tr");
+  tableHeader.innerHTML = "<th>Full Name</th><th>Speciality</th>";
+  table.appendChild(tableHeader);
+
+  data.forEach((item) => {
+    let row = document.createElement("tr");
+    row.innerHTML = `<td>${item.name}</td><td>${item.role}</td>`;
+    table.appendChild(row);
+  });
+};
 
 fillData();
+fetchTableData();
 console.log("data filled");
