@@ -66,6 +66,7 @@ color: white;
 	padding: 30px;
 	background-color: rgb(220 230 249);; 
 	border-radius: 5px;
+  min-height: 400px;
 }
 
 .section-team .single-person:hover {
