@@ -223,4 +223,7 @@ footer {
       width: 110%;
     }
   }
+  .img-fluid {
+    border-radius: 15% 0%;
+  }
   
