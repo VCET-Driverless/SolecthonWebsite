@@ -1,5 +1,5 @@
 {
-  "Current team members": [
+  "Team members": [
     {
       "name": "Dipak Choudhari",
       "image": "Dipak Choudhari.png",
@@ -18,30 +18,14 @@
       "role": "General Manager , member sponsorship and management",
       "icon": "flaticon-team-leader"
     },
-    {
-      "name": "Prashant Dubey",
-      "image": "prashant-dubey.png",
-      "role": " Driver, Member Power Transmission",
-      "icon": "flaticon-team-leader"
-    },
+    
     {
       "name": "Sachin Chaudhari",
       "image": "Sachin-choudhary.jpg",
       "role": "Head Power Transmission",
       "icon": "flaticon-team-leader"
     },
-    {
-      "name": "Ronak Patel",
-      "image": "ronak-patel.png",
-      "role": "Head Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
-    },
-    {
-      "name": "Tisha Paul",
-      "image": "tisha-paul.png",
-      "role": "Head Aerodynamics, Member PR",
-      "icon": "flaticon-chassis"
-    },
+    
     {
       "name": "Maitreya Hole",
       "image": "maitreya-hole.png",
@@ -54,48 +38,14 @@
       "role": "Head Steering",
       "icon": "flaticon-steering-wheel"
     },
-    {
-      "name": "Hirenkumar vyas",
-      "image": "hirenkumar-vyas.png",
-      "role": "Head Autonomous, Member Sponsorship & Bplan",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Tejas Wani",
-      "image": "tejas-wani.png",
-      "role": "Head Sponsorship & Finance, Member Autonomous & Bplan",
-      "icon": "flaticon-solution"
-    },
+    
     {
       "name": "Shrushti Rane",
       "image": "shrushti-rane.png",
       "role": "Head Business Plan, Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Aditya Bhosale",
-      "image": "aditya-bhosale.jpg",
-      "role": "Head PR",
-      "icon": "flaticon-edit"
-    },
-    {
-      "name": "Aditya Lawate",
-      "image": "aditya-lawate.png",
-      "role": "Logistics Manager, Member Bplan",
-      "icon": "flaticon-edit"
-    },
-    {
-      "name": "Manohar Devadiga",
-      "image": "manohar-devadiga.png",
-      "role": "Member Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
-    },
-    {
-      "name": "Nikunj Kalsariya",
-      "image": "nikunj-kalsariya.png",
-      "role": "Member Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
-    },
+    
     {
       "name": "Dashrath Patel",
       "image": "Dashrath - Patel.png",
@@ -108,30 +58,8 @@
       "role": "Member Autonomus , Chassis and Bodyworks",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Pratham Ingawale",
-      "image": "pratham-ingawale.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Aman Sheikh",
-      "image": "aman-sheikh.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Harsh Devmurari",
-      "image": "harsh-devmurari.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Nishant-bhandigare",
-      "image": "nishant-bhandigare.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
+    
+    
     {
       "name": "Shwet Tiwari",
       "image": "shwet-tiwari.jpg",
@@ -151,15 +79,6 @@
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Sanika Raul",
-      "image": "Sanika-Raul.png",
-      "role": "Member Autonomus , Bplan",
-      "icon": "flaticon-solution"
-    },
-
-
-    
     
     
     {
@@ -201,12 +120,7 @@
     },
 
     
-    {
-      "name": "Sanskruti Talgaonkar",
-      "image": "sanskruti-talgaonkar.png",
-      "role": "Member Sponsorship, Bplan",
-      "icon": "flaticon-solution"
-    },
+    
     {
       "name": "Chinmay Patil",
       "image": "Chinmay-Patil.png",
@@ -214,13 +128,6 @@
       "icon": "flaticon-solution"
     },
 
-
-    {
-      "name": "Vaishnavi Gaikwad",
-      "image": "vaishnavi-gaikwad.png",
-      "role": "Member PR",
-      "icon": "flaticon-solution"
-    },
   
     {
       "name": "Hardik Sanap",
