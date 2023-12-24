@@ -12,39 +12,9 @@
       "role": "Captain, Suspension Head",
       "icon": "flaticon-team-leader"
     },
-    {
-      "name": "Yash Solanki",
-      "image": "yash-solanki.png",
-      "role": "General Manager , member sponsorship and management",
-      "icon": "flaticon-team-leader"
-    },
     
-    {
-      "name": "Sachin Chaudhari",
-      "image": "Sachin-choudhary.jpg",
-      "role": "Head Power Transmission",
-      "icon": "flaticon-team-leader"
-    },
+  
     
-    {
-      "name": "Maitreya Hole",
-      "image": "maitreya-hole.png",
-      "role": "Head Brakes",
-      "icon": "flaticon-brake"
-    },
-    {
-      "name": "Paresh Patil",
-      "image": "paresh-patil.jpg",
-      "role": "Head Steering",
-      "icon": "flaticon-steering-wheel"
-    },
-    
-    {
-      "name": "Shrushti Rane",
-      "image": "shrushti-rane.png",
-      "role": "Head Business Plan, Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
     
     {
       "name": "Dashrath Patel",
