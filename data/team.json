@@ -13,47 +13,60 @@
       "icon": "flaticon-team-leader"
     },
     
-  
-    
-    
     {
-      "name": "Dashrath Patel",
-      "image": "Dashrath - Patel.png",
+      "name": "Adarsh Pandey",
+      "image": "adarsh-pandey.jpg",
       "role": "Member Chassis and Bodyworks",
       "icon": "flaticon-chassis"
     },
+
     {
-      "name": "Aditya Shah",
-      "image": "aditya-shah.png",
+      "name": "Aditya Tawade",
+      "image": "aditya-tawade.jpg",
+      "role": "Member BPlan",
+      "icon": "flaticon-chassis"
+    },
+
+    {
+      "name": "Aishwarya Shinde",
+      "image": "aishwarya-shinde.jpg",
+      "role": "Member Chassis and Bodyworks",
+      "icon": "flaticon-chassis"
+    },
+
+    
+    {
+      "name": "Akshat Parab",
+      "image": "akshat-parab.jpg",
       "role": "Member Autonomus , Chassis and Bodyworks",
       "icon": "flaticon-autonomous-car"
     },
     
     
     {
-      "name": "Shwet Tiwari",
-      "image": "shwet-tiwari.jpg",
+      "name": "Azhar Khan",
+      "image": "azhar-khan.jpg",
       "role": "Member Autonomus , Steering",
       "icon": "flaticon-autonomous-car"
     },
     {
-      "name": "Sumit Mali",
-      "image": "sumit-mali.png",
+      "name": "Chinmay Patil",
+      "image": "sumit-mali.jpg",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
     
     {
-      "name": "Adarsh Pandey",
-      "image": "adarsh-pandey.jpg",
+      "name": "Hardik Sanap",
+      "image": "hardik-sanap.jpg",
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
     
     
     {
-      "name": "Saurabh Vishwakarma",
-      "image": "saurabh-vishwakarma.jpg",
+      "name": "Om",
+      "image": "om.jpg",
       "role": "Member Sponsorship",
       "icon": "flaticon-solution"
     },
@@ -62,29 +75,29 @@
 
   
     {
-      "name": "Akshat Parab",
-      "image": "akshat-parab.png",
+      "name": "Prathamesh Patil",
+      "image": "prathamesh-patil.jpg",
       "role": "Member PT",
       "icon": "flaticon-pt"
     },
 
     {
-      "name": "Aishwarya Shinde",
-      "image": "Aishwarya-Shinde.jpg",
+      "name": "Pratham Pandey",
+      "image": "pratham-pandey.jpg",
       "role": "Member management",
       "icon": "flaticon-management"
     },
 
    
     {
-      "name": "Azhar Khan",
-      "image": "azhar-khan.jpg",
+      "name": "Sanika Raul",
+      "image": "sanika-raul.jpg",
       "role": "Member sponsorship and management",
       "icon": "flaticon-solution"
     },
     {
-      "name": "Aditya Tawade",
-      "image": "aditya-tawade.jpg",
+      "name": "Saurabh Vishwakarma",
+      "image": "saurabh-vishwakarma.jpg",
       "role": "Member Suspension , Sponsorship , Bplan ",
       "icon": "flaticon-suspension"
     },
@@ -92,16 +105,34 @@
     
     
     {
-      "name": "Chinmay Patil",
-      "image": "Chinmay-Patil.png",
+      "name": "Shwet Tiwari",
+      "image": "shwet-tiwari.jpg",
       "role": "Member Sponsorship , management ,  Bplan",
       "icon": "flaticon-solution"
     },
 
-  
+    
     {
-      "name": "Hardik Sanap",
-      "image": "Hardik-Sanap.png",
+      "name": "Sumit Mali",
+      "image": "sumit-mali.jpg",
+      "icon": "flaticon-brake"
+    } ,
+
+    {
+      "name": "Tanzil Sayed",
+      "image": "Tanzil-Sayed.jpg",
+      "icon": "flaticon-brake"
+    } ,
+
+    {
+      "name": "Vedant Kalei",
+      "image": "vedant-kale.jpg",
+      "icon": "flaticon-brake"
+    } ,
+
+    {
+      "name": "Wahid Shaikh",
+      "image": "Wahid-Shaikh.jpg",
       "icon": "flaticon-brake"
     } 
   ]
