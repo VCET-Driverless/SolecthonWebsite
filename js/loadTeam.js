@@ -3,7 +3,7 @@ var json_obj;
 const fillData = async () => {
   // "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   await fetch(
-    "/data/team.json"
+    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   )
     .then((res) => res.json())
     .then((json) => {
