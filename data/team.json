@@ -55,12 +55,7 @@
       "role": "Member Autonomous",
       "icon": "flaticon-autonomous-car"
     },
-    {
-      "name": "Saurabh Vishwakarma (AI-DS)",
-      "image": "saurabh-vishwakarma.jpg",
-      "role": "Member Sponsorship",
-      "icon": "flaticon-solution"
-    },
+   
     {
       "name": "Aditya Tawade (CSE-DS)",
       "image": "aditya-tawade.jpg",
@@ -110,12 +105,7 @@
         "image": "Adarsh-singh.jpg",
         "role": "Member Pt",
         "icon": "flaticon-car-battery"
-      } ,      {
-        "name": "Pratham Pandey (Comps)",
-        "image": "pratham-pandey.jpg",
-        "role": "Member Pr",
-        "icon": "flaticon-edit"
-      } ,    
+      } ,         
       {
         "name": "Prashant Dubey (Mechanical)",
         "image": "prashant-dubey.png",
