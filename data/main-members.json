@@ -1,0 +1,30 @@
+{
+    "Team members": [
+      {
+        "name": "Dipak Choudhari ",
+        "image": "Dipak Choudhari.png",
+        "role": "Faculty Advisor",
+        "icon": "flaticon-advisor"
+      },
+      {
+        "name": "Deepkumar Patel (Civil)",
+        "image": "deep-patel.jpg",
+        "role": "Captain, Suspension Head",
+        "icon": "flaticon-team-leader"
+      },
+      {
+        "name": "Yash Solanki (IT)",
+        "image": "Yash-Solanki.jpg",
+        "role": "Genral Manager ",
+        "icon": "flaticon-solution"
+      } ,  
+      {
+        "name": "Akshat Parab (CSE-DS)",
+        "image": "akshat-parab.png",
+        "role": "Vice Captain , Member PT",
+        "icon": "flaticon-team-leader"
+      }
+    ]
+    
+    
+  }
