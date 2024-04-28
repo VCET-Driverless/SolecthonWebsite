@@ -1,175 +1,327 @@
+
 {
   "Team members": [
     {
-      "name": "Dipak Choudhari ",
-      "image": "Dipak Choudhari.png",
-      "role": "Faculty Advisor",
-      "icon": "flaticon-advisor"
-    },
-    {
-      "name": "Deepkumar Patel (Civil)",
+      "name": "Deep Kumar Patel",
       "image": "deep-patel.jpg",
       "role": "Captain, Suspension Head",
+      "year": "TE",
+      "branch": "CIVIL",
       "icon": "flaticon-team-leader"
+
     },
     {
-      "name": "Yash Solanki (IT)",
+      "name": "Yash Solanki",
       "image": "Yash-Solanki.jpg",
-      "role": "Genral Manager ",
+      "role": "Vice Captain,Sponsorship And Management",
+      "year": "TE",
+      "branch": "INFT",
       "icon": "flaticon-solution"
-    } ,  
+    },
     {
-      "name": "Akshat Parab (CSE-DS)",
-      "image": "akshat-parab.png",
-      "role": "Vice Captain , Member PT",
+      "name": "Dashrath Patel",
+      "image": "Dashrath - Patel.png",
+      "role": "Chassis And Body Works",
+      "icon": "flaticon-chassis",
+      "year": "SE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Yuvraj Singh",
+      "role": "Suspension",
+      "year": "SE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Akshat Suhas Parab",
+      "role": "Power Transmission",
+      "year": "SE",
+      "branch": "CSE",
       "icon": "flaticon-team-leader"
     },
     {
-      "name": "Dashrath Patel (Mechanical)",
-      "image": "Dashrath - Patel.png",
-      "role": "Member Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
-    },
-    {
-      "name": "Aditya Shah (IT)",
-      "image": "aditya-shah.png",
-      "role": "Member Autonomus , Chassis and Bodyworks",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Sumit Mali (Comps)",
-      "image": "sumit-mali.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    {
-      "name": "Siddhesh Mane (Comps)",
-      "image": "Siddhesh-Mane.jpg",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-    
-    {
-      "name": "Adarsh Pandey (CSE-DS)",
-      "image": "adarsh-pandey.jpg",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    },
-   
-    {
-      "name": "Aditya Tawade (CSE-DS)",
-      "image": "aditya-tawade.jpg",
-      "role": "Member Suspension ",
-      "icon": "flaticon-suspension"
-    },
-    {
-      "name": "Chinmay Patil (CSE-DS)",
-      "image": "chinmay-patil.jpg",
-      "role": "Member Sponsorship , management ,  Bplan",
-      "icon": "flaticon-solution"
-    },
-
-  
-    {
-      "name": "Hardik Sanap (CSE-DS)",
-      "image": "Hardik-Sanap.png",
-      "role": "Member Brakes",
-      "icon": "flaticon-brake"
-    },
-    {
-      "name": "Mitanksh gosalia (AI-DS)",
-      "image": "mitanksh_gosalia.jpg",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    } ,
-    {
-      "name": "Vedant Kale (Comps)",
-      "image": "vedant-kale.jpg",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    } ,
-    {
-      "name": "Sanika Raul (CSE-DS)",
+      "name": "Sanika Laxman Raul",
+      "role": "B Plan",
       "image": "Sanika-Raul.jpg",
-      "role": "Member Bplan ,Sponsorship",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-edit"
+    },
+
+
+    {
+      "name": "Mitanksh gosalia",
+      "image": "mitanksh_gosalia.jpg",
+      "role": "Autonomous",
+      "branch":"AIDS",
+      "year":"SE",
+      "icon": "flaticon-autonomous-car"
+    } ,
+    {
+      "name": "Vedant Kale",
+      "image": "vedant-kale.jpg",
+      "role": "Autonomous",
+      "year":"SE",
+      "branch":"COMPS",
+      "icon": "flaticon-autonomous-car"
+    } ,
+    {
+      "name": "Omkar Deshmukh",
+      "image": "Om-Deshmukh.jpg",
+      "role": "B Plan",
+      "branch":"COMPS",
+      "year":"SE",
+      "icon": "flaticon-solution"
+    } ,
+    {
+        "name": "Adarsh Singh",
+        "image": "Adarsh-singh.jpg",
+        "branch":"EXTC",
+        "year":"SE",
+        "role": "Power Transmission",
+        "icon": "flaticon-car-battery"
+      },         
+    {
+      "name": "Chinmay Anant Patil",
+      "image": "chinmay-patil.jpg",
+      "role": "Sponsorship/Management/B Plan",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-solution"
+    },
+    {
+      "name": "Ronak Patel",
+      "image": "ronak-patel.png",
+      "role": "Chassis and Body Works Head",
+      "year": "BE",
+      "branch": "MECH",
+      "icon": "flaticon-chassis"
+    },
+    {
+      "name": "Shrushti Rane",
+      "image": "shrushti-rane.png",
+      "role": "B Plan Head/Autonomous",
+      "year": "BE",
+      "branch": "EXTC",
       "icon": "flaticon-edit"
     },
     {
-      "name": "Omkar Deshmukh (Comps)",
-      "image": "Om-Deshmukh.jpg",
-      "role": "Memer Blpan",
-      "icon": "flaticon-solution"
-      } ,
-      {
-        "name": "Adarsh Singh (Extc)",
-        "image": "Adarsh-singh.jpg",
-        "role": "Member Pt",
-        "icon": "flaticon-car-battery"
-      } ,         
-      {
-        "name": "Prashant Dubey (Mechanical)",
-        "image": "prashant-dubey.png",
-        "role": "Member Pt",
-        "icon": "flaticon-car-battery"
-        } ,
-        {
-          "name": "Aditya Bhosale (CSE-DS)",
-          "image": "aditya-bhosale.jpg",
-          "role": "Head Pr",
-          "icon": "flaticon-edit"
-        } ,
-    {
-      "name": "Tejas Wani (CSE-DS)",
-      "image": "tejas-wani.png",
-      "role": "Head Sponsorship",
-      "icon": "flaticon-solution"
-    } ,
-    {
-      "name": "Ronak Patel (Mechanical)",
-      "image": "ronak-patel.png",
-      "role": "Head Chassis and Bodyworks",
-      "icon": "flaticon-chassis"
-    } ,
-
-
-      {
-      "name": "Hirenkumar Vyas (AI-DS)",
+      "name": "Hirenkumar Vyas",
+      "role": "Bplan/Autonomous Head/Sponsorship",
       "image": "hirenkumar-vyas.png",
-      "role": "Head Autonomous",
-      "icon": "flaticon-autonomous-car"
-    } ,  
-      {
-      "name": "Shrushti Rane (Extc)",
-      "image": "shrushti-rane.png",
-      "role": "Member Autonomous, Bplan ",
-      "icon": "flaticon-edit"
-    } ,   
-     {
-      "name": "Sahil Kulabkar (Comps)",
-      "image": "Sahil-Kulabkar.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    } ,  
-      {
-      "name": "Shubham Jangid (AI-DS)",
-      "image": "shubham-jangid.png",
-      "role": "Member Autonomous",
-      "icon": "flaticon-autonomous-car"
-    } ,  
-
-      {
-      "name": "Maitreya Hole (Mechanical)",
-      "image": "maitreya-hole.png",
-      "role": "Head Brake",
-      "icon": "flaticon-brake"
-    } ,  
-      {
-      "name": "Sachin Choudhary (Extc)",
+      "year": "BE",
+      "icon": "flaticon-autonomous-car",
+      "branch": "AIDS"
+    },
+    {
+      "name": "Tejas Wani",
+      "image": "tejas-wani.png",
+      "role": "Sponsorship And Management Head/B Plan",
+      "year": "BE",
+      "branch": "CSE DS",
+      "icon": "flaticon-solution"
+    },
+    {
+      "name": "Naman Annadate",
+      "role": "Suspension",
+      "year": "BE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Amarnath Jaiswar",
+      "role": "Power Transmission",
+      "year": "TE",
+      "branch": "EXTC"
+    },
+    {
+      "name": "Sachin Choudhary Bachchalal",
       "image": "Sachin-choudhary.jpg",
-      "role": "Head Pt",
+      "role": "Power Transmission Head",
+      "year": "TE",
+      "branch": "EXTC",
       "icon": "flaticon-car-battery"
-    } 
+    },
+    {
+      "name": "Maitreya Rajaram Hole",
+      "image": "maitreya-hole.png",
+      "role": "Brakes Head",
+      "year": "TE",
+      "branch": "MECH",
+      "icon": "flaticon-brake"
+    },
+    {
+      "name": "Jay Panchal",
+      "role": "Steering",
+      "year": "TE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Shubham Jangid",
+      "image": "shubham-jangid.png",
+      "role": "Autonomous",
+      "year": "TE",
+      "branch": "AIDS",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Aditya Shah",
+      "image": "aditya-shah.png",
+      "role": "Autonomous",
+      "year": "TE",
+      "branch": "INFT",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Ramesh Yadav",
+      "role": "Power Transmission",
+      "year": "TE",
+      "branch": "INFT"
+    },
+    {
+      "name": "Sahil Kulabkar",
+      "image": "Sahil-Kulabkar.png",
+      "role": "Autonomous",
+      "year": "TE",
+      "icon": "flaticon-autonomous-car",
+      "branch": "COMPS"
+    },
+    {
+      "name": "Paresh Patil",
+      "role": "Steering Head",
+      "year": "TE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Aditya Sameer Tawade",
+      "image": "aditya-tawade.jpg",
+      "role": "Suspension/Sponsorship",
+      "icon": "flaticon-suspension",
+      "year": "SE",
+      "branch": "CSE"
+    },
+    {
+      "name": "Sumit Mali",
+      "image": "sumit-mali.png",
+      "role": "Autonomous",
+      "year": "SE",
+      "icon": "flaticon-autonomous-car",
+      "branch": "COMPS"
+    },
+    {
+      "name": "Siddhesh Mane",
+      "image": "Siddhesh-Mane.jpg",
+      "role": "Autonomous",
+      "year": "SE",
+      "branch": "COMPS",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Adarsh Pandey",
+      "role": "Autonomous",
+      "image": "adarsh-pandey.jpg",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-autonomous-car"
+    },
+    {
+      "name": "Aditya Hanumant Bhosale",
+      "role": "PR Head",
+      "image": "aditya-bhosale.jpg",
+      "icon": "flaticon-edit",
+      "year": "SE",
+      "branch": "CSE"
+    },
+    {
+      "name": "Hardik Sanap",
+      "role": "Brakes",
+      "image": "Hardik-Sanap.png",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-brake"
+    },
+    {
+      "name": "Chaitanya",
+      "role": "Brakes",
+      "year": "SE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Prathmesh",
+      "role": "PR",
+      "year": "SE",
+      "branch": "COMPS"
+    },
+    {
+      "name": "Arya",
+      "role": "PR",
+      "year": "SE",
+      "branch": "COMPS"
+    },
+    {
+      "name": "Yash Lokhande",
+      "role": "Brakes",
+      "year": "FE",
+      "branch": "EXTC"
+    },
+    {
+      "name": "Sakshi Vishwakarma",
+      "role": "Management",
+      "year": "FE",
+      "branch": "CSE"
+    },
+    {
+      "name": "Kowshik Poojary",
+      "role": "Autonomous",
+      "year": "FE",
+      "branch": "INFT"
+    },
+    {
+      "name": "Karan Maurya",
+      "role": "Power Transmission",
+      "year": "FE",
+      "branch": "COMPS"
+    },
+    {
+      "name": "Shasta Jadhav",
+      "role": "Chassis",
+      "year": "FE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Yash Padhen",
+      "role": "Autonomous",
+      "year": "FE",
+      "branch": "INFT"
+    },
+    {
+      "name": "Vedant Mahtre",
+      "role": "Steering And Suspension",
+      "year": "FE",
+      "branch": "EXTC"
+    },
+    {
+      "name": "Gunina Ingale",
+      "role": "Autonomous",
+      "year": "FE",
+      "branch": "EXTC"
+    },
+    {
+      "name": "Neetyam Dongare",
+      "role": "Chassis",
+      "year": "FE",
+      "branch": "EXTC"
+    },
+    {
+      "name": "Soham Pandere",
+      "role": "Body Works",
+      "year": "SE",
+      "branch": "COMPS"
+    },
+    {
+      "name":"Tamish Mhatre",
+      "role":"B Plan",
+      "year":"SE",
+      "branch":"CSE DS"
+    }
   ]
-  
-  
 }
