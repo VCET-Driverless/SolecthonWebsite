@@ -19,77 +19,6 @@
       "icon": "flaticon-solution"
     },
     {
-      "name": "Dashrath Patel",
-      "image": "Dashrath - Patel.png",
-      "role": "Chassis And Body Works",
-      "icon": "flaticon-chassis",
-      "year": "SE",
-      "branch": "MECH"
-    },
-    {
-      "name": "Yuvraj Singh",
-      "role": "Suspension",
-      "year": "SE",
-      "branch": "MECH"
-    },
-    {
-      "name": "Akshat Suhas Parab",
-      "role": "Power Transmission",
-      "year": "SE",
-      "branch": "CSE",
-      "icon": "flaticon-team-leader"
-    },
-    {
-      "name": "Sanika Laxman Raul",
-      "role": "B Plan",
-      "image": "Sanika-Raul.jpg",
-      "year": "SE",
-      "branch": "CSE",
-      "icon": "flaticon-edit"
-    },
-
-
-    {
-      "name": "Mitanksh gosalia",
-      "image": "mitanksh_gosalia.jpg",
-      "role": "Autonomous",
-      "branch":"AIDS",
-      "year":"SE",
-      "icon": "flaticon-autonomous-car"
-    } ,
-    {
-      "name": "Vedant Kale",
-      "image": "vedant-kale.jpg",
-      "role": "Autonomous",
-      "year":"SE",
-      "branch":"COMPS",
-      "icon": "flaticon-autonomous-car"
-    } ,
-    {
-      "name": "Omkar Deshmukh",
-      "image": "Om-Deshmukh.jpg",
-      "role": "B Plan",
-      "branch":"COMPS",
-      "year":"SE",
-      "icon": "flaticon-solution"
-    } ,
-    {
-        "name": "Adarsh Singh",
-        "image": "Adarsh-singh.jpg",
-        "branch":"EXTC",
-        "year":"SE",
-        "role": "Power Transmission",
-        "icon": "flaticon-car-battery"
-      },         
-    {
-      "name": "Chinmay Anant Patil",
-      "image": "chinmay-patil.jpg",
-      "role": "Sponsorship/Management/B Plan",
-      "year": "SE",
-      "branch": "CSE",
-      "icon": "flaticon-solution"
-    },
-    {
       "name": "Ronak Patel",
       "image": "ronak-patel.png",
       "role": "Chassis and Body Works Head",
@@ -192,6 +121,79 @@
       "branch": "MECH"
     },
     {
+      "name": "Dashrath Patel",
+      "image": "Dashrath - Patel.png",
+      "role": "Chassis And Body Works",
+      "icon": "flaticon-chassis",
+      "year": "SE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Yuvraj Singh",
+      "role": "Suspension",
+      "year": "SE",
+      "branch": "MECH"
+    },
+    {
+      "name": "Akshat Suhas Parab",
+      "role": "Power Transmission",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-team-leader"
+    },
+    {
+      "name": "Sanika Laxman Raul",
+      "role": "B Plan",
+      "image": "Sanika-Raul.jpg",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-edit"
+    },
+
+
+    {
+      "name": "Mitanksh gosalia",
+      "image": "mitanksh_gosalia.jpg",
+      "role": "Autonomous",
+      "branch":"AIDS",
+      "year":"SE",
+      "icon": "flaticon-autonomous-car"
+    } ,
+    {
+      "name": "Vedant Kale",
+      "image": "vedant-kale.jpg",
+      "role": "Autonomous",
+      "year":"SE",
+      "branch":"COMPS",
+      "icon": "flaticon-autonomous-car"
+    } ,
+    {
+      "name": "Omkar Deshmukh",
+      "image": "Om-Deshmukh.jpg",
+      "role": "B Plan",
+      "branch":"COMPS",
+      "year":"SE",
+      "icon": "flaticon-solution"
+    } ,
+    {
+        "name": "Adarsh Singh",
+        "image": "Adarsh-singh.jpg",
+        "branch":"EXTC",
+        "year":"SE",
+        "role": "Power Transmission",
+        "icon": "flaticon-car-battery"
+      },         
+    {
+      "name": "Chinmay Anant Patil",
+      "image": "chinmay-patil.jpg",
+      "role": "Sponsorship/Management/B Plan",
+      "year": "SE",
+      "branch": "CSE",
+      "icon": "flaticon-solution"
+    },
+  
+   
+    {
       "name": "Aditya Sameer Tawade",
       "image": "aditya-tawade.jpg",
       "role": "Suspension/Sponsorship",
@@ -245,12 +247,7 @@
       "year": "SE",
       "branch": "MECH"
     },
-    {
-      "name": "Prathmesh",
-      "role": "PR",
-      "year": "SE",
-      "branch": "COMPS"
-    },
+
     {
       "name": "Arya",
       "role": "PR",
@@ -320,7 +317,7 @@
     {
       "name":"Tamish Mhatre",
       "role":"B Plan",
-      "year":"SE",
+      "year":"FE",
       "branch":"CSE DS"
     }
   ]
