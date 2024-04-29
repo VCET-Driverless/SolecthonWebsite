@@ -168,6 +168,12 @@
       "icon": "flaticon-autonomous-car"
     } ,
     {
+      "name": "Soham Pandere",
+      "role": "Body Works",
+      "year": "SE",
+      "branch": "COMPS"
+    },
+    {
       "name": "Omkar Deshmukh",
       "image": "Om-Deshmukh.jpg",
       "role": "B Plan",
@@ -308,12 +314,7 @@
       "year": "FE",
       "branch": "EXTC"
     },
-    {
-      "name": "Soham Pandere",
-      "role": "Body Works",
-      "year": "SE",
-      "branch": "COMPS"
-    },
+   
     {
       "name":"Tamish Mhatre",
       "role":"B Plan",
