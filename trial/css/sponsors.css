@@ -1,0 +1,229 @@
+.containerTop {
+    position: relative;
+    text-align: center;
+    font-size: 100%;
+    color: white;
+}
+
+.header1 {
+    min-height: 8vh;
+    background: linear-gradient(119.54deg, #000046 0%, #1CB5E0 100%);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -48%;
+}
+
+.centered1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-line {
+    font-size: 250%;
+}
+
+#angelAuto img {
+    width: 90%;
+
+}
+
+
+#bassain img {
+    width: 80%;
+    height: 80%;
+}
+
+#panam {
+    padding-top: 7%;
+}
+
+#jijau img {
+    width: 70%;
+    height: 70%;
+
+}
+
+#juice img {
+    width: 75%;
+    height: 75%;
+    padding-top: 10%;
+}
+
+#associate img {
+    width: 90%;
+
+}
+
+@media (min-width:300px) {
+    .containerTop img {
+        height: 400px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .containerTop img {
+        height: 200px;
+    }
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+    /* For general iPad layouts */
+    .titleSponsor,
+    .title-sponsor {
+        width: 110%;
+    }
+}
+
+gold {
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(186, 148, 62, 1) 0%, rgba(236, 172, 32, 1) 20%, rgba(186, 148, 62, 1) 39%, rgba(249, 244, 180, 1) 50%, rgba(186, 148, 62, 1) 60%, rgba(236, 172, 32, 1) 80%, rgba(186, 148, 62, 1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 3s infinite;
+    background-size: 200%;
+    background-position: left;
+
+}
+
+.title-sponsor {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f00;
+}
+
+
+.silver {
+    color: silver;
+}
+
+.silver {
+    animation: colorchange infinite 5s alternate-reverse;
+}
+
+@keyframes colorchange {
+    0% {
+        color: silver
+    }
+
+    50% {
+        color: grey
+    }
+
+    100% {
+        color: silver
+    }
+}
+
+.platinum {
+    color: #a0a0a0;
+}
+
+.col-md-8>p {
+    text-align: justify;
+}
+
+.pt-5 {
+    align-items: center;
+    margin: auto;
+}
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .slinks{
+      font-size: 80px;
+    }
+  }
+  /* Footer end */
+  
+  
+  
+  /* cards */
+  
+  @media (min-width: 300px) {
+    .stat-title {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .stat-title {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .stat-title {
+      font-size: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .stat-title {
+      font-size: 150%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .stat-title {
+      font-size: 150%;
+    }
+  }
+  
+  @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .titleSponsor {
+      width: 110%;
+    }
+  }
+  .img-fluid {
+    border-radius: 15% 0%;
+  }
+  

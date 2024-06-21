@@ -1,0 +1,162 @@
+.blog-title {
+  font-weight: bold;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.blog-header {
+  margin: 2.5rem;
+}
+
+.blog-card {
+  box-shadow: 0 1px 25px rgba(146, 161, 176, 0.5);
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.blog-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blog-description {
+  padding: 0 0.8rem;
+}
+
+.btn-read-more {
+  background-color: #113c9c;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.blog-link {
+  color: #fff;
+}
+
+.blog-link:hover {
+  color: #fff;
+}
+
+.author-description {
+  text-align: center;
+}
+
+.half {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  width: 100%;
+
+}
+@media (min-width: 1080px) {
+  .blogs-container {
+    margin: 0 10rem;
+  }
+
+  #blogs-grid {
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  }
+}
+
+@media (max-width:800px) {
+
+  .half {
+    margin: 0;
+    flex-direction: column;
+
+  }
+}
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .slinks{
+    font-size: 80px;
+  }
+}
+/* Footer end */
+
+
+
+/* cards */
+
+@media (min-width: 300px) {
+  .stat-title {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 576px) {
+  .stat-title {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .stat-title {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .stat-title {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stat-title {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor {
+    width: 110%;
+  }
+}

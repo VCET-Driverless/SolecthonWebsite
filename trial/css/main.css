@@ -1,0 +1,894 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.dark-mode {
+  background-color: #181a1b !important;
+  color: white;
+  transition: 0.5s;
+}
+
+.dark-mode-card,.dark-mode-contact-card {
+  background-color: #1b1d1e !important;
+  color: white;
+  transition: 0.5s;
+}
+.dark-mode-contact-card{
+  box-shadow: none !important;
+}
+
+.dark-mode-text-box {
+  background-color: #232323 !important;
+  color: white;
+  transition: 0.5s;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/*  sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* .header {
+  min-height: 10vh;
+  background: linear-gradient(119.54deg,#000046 0%,#1CB5E0 100%);
+} */
+
+/* .niceGradient {
+	background: linear-gradient(119.54deg,#000046 0%,#1CB5E0 100%);
+} */
+.header {
+  min-height: 10vh;
+  background: #012574;
+}
+.header .navbar {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  position: fixed;
+  width: 100%;
+}
+
+.header .navbar .logo {
+  font-size: 1.0rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.header .navbar .nav-links {
+  display: flex;
+  transition: 0.3s ease all;
+}
+
+.header .navbar .nav-links li {
+  list-style-type: none;
+}
+
+.header .navbar .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.0rem;
+  margin: 0 1.2rem;
+  position: relative;
+}
+
+.header .navbar .nav-links li a::after {
+  position: absolute;
+  content: "";
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #fff;
+  display: block;
+}
+
+.header .navbar .nav-links li a:hover::after {
+  width: 100%;
+  transition: 0.3s ease all;
+}
+
+.header .navbar .nav-links.nav-active {
+  transform: translateX(0%);
+}
+
+.header .hamburger-menu {
+  cursor: pointer;
+  display: none;
+}
+
+.header .hamburger-menu div {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px;
+  border-radius: 10px;
+  transition: 0.3s ease all;
+}
+
+.header .navbar.sticky {
+  background: #012574;
+  transition: 0.3s ease all;
+}
+
+.header .navbar.sticky .logo {
+  padding-left: 0.8rem;
+  transition: 0.3s ease all;
+}
+
+.header .navbar.sticky .nav-links {
+  padding-right: 0.8rem;
+  transition: 0.3s ease all;
+}
+
+.header .navbar.sticky .hamburger-menu {
+  padding-right: 1rem;
+  transition: 0.3s ease all;
+}
+
+nav .active {
+  background-color: #d65212;
+  color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 225px;
+    background: #012574;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(-100%);
+    z-index: 10;
+  }
+  .navbar .hamburger-menu {
+    display: block;
+  }
+  .navbar .bar-change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  .navbar .bar-change .bar2 {
+    opacity: 0;
+  }
+  .navbar .bar-change .bar3 {
+    transform: rotate(45deg) translate(-9px, -5px);
+  }
+}
+
+/* NAVBAR END */
+
+#about-team img {
+  width: 70%;
+  height: 80%;
+  margin-left: 10%;
+}
+
+/* team heads cards */
+
+.card-deck {
+  margin: 0 -15px;
+}
+
+.card-deck .card {
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-deck .card {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
+}
+
+#teamheads img {
+  border-radius: 50%;
+  height: 70%;
+  width: 70%;
+}
+.heads{
+  align-items: center;
+}
+/* parallax */
+
+#running-car img {
+  width: 100%;
+  height: 10%;
+}
+
+.parallax {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/cars/6.0/2.jpg");
+  background-size: 100% 100%;
+  opacity: 0.6;
+  background-attachment: fixed;
+}
+
+.parallax h2 {
+  position: relative;
+  text-align: center;
+  padding: 20%;
+  width: 100%;
+  color: #000000;
+}
+
+/*num scroller end */
+
+.personality-overlay {
+  width: 100%;
+  height: 300px;
+  float: left;
+  background: rgba(30, 94, 179, 0.7);
+  background-attachment: fixed;
+}
+
+.statsbar {
+  width: 100%;
+  height: 100px;
+  margin-top: 120px;
+}
+
+.stat-one {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+.stat-two {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+.stat-three {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+.stat-four {
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+
+.stat-number {
+  width: 100%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.stat-title {
+  width: 100%;
+  height: 50px;
+  float: left;
+  text-align: center;
+  color: #FFF;
+  font-size: 150%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+hr.style-three {
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+#infinitySym {
+  width: 50%;
+  height: 73%;
+  margin-left: 20%;
+}
+
+/*num scroller end */
+
+/*social buttons start*/
+
+html {
+  font-size: 1em;
+}
+
+body {
+  text-align: center;
+}
+
+/* Wrapper */
+
+.icon-button {
+  background-color: #16222A;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+}
+
+/* Circle */
+
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+
+.icon-button:hover span {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 2.6rem;
+  margin: -1.3rem;
+}
+
+/* Icons */
+
+.icon-button i {
+  background: none;
+  color: white;
+  height: 2.6rem;
+  left: 0;
+  line-height: 2.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 2.6rem;
+  z-index: 10;
+}
+
+.facebook span {
+  background-color: #3B5998;
+}
+
+.instagram span {
+  background-color: #cf00a2;
+}
+
+.youtube span {
+  background-color: #bb0000;
+}
+
+.linkedin span {
+  background-color: #4099ff;
+}
+
+.icon-button .icon-linkedin {
+  color: #4099ff;
+}
+
+.icon-button .icon-facebook {
+  color: #3B5998;
+}
+
+.icon-button .fa-instagram {
+  color: #cf00a2;
+}
+
+.icon-button .fa-youtube {
+  color: #bb0000;
+}
+
+.icon-button:hover .icon-facebook, .icon-button:hover .fa-instagram, .icon-button:hover .fa-youtube, .icon-button:hover .fa-linkedin {
+  color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+  /* Icons */
+  .icon-button i {
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+  
+}
+
+/* social buttons end */
+
+/* Footer  start */
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .slinks{
+    font-size: 80px;
+  }
+}
+/* Footer end */
+
+
+
+/* cards */
+
+@media (min-width: 300px) {
+  .stat-title {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 576px) {
+  .stat-title {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .stat-title {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .stat-title {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stat-title {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .titleSponsor {
+    width: 110%;
+  }
+}
+
+/* .scrollToTopBtn {
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+
+  opacity: 0;
+ 
+  transform: translateY(100px);
+
+  transition: all .5s ease;
+
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0)
+} */
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  background-color: #ff0000c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #f44336c2;
+  color: white
+}
+
+#darkModeBtn {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  background-color: #333333c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#darkModeBtn:hover {
+  background-color: #111111c2;
+  color: white
+}
+
+/* Common styles for both layouts */
+.content {
+  padding: 20px;
+  text-align: justify;
+}
+
+/* Style for the first layout with image on the right */
+.image-on-right {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #F7F7F7; Very light red background */
+  /* border: 2px solid red; Red border for the whole container */
+  /* border-radius: 15px; Border radius for the whole container */
+  margin: 10px;
+   /* Adjust the margin between the two containers */
+}
+
+/* Style for the second layout with image on the left */
+.image-on-left {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #F7F7F7; Very light red background */
+  /* border: 2px solid #FF0303; Red border for the whole container */
+  /* border-radius: 15px; Border radius for the whole container */
+  margin: 10px; /* Adjust the margin between the two containers */
+}
+
+/* Style for the red heading */
+.red-heading {
+  color:#FF0303;
+}
+
+/* Style the content to be smaller */
+.image-on-right .content, .image-on-left .content {
+  flex: 1;
+  max-width: 50%; /* You can adjust this percentage as needed */
+  margin: 10px;
+  padding: 5px;
+   /* Decrease the gap between text and image */
+}
+
+/* Style the image to be visible and add better border radius */
+.image-on-right img, .image-on-left img {
+  max-width: 40%;
+  max-height: 40%; /* Adjust this percentage for visibility */
+  border: none; /* Remove the border from the image */
+  border-radius: 10px;
+  padding: 20px;
+ 
+   /* Aesthetic border radius for the image */
+}
+
+/* Hover effect */
+.image-on-right:hover{
+  transform: scale(1.01);
+  transition: transform 0.2s;
+}
+.image-on-left:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s;
+}
+@media(max-width :1000px){
+  .hideimg{
+    display: none;
+  }
+  .image-on-right .content, .image-on-left .content {
+    max-width: 100%;
+  }
+
+  .hideimg{
+    display: none;
+  }
+
+}
+.containerTop {
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  }
+  .centered {
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .centered1 {
+      /* position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+  .header1{
+      min-height: 8vh;
+      background: linear-gradient(
+          119.54deg,#000046 0%,#1CB5E0 100%);
+  }
+  #objective{
+      width: 100%;
+      height: 100%;
+  }
+  
+  #goaltxt{
+      padding-top: 8%;
+  }
+  #goalimg{
+      width: 100%;
+      height: 100%;
+  }
+  
+  
+  @media only screen and (device-width: 768px) {
+      /* For general iPad layouts */
+      .titleSponsor{
+        width: 110%;
+      }
+    }
+  
+    .founders{
+        align-items:center;
+    }
+  .founders img{
+      border-radius: 50%;
+      width:75%;
+      height: 75%;
+      /* align-items: center; */
+  }
+  footer {
+      background: #16222A;
+      background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+      background: linear-gradient(59deg, #3A6073, #16222A);
+      color: white;
+      margin-top: 100px;
+    }
+    
+    footer a {
+      color: #fff;
+      font-size: 14px;
+      transition-duration: 0.2s;
+    }
+    
+    footer a:hover {
+      color: #FA944B;
+      text-decoration: none;
+    }
+    
+    .copy {
+      font-size: 12px;
+      padding: 10px;
+      border-top: 1px solid #FFFFFF;
+    }
+    
+    .footer-middle {
+      padding-top: 2em;
+      color: white;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    @media screen and (max-width: 800px) {
+      
+      .slinks{
+        font-size: 80px;
+      }
+    }
+    /* Footer end */
+    
+    
+    
+    /* cards */
+    
+    @media (min-width: 300px) {
+      .stat-title {
+        font-size: 75%;
+      }
+    }
+    
+    @media (min-width: 576px) {
+      .stat-title {
+        font-size: 75%;
+      }
+    }
+    
+    @media (min-width: 768px) {
+      .stat-title {
+        font-size: 100%;
+      }
+    }
+    
+    @media (min-width: 992px) {
+      .stat-title {
+        font-size: 150%;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      .stat-title {
+        font-size: 150%;
+      }
+    }
+    
+    @media only screen and (device-width: 768px) {
+      /* For general iPad layouts */
+      .titleSponsor {
+        width: 110%;
+      }
+    }
+    
+

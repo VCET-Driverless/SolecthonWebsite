@@ -1,0 +1,143 @@
+
+  
+  .videos{
+    display: inline-block;
+  }
+  
+  @media (min-width: 300px) { 
+    
+    .videos {
+      width: 300px;
+      height: 210px;
+    }
+  }
+  @media (min-width: 576px) { 
+   
+    .videos {
+      width: 300px;
+      height: 210px;
+    }
+  }
+  
+  
+  @media (min-width: 768px) { 
+   
+    .videos {
+      width: 500px;
+      height: 210px;
+      margin-left: 6%;
+    }
+  }
+  
+  
+  @media (min-width: 992px) { 
+  
+    
+    .videos {
+      width: 500px;
+      height: 210px;
+      margin-left: 6%;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) { 
+    .videos {
+      width: 500px;
+      height: 360px; 
+      margin-left: 4%;
+  }
+  
+  }
+  
+  
+  @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .titleSponsor{
+      width: 110%;
+    }
+  }
+  
+  footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .slinks{
+      font-size: 80px;
+    }
+  }
+  /* Footer end */
+  
+  
+  
+  /* cards */
+  
+  @media (min-width: 300px) {
+    .stat-title {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .stat-title {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .stat-title {
+      font-size: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .stat-title {
+      font-size: 150%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .stat-title {
+      font-size: 150%;
+    }
+  }
+  
+  @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+    .titleSponsor {
+      width: 110%;
+    }
+  }
+  
