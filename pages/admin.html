@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .team-member {
+            margin: 20px 0;
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .crud-buttons {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="mt-4">Team Members</h1>
+    <div id="team-container" class="row"></div>
+    <button class="btn btn-primary mt-4" onclick="showCreateModal()">Add Team Member</button>
+</div>
+
+<!-- Modal for CRUD operations -->
+<div class="modal" tabindex="-1" role="dialog" id="crud-modal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Add Team Member</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="team-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Image</label>
+                        <input type="file" class="form-control" id="image">
+                    </div>
+                    <div class="form-group">
+                        <label for="role">Role</label>
+                        <input type="text" class="form-control" id="role" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="text" class="form-control" id="year" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="branch">Branch</label>
+                        <input type="text" class="form-control" id="branch" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="icon">Icon</label>
+                        <input type="text" class="form-control" id="icon">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    let teamData = [];
+
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('/data/team.json')
+            .then(response => response.json())
+            .then(data => {
+                teamData = data['Team members'];
+                renderTeamMembers();
+            });
+    });
+
+    function renderTeamMembers() {
+        const teamContainer = document.getElementById('team-container');
+        teamContainer.innerHTML = '';
+
+        teamData.forEach((member, index) => {
+            const memberElement = document.createElement('div');
+            memberElement.className = 'col-md-4 team-member';
+            memberElement.innerHTML = `
+                <div class="card">
+                    <img src="/images/2024/${member.image || 'default.jpg'}" class="card-img-top" alt="${member.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${member.name}</h5>
+                        <p class="card-text">${member.role}</p>
+                        <p class="card-text">${member.year} - ${member.branch}</p>
+                        <div class="crud-buttons">
+                            <button class="btn btn-primary" onclick="showEditModal(${index})">Edit</button>
+                            <button class="btn btn-danger" onclick="deleteMember(${index})">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            teamContainer.appendChild(memberElement);
+        });
+    }
+
+    function showCreateModal() {
+        document.getElementById('team-form').reset();
+        document.getElementById('modal-title').textContent = 'Add Team Member';
+        $('#crud-modal').modal('show');
+
+        document.getElementById('team-form').onsubmit = function (event) {
+            event.preventDefault();
+            createMember();
+        };
+    }
+
+    function createMember() {
+        const name = document.getElementById('name').value;
+        const image = document.getElementById('image').files[0];
+        const role = document.getElementById('role').value;
+        const year = document.getElementById('year').value;
+        const branch = document.getElementById('branch').value;
+        const icon = document.getElementById('icon').value;
+
+        const newMember = {
+            name,
+            image: image ? image.name : 'default.jpg',
+            role,
+            year,
+            branch,
+            icon
+        };
+
+        teamData.push(newMember);
+        saveData();
+        $('#crud-modal').modal('hide');
+        renderTeamMembers();
+    }
+
+    function showEditModal(index) {
+        const member = teamData[index];
+
+        document.getElementById('name').value = member.name;
+        document.getElementById('role').value = member.role;
+        document.getElementById('year').value = member.year;
+        document.getElementById('branch').value = member.branch;
+        document.getElementById('icon').value = member.icon;
+
+        document.getElementById('modal-title').textContent = 'Edit Team Member';
+        $('#crud-modal').modal('show');
+
+        document.getElementById('team-form').onsubmit = function (event) {
+            event.preventDefault();
+            editMember(index);
+        };
+    }
+
+    function editMember(index) {
+        const name = document.getElementById('name').value;
+        const image = document.getElementById('image').files[0];
+        const role = document.getElementById('role').value;
+        const year = document.getElementById('year').value;
+        const branch = document.getElementById('branch').value;
+        const icon = document.getElementById('icon').value;
+
+        const updatedMember = {
+            name,
+            image: image ? image.name : teamData[index].image,
+            role,
+            year,
+            branch,
+            icon
+        };
+
+        teamData[index] = updatedMember;
+        saveData();
+        $('#crud-modal').modal('hide');
+        renderTeamMembers();
+    }
+
+    function deleteMember(index) {
+        teamData.splice(index, 1);
+        saveData();
+        renderTeamMembers();
+    }
+
+    function saveData() {
+        // Save the data to your server or local storage
+        // For demonstration, we just log it to the console
+        console.log(JSON.stringify({ 'Team members': teamData }, null, 2));
+    }
+</script>
+
+</body>
+</html>
