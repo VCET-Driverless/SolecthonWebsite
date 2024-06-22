@@ -3,8 +3,11 @@ var json_obj;
 const fillData = async () => {
   // "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   await fetch(
-    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/main-members.json"
+    "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/data/team.json"
   )
+  // await fetch(
+  //   "/data/team.json",
+  // )
     .then((res) => res.json())
     .then((json) => {
       json_obj = json;
@@ -59,12 +62,20 @@ const fillData = async () => {
       personDiv.appendChild(imageDiv);
 
       let imgTag = document.createElement("img");
-      // imgTag.src = "../images/members/"+ json_obj[x][i].image;
-      imgTag.src =
-        "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/members/" +
-        json_obj[x][i].image;
+      imgTag.src = "https://raw.githubusercontent.com/VCET-Driverless/SolecthonWebsite/main/images/2024/"+ json_obj[x][i].image;
+      // imgTag.style.width = "200px";
+      imgTag.style.height = "200px";
+      imgTag.style.objectFit = "cover"; // Ensures the image covers the container and crops
+      // imgTag.style.position = "absolute";
+      // imgTag.style.top = "50%";
+      // imgTag.style.left = "50%";
+      // imgTag.style.transform = "translate(-50%, -50%)";
+      imageDiv.style.width = "200px"; // Adjust as      imageDiv.style.height = "200px"; // Adjust as needed
+      // imageDiv.style.overflow = "hidden";
+      // imageDiv.style.display = "block";
+      // imageDiv.style.position = "relative";
 
-      imgTag.loading = "lazy";
+      // imgTag.loading = "lazy";
       imageDiv.appendChild(imgTag);
 
       let icon = document.createElement("span");
